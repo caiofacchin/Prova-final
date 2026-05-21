@@ -1,0 +1,3 @@
+# Renomeie este arquivo para "secrets.toml" e preencha sua chave da Anthropic.
+# NÃO versione o secrets.toml em repositórios públicos.
+ANTHROPIC_API_KEY = "sk-ant-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"

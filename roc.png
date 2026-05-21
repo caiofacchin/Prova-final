@@ -1,0 +1,116 @@
+# 6. Impacto Financeiro
+### Geração de valor, redução de risco e eficiência operacional
+
+> **Premissa de referência:** banco médio brasileiro com carteira de crédito PJ de
+> **R$ 1 bilhão**, taxa de inadimplência atual de **15%**, perda dado o default (LGD) de
+> **45%** e volume de **12.000 análises de crédito/ano**. Os números abaixo são uma
+> *estimativa conservadora* para dimensionar a ordem de grandeza do retorno; cada banco deve
+> recalibrar com seus próprios parâmetros.
+
+---
+
+## 6.1 Os três vetores de valor
+
+| Vetor | Mecanismo | Métrica-chave |
+|---|---|---|
+| **1. Redução de risco** | Melhor discriminação de maus pagadores (KS = 0,54) → recusa/reprecificação de operações ruins → menor perda esperada e menor PDD | Inadimplência, PDD |
+| **2. Eficiência operacional** | Automação de ~70% do esforço de redação de pareceres → mais análises por analista, menor custo unitário | Custo por análise |
+| **3. Geração de receita** | Resposta em segundos → maior conversão de propostas e competitividade vs. fintechs | Taxa de conversão |
+
+---
+
+## 6.2 Vetor 1 — Redução de risco (o maior ganho)
+
+A perda esperada de crédito segue **EL = PD × LGD × EAD**.
+
+- **Cenário atual:** Perda ≈ 15% × 45% × R$ 1.000.000.000 = **R$ 67,5 milhões/ano**.
+
+O modelo (KS = 0,54) ordena bem o risco: ao recusar/encaminhar para análise os piores
+estratos de score, captura-se grande parte dos futuros inadimplentes. Adotando uma premissa
+**conservadora** de **redução de 15% na inadimplência** da nova safra (de 15% para 12,75%):
+
+- **Cenário com o agente:** Perda ≈ 12,75% × 45% × R$ 1.000.000.000 = **R$ 57,4 milhões/ano**.
+
+> **Economia anual em perdas/PDD ≈ R$ 10,1 milhões.**
+
+Mesmo uma melhora modesta de discriminação tem efeito alavancado, pois incide sobre uma base
+de perdas de dezenas de milhões.
+
+---
+
+## 6.3 Vetor 2 — Eficiência operacional
+
+| Parâmetro | Antes | Depois |
+|---|---|---|
+| Tempo médio de redação de parecer | 90 min | 25 min (revisão do parecer gerado) |
+| Análises/ano | 12.000 | 12.000 |
+| Custo-hora do analista (carregado) | R$ 90 | R$ 90 |
+
+- **Custo atual:** 12.000 × 1,5 h × R$ 90 = **R$ 1,62 milhão/ano**.
+- **Custo com o agente:** 12.000 × 0,42 h × R$ 90 ≈ **R$ 0,45 milhão/ano**.
+
+> **Economia operacional ≈ R$ 1,17 milhão/ano** (≈ 72% do custo de redação), liberando os
+> analistas para operações complexas e de maior valor agregado.
+
+Custo da IA generativa: a um custo da ordem de **R$ 0,10–0,30 por parecer** (tokens da API),
+12.000 análises custam **R$ 1.200–3.600/ano** — desprezível frente à economia gerada.
+
+---
+
+## 6.4 Vetor 3 — Geração de receita (velocidade)
+
+A redução do tempo de resposta de dias para segundos eleva a conversão de propostas. Premissa
+conservadora: **+3 pontos percentuais de conversão** sobre um funil de R$ 300 milhões/ano em
+propostas, com *spread* líquido de risco de **4%**:
+
+- Receita adicional ≈ 3% × R$ 300.000.000 × 4% = **R$ 0,36 milhão/ano** (líquido), além do
+  ganho reputacional e de retenção, de difícil mensuração direta.
+
+---
+
+## 6.5 Consolidação — Valor líquido anual
+
+| Vetor | Impacto anual (R$) |
+|---|---|
+| Redução de perdas/PDD | +10.100.000 |
+| Eficiência operacional | +1.170.000 |
+| Receita incremental | +360.000 |
+| (–) Custo da API de IA | −3.600 |
+| (–) Custo de implantação/manutenção (estimado) | −500.000 |
+| **Valor líquido anual estimado** | **≈ R$ 11,1 milhões** |
+
+### Retorno sobre o investimento
+
+Considerando um **investimento inicial de R$ 800 mil** (desenvolvimento, integração, validação
+e governança):
+
+- **Payback ≈ 0,9 mês** (menos de 30 dias de operação plena).
+- **ROI no 1º ano ≈ 1.290%.**
+
+---
+
+## 6.6 Análise de sensibilidade
+
+O ganho domina mesmo em cenários pessimistas, pois o vetor de risco é muito maior que os
+custos:
+
+| Redução de inadimplência | Economia em perdas/ano | Valor líquido anual |
+|---|---|---|
+| 5% (pessimista) | R$ 3,4 mi | ≈ R$ 4,4 mi |
+| 15% (base) | R$ 10,1 mi | ≈ R$ 11,1 mi |
+| 25% (otimista) | R$ 16,9 mi | ≈ R$ 17,9 mi |
+
+---
+
+## 6.7 Conclusão
+
+O caso financeiro é robusto: o ganho concentra-se na **redução de perdas de crédito**,
+amplificado pela **eficiência operacional**. Para uma carteira de R$ 1 bilhão, o valor
+líquido anual estimado é da ordem de **R$ 11 milhões**, com *payback* inferior a um mês — um
+dos melhores perfis de retorno entre iniciativas de tecnologia em um banco médio. O custo da
+camada de IA generativa é marginal frente ao valor que ela destrava ao tornar a decisão
+**rápida, padronizada e explicável**.
+
+> *Os valores são estimativas para dimensionar a ordem de grandeza. Recomenda-se um piloto
+> A/B (carteira com vs. sem o agente) por 3–6 meses para validar os parâmetros antes do
+> rollout completo.*

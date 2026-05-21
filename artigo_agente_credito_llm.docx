@@ -1,0 +1,1001 @@
+id_cliente,razao_social,setor,regiao,porte,tempo_atividade_anos,num_funcionarios,faturamento_anual,divida_total,razao_divida_faturamento,margem_liquida,indice_liquidez_corrente,score_serasa,num_atrasos_12m,restricao_serasa,inadimplencia
+1,Empresa PJ 0001 Ltda,Tecnologia,Sudeste,Pequena,2.4,30,2689735.18,1223829.5,0.455,0.159,0.8,718,0,0,0
+2,Empresa PJ 0002 Ltda,Serviços,Sul,Microempresa,9.1,1,333088.19,72613.22,0.218,0.137,1.08,733,0,0,0
+3,Empresa PJ 0003 Ltda,Saúde,Sudeste,Média,20.7,346,72126857.11,30149026.27,0.418,0.081,0.83,789,0,0,0
+4,Empresa PJ 0004 Ltda,Construção Civil,Sudeste,Pequena,4.7,9,1862130.87,2389113.91,1.283,0.199,1.06,445,1,1,1
+5,Empresa PJ 0005 Ltda,Comércio,Nordeste,Microempresa,7.3,2,270217.85,66203.37,0.245,0.152,1.05,522,2,0,0
+6,Empresa PJ 0006 Ltda,Transporte e Logística,Sudeste,Média,4.3,693,74246232.74,29624246.86,0.399,0.187,1.78,882,0,0,1
+7,Empresa PJ 0007 Ltda,Construção Civil,Centro-Oeste,Pequena,5.4,28,3410147.74,1711894.16,0.502,0.192,0.78,466,0,0,0
+8,Empresa PJ 0008 Ltda,Tecnologia,Sudeste,Microempresa,9.3,1,245995.88,17465.71,0.071,0.081,0.36,816,1,0,0
+9,Empresa PJ 0009 Ltda,Comércio,Nordeste,Microempresa,27.1,1,172948.29,70389.95,0.407,0.117,0.56,582,1,0,0
+10,Empresa PJ 0010 Ltda,Serviços,Sul,Pequena,20.1,5,795202.7,570955.54,0.718,0.144,0.73,542,0,0,0
+11,Empresa PJ 0011 Ltda,Serviços,Nordeste,Microempresa,23.9,1,202788.21,120253.41,0.593,0.01,0.86,362,1,1,1
+12,Empresa PJ 0012 Ltda,Transporte e Logística,Sul,Microempresa,15.7,1,261950.89,296266.45,1.131,0.011,1.26,328,2,1,0
+13,Empresa PJ 0013 Ltda,Agronegócio,Sul,Microempresa,7.2,2,195197.14,72222.94,0.37,-0.001,0.71,462,0,0,0
+14,Empresa PJ 0014 Ltda,Tecnologia,Norte,Microempresa,6.5,1,113397.89,53297.01,0.47,0.082,0.67,516,0,0,1
+15,Empresa PJ 0015 Ltda,Serviços,Sudeste,Microempresa,4.7,1,138886.13,96248.09,0.693,0.067,0.76,632,0,0,0
+16,Empresa PJ 0016 Ltda,Indústria,Sudeste,Pequena,0.6,14,2775851.95,2062458.0,0.743,-0.01,0.7,464,0,1,1
+17,Empresa PJ 0017 Ltda,Serviços,Nordeste,Microempresa,7.1,1,226632.35,145951.23,0.644,0.1,0.91,369,1,1,0
+18,Empresa PJ 0018 Ltda,Comércio,Centro-Oeste,Microempresa,20.9,1,170933.59,126148.99,0.738,0.083,0.89,382,2,1,0
+19,Empresa PJ 0019 Ltda,Tecnologia,Sudeste,Pequena,20.8,10,3334668.04,2260904.93,0.678,0.173,1.58,697,1,0,0
+20,Empresa PJ 0020 Ltda,Agronegócio,Sudeste,Microempresa,33.4,2,157717.53,97784.87,0.62,0.231,0.74,598,0,0,1
+21,Empresa PJ 0021 Ltda,Construção Civil,Centro-Oeste,Pequena,9.8,11,1357823.3,753591.93,0.555,0.122,0.99,624,0,0,0
+22,Empresa PJ 0022 Ltda,Serviços,Nordeste,Microempresa,3.1,1,179204.58,81717.29,0.456,0.041,0.91,460,0,0,0
+23,Empresa PJ 0023 Ltda,Transporte e Logística,Norte,Microempresa,12.3,1,99316.89,119974.8,1.208,0.135,1.67,488,2,0,0
+24,Empresa PJ 0024 Ltda,Saúde,Sul,Microempresa,27.3,1,198912.74,50324.92,0.253,0.091,1.08,740,1,0,0
+25,Empresa PJ 0025 Ltda,Tecnologia,Nordeste,Pequena,22.7,12,3252672.86,1522250.9,0.468,0.073,1.86,708,0,0,1
+26,Empresa PJ 0026 Ltda,Comércio,Sudeste,Microempresa,5.9,1,172940.64,43753.98,0.253,0.03,0.69,540,0,0,1
+27,Empresa PJ 0027 Ltda,Serviços,Norte,Pequena,3.3,5,1605687.33,932904.34,0.581,0.058,1.14,500,1,1,1
+28,Empresa PJ 0028 Ltda,Comércio,Sudeste,Microempresa,3.2,1,103495.41,43054.09,0.416,0.078,0.9,652,2,0,0
+29,Empresa PJ 0029 Ltda,Comércio,Nordeste,Pequena,4.9,8,2384651.38,324312.59,0.136,0.146,0.67,636,0,0,1
+30,Empresa PJ 0030 Ltda,Construção Civil,Sudeste,Pequena,5.6,10,2801808.9,2888664.98,1.031,0.126,1.13,681,0,0,0
+31,Empresa PJ 0031 Ltda,Construção Civil,Sul,Microempresa,6.8,2,141103.86,14815.9,0.105,0.218,2.53,802,0,0,1
+32,Empresa PJ 0032 Ltda,Transporte e Logística,Nordeste,Pequena,13.4,13,2213931.4,194825.96,0.088,0.137,0.79,666,0,0,0
+33,Empresa PJ 0033 Ltda,Indústria,Sul,Microempresa,6.6,1,116408.03,94057.69,0.808,0.12,1.1,497,0,0,0
+34,Empresa PJ 0034 Ltda,Serviços,Centro-Oeste,Microempresa,8.9,1,198803.49,151488.26,0.762,0.069,0.64,419,2,0,1
+35,Empresa PJ 0035 Ltda,Serviços,Sudeste,Microempresa,2.2,1,155594.55,54769.28,0.352,0.017,0.6,514,1,1,1
+36,Empresa PJ 0036 Ltda,Comércio,Nordeste,Pequena,4.7,6,904358.17,82296.59,0.091,0.05,0.82,379,0,0,0
+37,Empresa PJ 0037 Ltda,Comércio,Sudeste,Média,4.5,255,42530533.54,9782022.71,0.23,0.041,0.95,826,1,0,0
+38,Empresa PJ 0038 Ltda,Serviços,Sudeste,Microempresa,1.9,1,124789.7,36937.75,0.296,-0.089,0.97,328,0,1,0
+39,Empresa PJ 0039 Ltda,Indústria,Sudeste,Pequena,6.5,9,1423274.5,592082.19,0.416,0.019,1.05,727,0,0,1
+40,Empresa PJ 0040 Ltda,Agronegócio,Sudeste,Pequena,2.3,11,1782459.82,750415.58,0.421,0.202,0.55,687,1,0,0
+41,Empresa PJ 0041 Ltda,Serviços,Sudeste,Microempresa,6.2,3,273376.39,37725.94,0.138,0.116,0.88,723,0,0,1
+42,Empresa PJ 0042 Ltda,Tecnologia,Nordeste,Pequena,9.4,12,2840701.67,2218588.01,0.781,0.064,1.46,603,0,0,0
+43,Empresa PJ 0043 Ltda,Construção Civil,Nordeste,Pequena,21.2,2,1011521.98,346952.04,0.343,0.118,0.63,612,0,1,0
+44,Empresa PJ 0044 Ltda,Indústria,Nordeste,Média,4.4,107,28664500.96,7567428.25,0.264,-0.047,0.99,532,0,1,0
+45,Empresa PJ 0045 Ltda,Tecnologia,Sudeste,Média,9.2,218,60930505.18,15354487.3,0.252,0.11,1.33,850,0,0,0
+46,Empresa PJ 0046 Ltda,Tecnologia,Sudeste,Microempresa,5.2,2,237353.22,26108.85,0.11,0.179,0.82,593,1,0,0
+47,Empresa PJ 0047 Ltda,Serviços,Sudeste,Microempresa,2.1,1,170268.29,130936.32,0.769,0.082,1.35,543,3,1,0
+48,Empresa PJ 0048 Ltda,Indústria,Nordeste,Pequena,21.3,13,2757457.6,410861.18,0.149,-0.034,0.59,591,0,0,0
+49,Empresa PJ 0049 Ltda,Construção Civil,Centro-Oeste,Microempresa,9.7,2,176729.24,65743.28,0.372,0.061,1.73,657,1,0,0
+50,Empresa PJ 0050 Ltda,Comércio,Sudeste,Microempresa,11.9,1,174382.98,123288.76,0.707,0.18,1.37,621,0,1,1
+51,Empresa PJ 0051 Ltda,Comércio,Nordeste,Média,23.5,484,60875269.57,7061531.27,0.116,0.108,1.19,794,0,0,0
+52,Empresa PJ 0052 Ltda,Comércio,Sudeste,Microempresa,6.1,1,189335.07,73462.01,0.388,-0.009,1.93,634,0,0,0
+53,Empresa PJ 0053 Ltda,Tecnologia,Sudeste,Pequena,2.9,11,3662546.05,1655470.81,0.452,0.256,1.0,610,0,0,1
+54,Empresa PJ 0054 Ltda,Agronegócio,Sudeste,Pequena,4.3,20,1984177.57,732161.52,0.369,0.002,0.88,581,1,0,0
+55,Empresa PJ 0055 Ltda,Construção Civil,Sudeste,Microempresa,2.7,1,143507.61,75915.52,0.529,0.073,2.15,544,0,1,0
+56,Empresa PJ 0056 Ltda,Tecnologia,Nordeste,Pequena,17.6,3,496154.86,114115.62,0.23,0.017,2.66,966,0,0,0
+57,Empresa PJ 0057 Ltda,Serviços,Centro-Oeste,Média,27.9,180,50649584.45,17626055.39,0.348,0.017,0.85,799,0,0,0
+58,Empresa PJ 0058 Ltda,Serviços,Sudeste,Pequena,9.3,18,3142323.07,1875966.87,0.597,0.058,1.1,326,0,1,1
+59,Empresa PJ 0059 Ltda,Comércio,Sul,Microempresa,13.7,1,277581.77,151837.23,0.547,0.135,1.86,792,0,0,0
+60,Empresa PJ 0060 Ltda,Comércio,Nordeste,Microempresa,16.1,2,221282.57,78334.03,0.354,0.18,1.12,630,1,1,1
+61,Empresa PJ 0061 Ltda,Agronegócio,Norte,Média,24.5,248,14982760.53,7341552.66,0.49,0.063,1.52,840,0,0,0
+62,Empresa PJ 0062 Ltda,Serviços,Sul,Microempresa,27.2,1,163780.76,29152.97,0.178,0.019,1.65,597,0,0,1
+63,Empresa PJ 0063 Ltda,Serviços,Sudeste,Pequena,1.5,6,1432618.64,646111.01,0.451,0.124,0.9,836,0,0,0
+64,Empresa PJ 0064 Ltda,Construção Civil,Sul,Microempresa,5.3,1,180135.33,73134.94,0.406,0.126,1.4,573,1,0,0
+65,Empresa PJ 0065 Ltda,Agronegócio,Sudeste,Microempresa,8.6,1,162450.8,193966.26,1.194,0.107,1.16,247,1,0,1
+66,Empresa PJ 0066 Ltda,Serviços,Norte,Média,4.8,819,79123888.94,10523477.23,0.133,0.109,0.67,779,0,1,0
+67,Empresa PJ 0067 Ltda,Serviços,Sudeste,Pequena,6.9,5,1477694.04,1013698.11,0.686,0.082,0.74,522,0,0,0
+68,Empresa PJ 0068 Ltda,Indústria,Nordeste,Média,11.4,183,38217022.62,22662694.41,0.593,0.097,0.87,762,0,0,0
+69,Empresa PJ 0069 Ltda,Comércio,Sudeste,Microempresa,11.2,1,131284.61,9715.06,0.074,0.077,1.76,835,0,0,0
+70,Empresa PJ 0070 Ltda,Serviços,Sudeste,Pequena,15.8,34,3386105.19,1456025.23,0.43,0.165,1.79,667,1,0,0
+71,Empresa PJ 0071 Ltda,Comércio,Centro-Oeste,Média,8.7,300,58476797.63,45319518.16,0.775,0.246,1.63,771,0,0,0
+72,Empresa PJ 0072 Ltda,Serviços,Sul,Microempresa,0.7,1,249488.68,118008.15,0.473,0.103,1.42,609,0,0,0
+73,Empresa PJ 0073 Ltda,Saúde,Sudeste,Microempresa,6.5,1,93945.15,77786.58,0.828,0.09,1.4,411,1,1,0
+74,Empresa PJ 0074 Ltda,Indústria,Norte,Média,10.6,52,12007655.93,7060501.69,0.588,0.108,1.32,757,0,0,0
+75,Empresa PJ 0075 Ltda,Comércio,Centro-Oeste,Microempresa,16.5,1,137884.37,52396.06,0.38,0.044,1.4,574,1,1,1
+76,Empresa PJ 0076 Ltda,Indústria,Sudeste,Pequena,15.0,7,1014202.51,35497.09,0.035,0.144,1.44,831,1,0,0
+77,Empresa PJ 0077 Ltda,Indústria,Sul,Média,7.9,89,14867341.97,9663772.28,0.65,0.121,0.62,659,1,1,0
+78,Empresa PJ 0078 Ltda,Agronegócio,Sul,Microempresa,5.1,3,250296.89,150678.73,0.602,0.061,0.81,531,1,0,0
+79,Empresa PJ 0079 Ltda,Serviços,Nordeste,Microempresa,8.1,2,249473.67,256708.41,1.029,0.153,0.73,526,0,0,0
+80,Empresa PJ 0080 Ltda,Tecnologia,Sudeste,Microempresa,1.7,2,178938.22,152276.43,0.851,0.091,1.91,543,0,0,0
+81,Empresa PJ 0081 Ltda,Agronegócio,Sudeste,Microempresa,5.5,1,130488.98,39929.63,0.306,0.022,2.45,602,1,0,0
+82,Empresa PJ 0082 Ltda,Serviços,Centro-Oeste,Microempresa,18.6,1,126401.06,82666.29,0.654,0.115,0.44,512,0,1,0
+83,Empresa PJ 0083 Ltda,Tecnologia,Centro-Oeste,Pequena,8.1,3,670377.25,323792.21,0.483,0.107,2.35,705,0,0,0
+84,Empresa PJ 0084 Ltda,Comércio,Centro-Oeste,Microempresa,11.0,1,174114.14,48751.96,0.28,0.157,1.21,478,0,0,0
+85,Empresa PJ 0085 Ltda,Comércio,Norte,Pequena,2.6,12,1687636.73,715557.98,0.424,0.148,1.83,522,0,0,0
+86,Empresa PJ 0086 Ltda,Comércio,Nordeste,Microempresa,16.5,1,114448.06,60543.03,0.529,0.082,1.46,633,0,1,0
+87,Empresa PJ 0087 Ltda,Construção Civil,Nordeste,Microempresa,7.6,3,186667.8,53200.32,0.285,0.057,2.22,672,0,1,0
+88,Empresa PJ 0088 Ltda,Serviços,Nordeste,Microempresa,10.7,2,222548.6,140873.26,0.633,0.09,1.28,429,2,1,0
+89,Empresa PJ 0089 Ltda,Comércio,Sul,Pequena,12.3,35,3949088.24,1769191.53,0.448,0.115,0.63,651,1,0,0
+90,Empresa PJ 0090 Ltda,Serviços,Sul,Pequena,16.1,10,1326735.85,1139666.09,0.859,0.124,1.11,711,0,0,0
+91,Empresa PJ 0091 Ltda,Comércio,Sudeste,Microempresa,9.6,2,167186.29,68546.38,0.41,0.111,1.47,818,0,0,0
+92,Empresa PJ 0092 Ltda,Construção Civil,Nordeste,Média,7.7,59,18759994.51,2701439.21,0.144,0.084,1.05,663,0,1,0
+93,Empresa PJ 0093 Ltda,Serviços,Sudeste,Pequena,3.1,22,2279659.93,1185423.16,0.52,0.16,1.56,652,1,0,1
+94,Empresa PJ 0094 Ltda,Serviços,Sudeste,Microempresa,2.4,1,188190.61,114796.27,0.61,0.043,1.13,404,0,0,0
+95,Empresa PJ 0095 Ltda,Indústria,Sul,Média,9.5,273,61482726.79,19182610.76,0.312,0.264,0.89,465,0,0,0
+96,Empresa PJ 0096 Ltda,Agronegócio,Sudeste,Microempresa,10.8,2,222364.07,107401.85,0.483,0.143,0.71,517,0,1,0
+97,Empresa PJ 0097 Ltda,Serviços,Sudeste,Microempresa,12.0,2,188446.46,34674.15,0.184,0.011,0.97,506,1,0,0
+98,Empresa PJ 0098 Ltda,Comércio,Nordeste,Pequena,4.4,6,1815721.63,622792.52,0.343,0.103,1.27,748,0,0,0
+99,Empresa PJ 0099 Ltda,Comércio,Centro-Oeste,Microempresa,5.5,1,163499.92,43981.48,0.269,0.144,0.48,518,0,1,0
+100,Empresa PJ 0100 Ltda,Transporte e Logística,Sudeste,Microempresa,9.3,2,282059.33,113105.79,0.401,0.066,0.82,520,0,1,1
+101,Empresa PJ 0101 Ltda,Saúde,Sudeste,Pequena,6.1,11,2096671.77,1125912.74,0.537,-0.015,0.47,422,0,1,1
+102,Empresa PJ 0102 Ltda,Construção Civil,Sudeste,Microempresa,35.2,2,199034.47,197442.2,0.992,0.017,0.88,217,1,1,1
+103,Empresa PJ 0103 Ltda,Indústria,Nordeste,Pequena,5.4,33,1488125.71,183039.46,0.123,0.128,1.99,749,2,0,0
+104,Empresa PJ 0104 Ltda,Transporte e Logística,Centro-Oeste,Média,11.3,496,75519497.12,81107939.91,1.074,-0.033,0.68,380,1,0,0
+105,Empresa PJ 0105 Ltda,Tecnologia,Sudeste,Pequena,14.7,6,1449851.47,556742.97,0.384,-0.011,1.59,818,0,0,0
+106,Empresa PJ 0106 Ltda,Construção Civil,Nordeste,Pequena,15.3,7,2175722.57,559160.7,0.257,0.128,4.19,711,0,0,0
+107,Empresa PJ 0107 Ltda,Serviços,Sudeste,Pequena,6.0,5,1093729.18,865139.78,0.791,0.074,2.23,592,1,0,0
+108,Empresa PJ 0108 Ltda,Indústria,Sudeste,Média,12.4,55,14361443.82,12566263.34,0.875,0.041,1.23,333,0,0,1
+109,Empresa PJ 0109 Ltda,Comércio,Norte,Microempresa,11.4,2,226845.02,220266.52,0.971,0.055,1.71,602,0,0,0
+110,Empresa PJ 0110 Ltda,Saúde,Sudeste,Microempresa,12.7,1,200803.12,193373.4,0.963,-0.013,0.63,306,3,1,1
+111,Empresa PJ 0111 Ltda,Serviços,Sudeste,Pequena,9.3,13,2817672.72,270496.58,0.096,0.124,0.57,740,0,0,0
+112,Empresa PJ 0112 Ltda,Comércio,Sudeste,Pequena,14.8,14,1165861.81,642389.86,0.551,0.034,1.18,454,0,0,0
+113,Empresa PJ 0113 Ltda,Indústria,Sul,Microempresa,10.0,1,190174.32,91473.85,0.481,0.052,1.39,539,1,0,0
+114,Empresa PJ 0114 Ltda,Serviços,Norte,Pequena,2.8,21,3878764.8,2878043.48,0.742,0.114,1.9,589,0,0,0
+115,Empresa PJ 0115 Ltda,Comércio,Norte,Microempresa,9.8,1,178976.98,74096.47,0.414,0.072,0.9,557,0,0,0
+116,Empresa PJ 0116 Ltda,Saúde,Sudeste,Média,10.7,394,49577863.64,28160226.55,0.568,0.041,1.27,857,0,0,0
+117,Empresa PJ 0117 Ltda,Construção Civil,Sudeste,Microempresa,14.1,2,218672.07,49857.23,0.228,-0.049,1.25,479,0,0,1
+118,Empresa PJ 0118 Ltda,Construção Civil,Nordeste,Microempresa,9.5,1,110402.98,79048.53,0.716,0.116,1.1,574,1,0,0
+119,Empresa PJ 0119 Ltda,Serviços,Sudeste,Microempresa,24.9,2,260111.25,7023.0,0.027,0.096,1.12,744,0,0,0
+120,Empresa PJ 0120 Ltda,Agronegócio,Centro-Oeste,Microempresa,7.9,1,172040.47,51096.02,0.297,0.054,0.79,454,1,0,0
+121,Empresa PJ 0121 Ltda,Serviços,Nordeste,Microempresa,5.7,1,103059.51,20302.72,0.197,0.017,1.32,405,0,1,0
+122,Empresa PJ 0122 Ltda,Agronegócio,Sudeste,Microempresa,20.1,1,130567.88,66981.32,0.513,0.091,1.27,726,1,0,0
+123,Empresa PJ 0123 Ltda,Comércio,Centro-Oeste,Microempresa,7.8,1,133612.85,15632.7,0.117,0.124,0.95,640,0,0,0
+124,Empresa PJ 0124 Ltda,Serviços,Sudeste,Microempresa,8.9,1,106092.62,17611.38,0.166,0.097,1.57,641,0,0,0
+125,Empresa PJ 0125 Ltda,Comércio,Sudeste,Microempresa,10.7,1,181701.28,48150.84,0.265,0.205,1.85,857,0,0,0
+126,Empresa PJ 0126 Ltda,Serviços,Sul,Microempresa,10.0,1,191162.07,114697.24,0.6,0.139,1.58,516,0,1,0
+127,Empresa PJ 0127 Ltda,Indústria,Sul,Microempresa,12.7,1,150200.49,79005.46,0.526,0.082,0.73,494,0,0,0
+128,Empresa PJ 0128 Ltda,Comércio,Nordeste,Microempresa,13.6,1,151775.3,73611.02,0.485,0.142,1.22,793,0,0,0
+129,Empresa PJ 0129 Ltda,Comércio,Nordeste,Microempresa,5.3,1,119192.28,46246.6,0.388,0.093,0.77,693,0,1,0
+130,Empresa PJ 0130 Ltda,Serviços,Norte,Microempresa,3.4,1,196207.96,173055.42,0.882,0.093,1.21,430,2,1,0
+131,Empresa PJ 0131 Ltda,Comércio,Norte,Microempresa,3.7,1,266776.4,95772.73,0.359,0.181,0.77,537,0,0,1
+132,Empresa PJ 0132 Ltda,Transporte e Logística,Sul,Pequena,18.7,8,2319608.05,1832490.36,0.79,0.027,2.06,426,0,1,0
+133,Empresa PJ 0133 Ltda,Serviços,Sudeste,Média,7.3,358,79456872.85,21214985.05,0.267,0.092,1.65,780,0,0,0
+134,Empresa PJ 0134 Ltda,Indústria,Nordeste,Média,14.6,49,10705170.86,5930664.66,0.554,0.173,1.95,752,0,0,0
+135,Empresa PJ 0135 Ltda,Agronegócio,Norte,Pequena,13.8,13,3043409.78,870415.2,0.286,0.112,1.87,692,0,0,0
+136,Empresa PJ 0136 Ltda,Comércio,Sudeste,Pequena,8.9,8,1958261.05,1466737.52,0.749,0.064,1.03,541,0,0,0
+137,Empresa PJ 0137 Ltda,Transporte e Logística,Sul,Microempresa,4.3,1,149716.96,93123.95,0.622,-0.029,0.96,318,0,0,0
+138,Empresa PJ 0138 Ltda,Serviços,Sudeste,Pequena,14.0,8,1556805.64,1278137.43,0.821,-0.069,2.54,657,1,0,0
+139,Empresa PJ 0139 Ltda,Tecnologia,Sudeste,Pequena,8.6,17,1470829.17,314757.44,0.214,0.235,1.08,718,0,0,0
+140,Empresa PJ 0140 Ltda,Comércio,Nordeste,Pequena,3.2,10,2200804.8,682249.49,0.31,0.112,0.63,520,1,0,1
+141,Empresa PJ 0141 Ltda,Serviços,Sudeste,Média,6.1,500,78414845.2,19211637.07,0.245,0.049,1.83,673,1,1,0
+142,Empresa PJ 0142 Ltda,Serviços,Nordeste,Microempresa,2.2,1,160158.07,17457.23,0.109,0.114,1.24,478,0,0,0
+143,Empresa PJ 0143 Ltda,Transporte e Logística,Centro-Oeste,Pequena,6.3,8,1772862.68,285430.89,0.161,0.024,2.29,614,0,1,0
+144,Empresa PJ 0144 Ltda,Serviços,Nordeste,Pequena,9.2,8,2899223.07,1284355.82,0.443,0.067,1.3,586,0,0,0
+145,Empresa PJ 0145 Ltda,Serviços,Sudeste,Microempresa,8.0,1,212511.67,60353.31,0.284,0.024,1.15,713,0,1,0
+146,Empresa PJ 0146 Ltda,Indústria,Sudeste,Média,7.3,109,31911879.9,13977403.4,0.438,-0.009,2.31,920,0,0,0
+147,Empresa PJ 0147 Ltda,Indústria,Nordeste,Microempresa,9.1,1,176896.4,55191.68,0.312,-0.057,0.58,637,0,0,0
+148,Empresa PJ 0148 Ltda,Serviços,Nordeste,Média,12.2,709,83030496.82,21920051.16,0.264,-0.022,0.89,655,0,0,0
+149,Empresa PJ 0149 Ltda,Serviços,Sul,Pequena,15.4,8,2768237.89,1378582.47,0.498,0.161,0.78,581,0,0,0
+150,Empresa PJ 0150 Ltda,Comércio,Centro-Oeste,Microempresa,16.8,1,145893.88,37786.51,0.259,0.021,0.43,491,0,1,0
+151,Empresa PJ 0151 Ltda,Tecnologia,Sudeste,Pequena,4.9,9,2665834.06,783755.22,0.294,0.127,1.72,650,0,0,0
+152,Empresa PJ 0152 Ltda,Saúde,Centro-Oeste,Microempresa,17.8,1,177187.33,23388.73,0.132,0.157,0.9,772,0,0,0
+153,Empresa PJ 0153 Ltda,Comércio,Sudeste,Pequena,8.7,24,2794932.63,695938.23,0.249,0.091,1.75,622,0,1,0
+154,Empresa PJ 0154 Ltda,Serviços,Sudeste,Pequena,6.7,12,2511595.04,1411516.42,0.562,0.069,1.38,539,0,1,0
+155,Empresa PJ 0155 Ltda,Comércio,Sul,Pequena,3.8,10,1751644.72,1189366.77,0.679,0.099,1.53,552,0,0,1
+156,Empresa PJ 0156 Ltda,Construção Civil,Sudeste,Média,0.7,358,36037891.81,20829901.47,0.578,0.061,0.95,566,0,0,1
+157,Empresa PJ 0157 Ltda,Indústria,Sudeste,Microempresa,11.6,1,112502.06,84264.04,0.749,0.174,0.82,342,1,1,0
+158,Empresa PJ 0158 Ltda,Agronegócio,Sudeste,Microempresa,11.3,1,146030.3,10952.27,0.075,0.221,1.21,722,0,0,0
+159,Empresa PJ 0159 Ltda,Construção Civil,Sudeste,Microempresa,5.7,1,145137.34,45573.12,0.314,0.191,1.76,622,0,1,0
+160,Empresa PJ 0160 Ltda,Construção Civil,Nordeste,Microempresa,5.8,1,204064.04,37343.72,0.183,-0.061,1.14,621,0,0,0
+161,Empresa PJ 0161 Ltda,Comércio,Sudeste,Microempresa,7.8,2,233110.72,62007.45,0.266,0.059,0.85,563,0,0,1
+162,Empresa PJ 0162 Ltda,Saúde,Nordeste,Microempresa,6.7,1,207929.26,10812.32,0.052,0.09,0.68,616,1,0,0
+163,Empresa PJ 0163 Ltda,Indústria,Nordeste,Microempresa,4.7,1,173777.45,41532.81,0.239,0.122,1.27,574,2,0,0
+164,Empresa PJ 0164 Ltda,Comércio,Sudeste,Microempresa,3.5,1,208111.68,78666.22,0.378,-0.031,0.91,658,0,1,0
+165,Empresa PJ 0165 Ltda,Serviços,Sudeste,Média,18.0,267,50327506.53,24660478.2,0.49,-0.032,1.12,671,0,0,0
+166,Empresa PJ 0166 Ltda,Serviços,Centro-Oeste,Microempresa,6.1,1,136635.61,80068.47,0.586,0.181,1.04,485,2,0,0
+167,Empresa PJ 0167 Ltda,Tecnologia,Nordeste,Média,11.3,308,39776278.29,9068991.45,0.228,0.051,0.95,820,0,0,0
+168,Empresa PJ 0168 Ltda,Tecnologia,Sul,Microempresa,12.8,1,199816.64,158254.78,0.792,-0.014,1.33,448,1,1,0
+169,Empresa PJ 0169 Ltda,Indústria,Nordeste,Microempresa,11.6,1,269189.41,243078.04,0.903,0.013,1.49,424,1,1,0
+170,Empresa PJ 0170 Ltda,Transporte e Logística,Sudeste,Pequena,13.2,11,1316138.54,1301661.02,0.989,0.117,2.81,462,1,0,0
+171,Empresa PJ 0171 Ltda,Indústria,Sudeste,Microempresa,11.6,1,171020.82,153747.72,0.899,0.032,1.63,417,1,0,0
+172,Empresa PJ 0172 Ltda,Serviços,Nordeste,Microempresa,5.3,1,208705.8,83691.03,0.401,0.107,2.38,686,0,0,0
+173,Empresa PJ 0173 Ltda,Indústria,Sudeste,Pequena,6.9,2,1476063.2,537287.0,0.364,0.021,0.8,638,0,1,0
+174,Empresa PJ 0174 Ltda,Transporte e Logística,Nordeste,Microempresa,17.7,1,130811.16,18967.62,0.145,-0.032,0.57,453,0,0,0
+175,Empresa PJ 0175 Ltda,Comércio,Sul,Microempresa,5.9,1,202976.47,128687.08,0.634,0.19,1.15,504,0,0,1
+176,Empresa PJ 0176 Ltda,Comércio,Nordeste,Pequena,8.7,15,2371366.96,1050515.56,0.443,0.118,1.71,619,0,0,1
+177,Empresa PJ 0177 Ltda,Serviços,Sul,Microempresa,12.2,1,228364.58,214205.98,0.938,0.067,1.59,350,1,0,1
+178,Empresa PJ 0178 Ltda,Transporte e Logística,Sudeste,Pequena,21.9,5,1203954.37,298580.68,0.248,0.054,2.0,636,0,0,0
+179,Empresa PJ 0179 Ltda,Saúde,Sudeste,Microempresa,16.7,1,202267.93,95875.0,0.474,0.193,0.37,521,0,1,1
+180,Empresa PJ 0180 Ltda,Construção Civil,Sudeste,Média,4.2,101,27368155.46,9660958.88,0.353,0.131,2.04,805,1,0,0
+181,Empresa PJ 0181 Ltda,Saúde,Nordeste,Pequena,11.0,16,2510766.62,979198.98,0.39,0.17,1.35,605,1,0,0
+182,Empresa PJ 0182 Ltda,Saúde,Sudeste,Média,10.2,120,26962254.11,26557820.3,0.985,0.049,0.58,410,2,0,0
+183,Empresa PJ 0183 Ltda,Serviços,Sudeste,Pequena,7.0,5,961242.19,166294.9,0.173,0.094,1.61,873,0,0,0
+184,Empresa PJ 0184 Ltda,Indústria,Sudeste,Microempresa,8.8,2,245205.65,79691.84,0.325,0.118,1.25,494,0,0,0
+185,Empresa PJ 0185 Ltda,Tecnologia,Sudeste,Pequena,5.2,20,2438663.22,936446.68,0.384,0.051,1.38,658,0,0,0
+186,Empresa PJ 0186 Ltda,Agronegócio,Nordeste,Microempresa,7.7,1,226016.65,115042.48,0.509,0.083,1.82,553,0,1,0
+187,Empresa PJ 0187 Ltda,Serviços,Sudeste,Pequena,6.0,8,2083492.22,462535.27,0.222,0.049,1.41,640,0,1,0
+188,Empresa PJ 0188 Ltda,Comércio,Norte,Pequena,9.3,6,1262648.59,760114.45,0.602,0.118,0.6,634,0,0,0
+189,Empresa PJ 0189 Ltda,Construção Civil,Sudeste,Microempresa,6.8,1,202755.88,70153.53,0.346,-0.002,1.09,620,1,0,0
+190,Empresa PJ 0190 Ltda,Indústria,Nordeste,Média,22.9,142,38337659.23,27794802.94,0.725,0.13,0.56,489,0,0,0
+191,Empresa PJ 0191 Ltda,Transporte e Logística,Sudeste,Microempresa,9.5,1,189550.83,24641.61,0.13,0.112,1.56,639,0,0,0
+192,Empresa PJ 0192 Ltda,Indústria,Sudeste,Pequena,8.3,5,983212.52,38345.29,0.039,0.076,2.18,958,0,0,0
+193,Empresa PJ 0193 Ltda,Comércio,Centro-Oeste,Pequena,7.4,18,3452214.42,1156491.83,0.335,0.121,0.66,696,1,0,0
+194,Empresa PJ 0194 Ltda,Tecnologia,Norte,Microempresa,6.8,1,189906.5,91534.93,0.482,0.064,0.86,564,2,1,1
+195,Empresa PJ 0195 Ltda,Comércio,Centro-Oeste,Pequena,3.2,6,2145047.4,343207.58,0.16,0.043,0.78,636,0,0,0
+196,Empresa PJ 0196 Ltda,Comércio,Sudeste,Pequena,14.6,8,1153394.38,775081.02,0.672,0.128,0.95,506,0,1,0
+197,Empresa PJ 0197 Ltda,Agronegócio,Sudeste,Microempresa,20.1,1,148337.54,100127.84,0.675,0.131,1.4,516,0,1,0
+198,Empresa PJ 0198 Ltda,Saúde,Nordeste,Pequena,5.9,9,3381928.39,601983.25,0.178,0.054,0.95,770,0,0,1
+199,Empresa PJ 0199 Ltda,Comércio,Sudeste,Microempresa,17.6,1,97979.24,38113.92,0.389,0.048,1.56,627,0,0,0
+200,Empresa PJ 0200 Ltda,Indústria,Nordeste,Pequena,35.0,27,3156128.81,574415.44,0.182,0.077,1.88,876,0,0,0
+201,Empresa PJ 0201 Ltda,Tecnologia,Sul,Microempresa,27.3,2,223042.75,128695.66,0.577,0.051,1.91,779,0,0,0
+202,Empresa PJ 0202 Ltda,Transporte e Logística,Sul,Média,19.6,250,53127435.31,5897145.32,0.111,0.197,0.7,951,0,0,0
+203,Empresa PJ 0203 Ltda,Serviços,Nordeste,Média,3.5,279,73195699.73,10027810.86,0.137,0.112,2.17,874,0,0,0
+204,Empresa PJ 0204 Ltda,Comércio,Nordeste,Microempresa,3.5,1,224063.95,43468.41,0.194,0.091,2.25,721,0,0,1
+205,Empresa PJ 0205 Ltda,Comércio,Sudeste,Microempresa,13.2,1,231041.56,97730.58,0.423,0.025,2.34,482,1,0,0
+206,Empresa PJ 0206 Ltda,Indústria,Sudeste,Pequena,8.7,15,2540525.31,459835.08,0.181,0.142,1.08,706,0,0,0
+207,Empresa PJ 0207 Ltda,Comércio,Sul,Pequena,1.4,6,1101312.95,645369.39,0.586,0.047,0.83,575,2,0,0
+208,Empresa PJ 0208 Ltda,Construção Civil,Sul,Microempresa,6.4,1,82130.75,48867.79,0.595,0.044,0.75,351,2,0,1
+209,Empresa PJ 0209 Ltda,Comércio,Sudeste,Microempresa,12.8,1,129969.79,119962.11,0.923,0.144,0.71,508,1,0,1
+210,Empresa PJ 0210 Ltda,Serviços,Sudeste,Microempresa,7.8,1,170402.93,53165.72,0.312,0.117,1.17,611,1,0,0
+211,Empresa PJ 0211 Ltda,Construção Civil,Nordeste,Média,8.8,224,37203572.04,14025746.66,0.377,-0.085,1.7,544,1,0,0
+212,Empresa PJ 0212 Ltda,Serviços,Nordeste,Pequena,3.5,8,1413850.02,1184806.31,0.838,0.079,2.09,616,0,0,0
+213,Empresa PJ 0213 Ltda,Comércio,Sul,Média,6.4,838,77069664.36,6936269.79,0.09,0.099,0.93,595,0,0,0
+214,Empresa PJ 0214 Ltda,Tecnologia,Sudeste,Pequena,13.2,2,531363.48,129121.33,0.243,0.066,1.14,998,0,0,0
+215,Empresa PJ 0215 Ltda,Construção Civil,Sudeste,Média,6.1,750,80870544.09,64858176.36,0.802,0.101,1.11,741,0,0,0
+216,Empresa PJ 0216 Ltda,Construção Civil,Sul,Microempresa,18.5,1,167746.11,80350.39,0.479,-0.037,0.87,494,0,1,0
+217,Empresa PJ 0217 Ltda,Comércio,Sudeste,Microempresa,8.9,2,228773.85,72750.08,0.318,-0.108,1.62,529,1,0,1
+218,Empresa PJ 0218 Ltda,Comércio,Sul,Média,11.6,475,52242402.81,7209451.59,0.138,0.022,1.37,1000,0,0,0
+219,Empresa PJ 0219 Ltda,Transporte e Logística,Nordeste,Média,13.0,223,45220274.24,13792183.64,0.305,0.11,1.24,809,0,0,0
+220,Empresa PJ 0220 Ltda,Serviços,Sudeste,Microempresa,12.7,2,156380.97,25802.86,0.165,-0.136,1.37,681,0,0,1
+221,Empresa PJ 0221 Ltda,Indústria,Sudeste,Microempresa,4.1,1,126031.0,88725.82,0.704,0.031,1.53,396,1,0,0
+222,Empresa PJ 0222 Ltda,Serviços,Sudeste,Pequena,4.7,4,1139988.36,500454.89,0.439,-0.045,1.53,449,1,1,1
+223,Empresa PJ 0223 Ltda,Agronegócio,Centro-Oeste,Microempresa,1.3,1,259882.5,91218.76,0.351,0.073,0.8,377,0,1,1
+224,Empresa PJ 0224 Ltda,Transporte e Logística,Nordeste,Microempresa,6.9,2,245491.73,125937.26,0.513,0.227,1.74,725,0,0,0
+225,Empresa PJ 0225 Ltda,Indústria,Sudeste,Média,4.4,472,58669502.67,10912527.5,0.186,0.075,1.3,714,0,1,0
+226,Empresa PJ 0226 Ltda,Transporte e Logística,Centro-Oeste,Microempresa,6.0,1,148279.58,70136.24,0.473,0.082,0.96,688,0,0,0
+227,Empresa PJ 0227 Ltda,Comércio,Sul,Pequena,7.4,9,1649476.56,554224.12,0.336,0.149,1.29,535,0,0,0
+228,Empresa PJ 0228 Ltda,Serviços,Sul,Microempresa,9.7,1,243290.78,154732.94,0.636,0.091,1.36,562,2,0,1
+229,Empresa PJ 0229 Ltda,Agronegócio,Norte,Microempresa,7.9,1,225764.78,93692.38,0.415,0.075,1.89,590,0,0,0
+230,Empresa PJ 0230 Ltda,Comércio,Sudeste,Pequena,7.8,30,2077725.87,1007697.04,0.485,0.155,0.73,668,0,0,0
+231,Empresa PJ 0231 Ltda,Comércio,Sudeste,Microempresa,11.0,1,101126.41,94452.07,0.934,0.123,2.11,554,0,0,1
+232,Empresa PJ 0232 Ltda,Serviços,Sul,Pequena,8.5,14,2657649.63,69098.89,0.026,0.11,1.17,698,0,0,0
+233,Empresa PJ 0233 Ltda,Transporte e Logística,Sudeste,Microempresa,15.3,1,144541.66,15465.96,0.107,0.08,0.93,625,1,0,0
+234,Empresa PJ 0234 Ltda,Agronegócio,Nordeste,Média,8.5,100,20794800.31,4054986.06,0.195,0.066,0.91,689,0,0,0
+235,Empresa PJ 0235 Ltda,Transporte e Logística,Sudeste,Pequena,22.0,11,1279433.57,121546.19,0.095,0.154,0.74,930,0,0,0
+236,Empresa PJ 0236 Ltda,Tecnologia,Sudeste,Média,4.0,64,22534013.5,5430697.25,0.241,0.066,0.53,656,0,0,0
+237,Empresa PJ 0237 Ltda,Serviços,Sudeste,Microempresa,6.8,1,180447.78,9744.18,0.054,0.176,1.58,797,0,0,0
+238,Empresa PJ 0238 Ltda,Tecnologia,Sudeste,Microempresa,5.3,2,230694.8,44293.4,0.192,0.017,2.83,648,0,0,0
+239,Empresa PJ 0239 Ltda,Comércio,Sudeste,Microempresa,10.0,2,177317.46,130505.65,0.736,0.19,0.56,462,1,0,0
+240,Empresa PJ 0240 Ltda,Comércio,Sudeste,Pequena,3.9,3,663669.07,117469.43,0.177,0.123,0.76,530,0,0,0
+241,Empresa PJ 0241 Ltda,Tecnologia,Centro-Oeste,Microempresa,2.6,1,145762.16,81481.05,0.559,0.022,1.63,362,0,0,1
+242,Empresa PJ 0242 Ltda,Tecnologia,Sudeste,Microempresa,4.6,1,141661.18,121120.31,0.855,0.126,1.14,495,0,0,0
+243,Empresa PJ 0243 Ltda,Indústria,Sudeste,Microempresa,2.8,1,213255.32,91273.28,0.428,0.044,1.69,420,2,0,0
+244,Empresa PJ 0244 Ltda,Serviços,Sudeste,Microempresa,7.5,1,153650.98,15979.7,0.104,0.092,1.11,515,1,1,0
+245,Empresa PJ 0245 Ltda,Agronegócio,Sudeste,Microempresa,9.7,2,258358.59,157340.38,0.609,0.056,0.89,440,1,1,1
+246,Empresa PJ 0246 Ltda,Saúde,Sudeste,Microempresa,2.3,1,244822.11,39416.36,0.161,0.081,1.05,544,0,0,0
+247,Empresa PJ 0247 Ltda,Agronegócio,Sul,Microempresa,6.5,1,217411.44,66527.9,0.306,0.156,0.4,619,0,0,0
+248,Empresa PJ 0248 Ltda,Serviços,Sudeste,Pequena,16.6,3,909979.54,822621.5,0.904,0.126,0.69,412,2,1,0
+249,Empresa PJ 0249 Ltda,Serviços,Centro-Oeste,Microempresa,19.7,1,209571.09,23471.96,0.112,0.011,1.78,783,0,0,0
+250,Empresa PJ 0250 Ltda,Serviços,Centro-Oeste,Microempresa,13.9,1,196878.41,105133.07,0.534,0.015,1.99,553,2,0,0
+251,Empresa PJ 0251 Ltda,Agronegócio,Sudeste,Pequena,0.9,13,2542194.11,940611.82,0.37,0.109,2.19,646,0,0,0
+252,Empresa PJ 0252 Ltda,Saúde,Sudeste,Pequena,9.1,10,3189198.0,1262922.41,0.396,0.114,1.42,547,1,0,1
+253,Empresa PJ 0253 Ltda,Serviços,Sudeste,Microempresa,17.9,3,239774.15,59224.22,0.247,0.043,0.42,506,0,0,0
+254,Empresa PJ 0254 Ltda,Indústria,Sul,Pequena,6.1,21,1606904.66,1274275.39,0.793,0.201,0.87,533,1,0,1
+255,Empresa PJ 0255 Ltda,Indústria,Sudeste,Média,3.2,137,37697522.05,17567045.27,0.466,0.147,2.11,869,0,0,0
+256,Empresa PJ 0256 Ltda,Construção Civil,Centro-Oeste,Pequena,17.0,12,1961235.01,1298337.58,0.662,0.046,2.41,673,1,0,0
+257,Empresa PJ 0257 Ltda,Tecnologia,Nordeste,Média,18.6,130,34286532.66,3394366.73,0.099,0.039,2.15,987,0,0,0
+258,Empresa PJ 0258 Ltda,Comércio,Nordeste,Pequena,8.4,15,3073923.83,55330.63,0.018,0.074,1.04,515,0,1,0
+259,Empresa PJ 0259 Ltda,Comércio,Sul,Microempresa,3.3,2,157224.91,104554.57,0.665,0.067,0.65,536,0,0,0
+260,Empresa PJ 0260 Ltda,Agronegócio,Norte,Microempresa,2.0,1,301018.47,134856.27,0.448,0.178,1.14,429,0,0,0
+261,Empresa PJ 0261 Ltda,Comércio,Sudeste,Pequena,10.7,9,1715741.49,183584.34,0.107,0.159,1.17,713,0,0,0
+262,Empresa PJ 0262 Ltda,Tecnologia,Sudeste,Média,5.3,217,57054167.42,33604904.61,0.589,0.092,2.35,943,0,0,0
+263,Empresa PJ 0263 Ltda,Indústria,Sudeste,Pequena,8.1,14,1603417.52,1210580.22,0.755,0.137,1.29,631,2,0,0
+264,Empresa PJ 0264 Ltda,Comércio,Norte,Microempresa,7.5,1,281878.41,84563.52,0.3,0.148,1.17,696,0,1,0
+265,Empresa PJ 0265 Ltda,Transporte e Logística,Sul,Pequena,4.4,12,2638459.12,1857475.22,0.704,0.094,1.2,621,1,0,0
+266,Empresa PJ 0266 Ltda,Comércio,Nordeste,Microempresa,1.9,1,87234.47,65862.03,0.755,0.118,1.39,669,0,1,0
+267,Empresa PJ 0267 Ltda,Indústria,Sudeste,Pequena,6.2,12,2722484.38,765018.11,0.281,0.132,1.54,732,0,0,0
+268,Empresa PJ 0268 Ltda,Comércio,Norte,Pequena,9.3,14,1739303.42,1341002.94,0.771,0.124,0.84,370,0,0,1
+269,Empresa PJ 0269 Ltda,Comércio,Sul,Pequena,9.7,23,2580439.92,1047658.61,0.406,0.035,0.72,503,0,0,1
+270,Empresa PJ 0270 Ltda,Comércio,Sul,Média,5.1,128,40510561.0,28397903.26,0.701,0.043,2.15,516,0,1,0
+271,Empresa PJ 0271 Ltda,Comércio,Norte,Pequena,18.4,16,1279876.35,1226121.54,0.958,0.07,0.56,507,1,0,0
+272,Empresa PJ 0272 Ltda,Comércio,Sudeste,Pequena,3.5,6,1927319.23,339208.19,0.176,0.041,2.43,548,0,0,0
+273,Empresa PJ 0273 Ltda,Comércio,Sudeste,Pequena,15.8,20,2103614.79,553250.69,0.263,-0.013,0.49,631,0,0,0
+274,Empresa PJ 0274 Ltda,Agronegócio,Sul,Pequena,9.1,7,1183487.1,1202422.89,1.016,0.137,0.89,413,0,1,1
+275,Empresa PJ 0275 Ltda,Construção Civil,Sudeste,Média,6.2,405,89159889.42,33791598.09,0.379,0.114,1.8,805,1,0,0
+276,Empresa PJ 0276 Ltda,Serviços,Sudeste,Microempresa,11.6,1,128673.05,64722.54,0.503,-0.004,1.16,654,1,0,0
+277,Empresa PJ 0277 Ltda,Indústria,Sudeste,Pequena,7.2,7,1299215.84,563859.67,0.434,0.073,0.64,538,0,0,0
+278,Empresa PJ 0278 Ltda,Serviços,Sudeste,Microempresa,2.6,1,191217.72,37096.24,0.194,0.077,1.41,663,0,0,0
+279,Empresa PJ 0279 Ltda,Saúde,Centro-Oeste,Média,3.3,75,19529350.89,13826780.43,0.708,0.103,1.2,627,0,0,0
+280,Empresa PJ 0280 Ltda,Saúde,Sul,Pequena,6.8,8,1531847.19,821070.09,0.536,0.014,1.05,659,0,0,0
+281,Empresa PJ 0281 Ltda,Comércio,Sudeste,Microempresa,5.6,1,233918.67,101754.62,0.435,-0.005,0.88,326,1,0,1
+282,Empresa PJ 0282 Ltda,Comércio,Sudeste,Microempresa,15.6,1,127606.95,17864.97,0.14,0.126,1.14,765,0,0,0
+283,Empresa PJ 0283 Ltda,Indústria,Sudeste,Microempresa,5.4,1,232725.41,44683.28,0.192,-0.017,0.89,397,0,0,1
+284,Empresa PJ 0284 Ltda,Indústria,Nordeste,Pequena,5.2,9,2682252.59,879778.85,0.328,0.074,3.47,749,0,0,0
+285,Empresa PJ 0285 Ltda,Serviços,Centro-Oeste,Microempresa,4.7,1,146103.65,124480.31,0.852,0.067,1.04,436,0,0,0
+286,Empresa PJ 0286 Ltda,Serviços,Norte,Microempresa,4.4,1,191315.32,173714.31,0.908,0.081,0.98,284,1,1,1
+287,Empresa PJ 0287 Ltda,Comércio,Sudeste,Média,4.5,288,49331121.33,17857865.92,0.362,0.108,0.91,734,0,0,0
+288,Empresa PJ 0288 Ltda,Serviços,Sudeste,Pequena,2.9,37,3003480.31,303351.51,0.101,0.202,2.58,829,0,0,0
+289,Empresa PJ 0289 Ltda,Serviços,Sul,Microempresa,9.4,1,184374.72,86840.49,0.471,-0.022,0.56,498,0,0,0
+290,Empresa PJ 0290 Ltda,Comércio,Sul,Microempresa,7.6,1,136984.22,52464.96,0.383,0.151,1.37,725,0,0,0
+291,Empresa PJ 0291 Ltda,Tecnologia,Sul,Média,7.4,204,36687516.91,23626760.89,0.644,-0.086,1.04,563,0,0,0
+292,Empresa PJ 0292 Ltda,Comércio,Nordeste,Pequena,2.1,23,3001446.36,2197058.73,0.732,0.188,0.61,533,2,0,0
+293,Empresa PJ 0293 Ltda,Transporte e Logística,Sul,Pequena,10.9,21,2822059.15,589810.36,0.209,-0.053,0.8,710,1,0,0
+294,Empresa PJ 0294 Ltda,Comércio,Sudeste,Microempresa,11.7,1,197679.42,23919.21,0.121,0.261,1.34,791,1,0,0
+295,Empresa PJ 0295 Ltda,Tecnologia,Sudeste,Microempresa,21.3,1,150712.89,99319.79,0.659,0.063,0.79,528,1,1,0
+296,Empresa PJ 0296 Ltda,Saúde,Sudeste,Microempresa,11.3,1,124556.79,69502.69,0.558,0.18,1.31,529,0,0,1
+297,Empresa PJ 0297 Ltda,Transporte e Logística,Sudeste,Pequena,24.0,10,1436762.14,676714.97,0.471,0.166,2.53,908,1,0,0
+298,Empresa PJ 0298 Ltda,Tecnologia,Sudeste,Microempresa,5.0,1,94159.24,7438.58,0.079,0.059,1.25,738,0,0,0
+299,Empresa PJ 0299 Ltda,Tecnologia,Nordeste,Microempresa,22.0,2,218369.01,66820.92,0.306,0.065,0.6,376,0,0,1
+300,Empresa PJ 0300 Ltda,Agronegócio,Sudeste,Pequena,11.5,20,3572290.56,775187.05,0.217,0.031,0.79,595,0,0,0
+301,Empresa PJ 0301 Ltda,Tecnologia,Sudeste,Média,10.6,334,73142773.72,17627408.47,0.241,0.145,1.02,701,0,0,0
+302,Empresa PJ 0302 Ltda,Comércio,Sul,Pequena,7.3,3,538632.43,114728.71,0.213,0.06,0.99,699,0,0,0
+303,Empresa PJ 0303 Ltda,Serviços,Nordeste,Pequena,6.2,14,2720736.67,1379413.49,0.507,0.033,1.24,665,0,0,0
+304,Empresa PJ 0304 Ltda,Serviços,Sudeste,Pequena,5.3,20,2180437.68,161352.39,0.074,0.128,1.34,679,0,0,0
+305,Empresa PJ 0305 Ltda,Saúde,Nordeste,Microempresa,22.5,4,189613.87,102391.49,0.54,0.027,2.53,539,0,0,0
+306,Empresa PJ 0306 Ltda,Serviços,Centro-Oeste,Microempresa,7.1,2,191029.93,41835.55,0.219,0.067,1.16,522,1,0,0
+307,Empresa PJ 0307 Ltda,Serviços,Sul,Pequena,11.6,4,875079.24,265149.01,0.303,0.097,0.69,490,1,0,1
+308,Empresa PJ 0308 Ltda,Agronegócio,Nordeste,Microempresa,13.4,1,125321.63,99881.34,0.797,0.045,1.95,446,1,0,0
+309,Empresa PJ 0309 Ltda,Indústria,Sudeste,Pequena,13.2,12,1645204.59,449140.85,0.273,0.056,2.05,700,0,0,0
+310,Empresa PJ 0310 Ltda,Comércio,Norte,Média,9.4,349,91027429.3,28036448.22,0.308,0.197,1.29,765,1,0,0
+311,Empresa PJ 0311 Ltda,Serviços,Sudeste,Média,21.8,82,24348192.79,7134020.49,0.293,0.076,1.04,826,0,0,0
+312,Empresa PJ 0312 Ltda,Serviços,Centro-Oeste,Microempresa,11.0,1,163921.7,143595.41,0.876,0.065,1.54,467,0,0,1
+313,Empresa PJ 0313 Ltda,Indústria,Sul,Microempresa,5.2,1,191538.57,40606.18,0.212,0.078,1.06,392,1,1,1
+314,Empresa PJ 0314 Ltda,Serviços,Sudeste,Microempresa,6.4,1,148863.28,70114.61,0.471,0.122,0.46,490,0,0,1
+315,Empresa PJ 0315 Ltda,Serviços,Sudeste,Microempresa,2.2,1,265403.45,57857.95,0.218,0.018,1.5,598,1,0,1
+316,Empresa PJ 0316 Ltda,Indústria,Nordeste,Microempresa,10.1,1,212653.46,41892.73,0.197,0.12,1.74,782,0,0,0
+317,Empresa PJ 0317 Ltda,Serviços,Sul,Microempresa,12.3,1,175003.78,16975.37,0.097,0.108,2.22,893,0,0,0
+318,Empresa PJ 0318 Ltda,Construção Civil,Sudeste,Pequena,13.0,20,2069108.89,521415.44,0.252,-0.035,0.84,471,1,0,0
+319,Empresa PJ 0319 Ltda,Indústria,Nordeste,Pequena,11.5,3,958354.85,96793.84,0.101,0.216,1.29,537,0,0,0
+320,Empresa PJ 0320 Ltda,Transporte e Logística,Centro-Oeste,Média,7.3,188,13177320.25,3267975.42,0.248,0.192,1.3,793,0,0,0
+321,Empresa PJ 0321 Ltda,Saúde,Sul,Microempresa,8.3,1,195917.1,13322.36,0.068,0.034,1.21,537,1,0,0
+322,Empresa PJ 0322 Ltda,Serviços,Sul,Microempresa,8.3,1,245211.42,113042.47,0.461,0.011,1.22,534,1,0,1
+323,Empresa PJ 0323 Ltda,Indústria,Sudeste,Microempresa,15.6,1,265205.05,163101.11,0.615,0.106,1.18,481,0,0,1
+324,Empresa PJ 0324 Ltda,Serviços,Nordeste,Microempresa,1.5,1,255048.14,105079.83,0.412,-0.01,1.28,308,1,1,1
+325,Empresa PJ 0325 Ltda,Tecnologia,Sudeste,Microempresa,5.9,1,120620.86,11097.12,0.092,0.185,1.62,577,0,1,0
+326,Empresa PJ 0326 Ltda,Agronegócio,Centro-Oeste,Média,3.7,195,36219332.1,13256275.55,0.366,0.057,2.01,720,0,0,0
+327,Empresa PJ 0327 Ltda,Tecnologia,Sudeste,Microempresa,27.4,1,132646.66,11672.91,0.088,0.204,0.83,802,0,0,0
+328,Empresa PJ 0328 Ltda,Serviços,Sul,Microempresa,17.6,1,119128.4,18584.03,0.156,0.032,1.08,628,0,0,0
+329,Empresa PJ 0329 Ltda,Agronegócio,Sudeste,Pequena,6.1,12,1818594.65,1140258.85,0.627,0.082,0.96,614,0,0,0
+330,Empresa PJ 0330 Ltda,Indústria,Sudeste,Pequena,2.7,5,1107838.48,250371.5,0.226,0.179,0.9,780,0,0,1
+331,Empresa PJ 0331 Ltda,Construção Civil,Nordeste,Pequena,3.3,20,2268992.7,762381.55,0.336,0.067,0.56,692,0,0,0
+332,Empresa PJ 0332 Ltda,Comércio,Sul,Microempresa,15.5,1,212649.07,188194.43,0.885,0.109,1.17,360,0,0,1
+333,Empresa PJ 0333 Ltda,Construção Civil,Sul,Pequena,2.2,9,2351054.16,110499.55,0.047,0.166,1.44,608,0,0,0
+334,Empresa PJ 0334 Ltda,Saúde,Norte,Microempresa,8.4,1,243865.15,182167.26,0.747,0.051,1.08,537,3,1,0
+335,Empresa PJ 0335 Ltda,Comércio,Norte,Microempresa,13.9,1,153660.97,97113.74,0.632,0.002,1.16,491,0,0,1
+336,Empresa PJ 0336 Ltda,Agronegócio,Centro-Oeste,Pequena,3.1,3,764419.99,625295.55,0.818,-0.012,1.4,287,2,1,1
+337,Empresa PJ 0337 Ltda,Comércio,Sudeste,Média,8.3,157,48597072.84,16182825.26,0.333,0.131,2.19,907,0,0,0
+338,Empresa PJ 0338 Ltda,Construção Civil,Sul,Microempresa,6.1,1,155874.76,139196.16,0.893,0.117,0.96,426,0,1,1
+339,Empresa PJ 0339 Ltda,Comércio,Centro-Oeste,Pequena,5.6,5,1963562.9,288643.75,0.147,0.164,0.69,473,0,0,0
+340,Empresa PJ 0340 Ltda,Transporte e Logística,Sudeste,Microempresa,4.9,1,150552.09,92740.09,0.616,0.071,1.12,537,1,0,0
+341,Empresa PJ 0341 Ltda,Comércio,Sudeste,Microempresa,14.6,1,122818.96,59690.02,0.486,-0.01,2.71,749,0,0,0
+342,Empresa PJ 0342 Ltda,Transporte e Logística,Nordeste,Microempresa,20.0,2,294686.98,4420.3,0.015,-0.075,0.69,529,1,0,0
+343,Empresa PJ 0343 Ltda,Tecnologia,Sul,Pequena,6.9,9,2408812.61,498624.21,0.207,0.291,1.56,670,1,0,0
+344,Empresa PJ 0344 Ltda,Agronegócio,Sul,Microempresa,10.6,1,167218.25,86117.4,0.515,0.127,1.96,782,0,0,0
+345,Empresa PJ 0345 Ltda,Tecnologia,Norte,Pequena,8.4,3,571020.12,388864.7,0.681,0.1,0.4,427,0,0,0
+346,Empresa PJ 0346 Ltda,Tecnologia,Sul,Microempresa,1.7,1,226174.3,267564.19,1.183,0.11,1.4,394,0,1,1
+347,Empresa PJ 0347 Ltda,Transporte e Logística,Sudeste,Média,6.7,152,25239390.95,18096643.31,0.717,-0.01,1.52,767,0,0,0
+348,Empresa PJ 0348 Ltda,Indústria,Sudeste,Pequena,1.4,7,2361839.69,921117.48,0.39,0.034,1.03,491,0,0,1
+349,Empresa PJ 0349 Ltda,Agronegócio,Sudeste,Microempresa,5.8,1,291068.19,30562.16,0.105,0.212,0.87,833,0,1,0
+350,Empresa PJ 0350 Ltda,Comércio,Sudeste,Microempresa,8.1,1,274307.53,17281.37,0.063,0.136,0.89,622,0,0,0
+351,Empresa PJ 0351 Ltda,Agronegócio,Nordeste,Microempresa,13.2,1,117929.39,58139.19,0.493,0.037,1.0,436,0,0,0
+352,Empresa PJ 0352 Ltda,Comércio,Centro-Oeste,Média,10.0,197,35533287.1,14213314.84,0.4,0.004,1.01,845,0,0,0
+353,Empresa PJ 0353 Ltda,Serviços,Sudeste,Microempresa,14.9,1,170257.68,62654.83,0.368,0.054,0.93,776,0,0,0
+354,Empresa PJ 0354 Ltda,Serviços,Sudeste,Pequena,4.3,11,2761981.99,1889195.68,0.684,0.068,0.99,570,0,0,0
+355,Empresa PJ 0355 Ltda,Serviços,Centro-Oeste,Microempresa,18.4,1,197765.53,133491.73,0.675,0.233,1.99,612,0,0,0
+356,Empresa PJ 0356 Ltda,Serviços,Sudeste,Pequena,20.0,18,3392130.56,176390.79,0.052,0.077,0.67,751,0,0,0
+357,Empresa PJ 0357 Ltda,Construção Civil,Sul,Pequena,1.3,9,2264452.46,1089201.63,0.481,0.007,0.53,482,0,0,0
+358,Empresa PJ 0358 Ltda,Tecnologia,Sul,Pequena,2.1,7,1064296.57,650285.21,0.611,0.086,2.0,602,0,0,0
+359,Empresa PJ 0359 Ltda,Serviços,Nordeste,Média,8.0,201,37148757.0,5312272.25,0.143,0.109,1.07,648,0,0,0
+360,Empresa PJ 0360 Ltda,Agronegócio,Sudeste,Microempresa,5.5,1,258286.27,7748.59,0.03,0.0,0.98,471,0,0,0
+361,Empresa PJ 0361 Ltda,Transporte e Logística,Nordeste,Pequena,6.1,12,2139172.3,1478168.06,0.691,0.118,1.11,593,1,0,1
+362,Empresa PJ 0362 Ltda,Comércio,Sudeste,Microempresa,9.9,1,184586.36,130871.73,0.709,0.175,1.28,703,0,0,0
+363,Empresa PJ 0363 Ltda,Comércio,Sul,Pequena,15.3,11,2200631.89,631581.35,0.287,0.1,0.92,903,0,0,0
+364,Empresa PJ 0364 Ltda,Comércio,Sudeste,Média,4.1,343,72836380.91,14858621.71,0.204,0.034,1.46,747,0,0,0
+365,Empresa PJ 0365 Ltda,Agronegócio,Sul,Pequena,16.9,9,2628090.82,1374491.5,0.523,0.053,0.75,643,0,0,1
+366,Empresa PJ 0366 Ltda,Serviços,Sul,Pequena,4.8,19,3320241.06,1092359.31,0.329,-0.026,1.01,677,0,0,1
+367,Empresa PJ 0367 Ltda,Tecnologia,Sudeste,Microempresa,29.7,1,130071.22,51768.34,0.398,0.081,0.43,686,0,0,0
+368,Empresa PJ 0368 Ltda,Construção Civil,Sudeste,Microempresa,18.5,1,165617.67,10765.15,0.065,0.112,1.97,509,0,0,0
+369,Empresa PJ 0369 Ltda,Indústria,Sudeste,Microempresa,5.2,1,87031.37,10878.92,0.125,0.027,1.07,749,0,0,0
+370,Empresa PJ 0370 Ltda,Saúde,Sudeste,Pequena,2.7,15,2006303.44,864716.78,0.431,0.226,1.57,682,0,0,0
+371,Empresa PJ 0371 Ltda,Construção Civil,Sudeste,Pequena,5.1,12,2008467.01,753175.13,0.375,0.145,1.44,765,0,0,0
+372,Empresa PJ 0372 Ltda,Indústria,Norte,Microempresa,4.6,1,202801.4,149870.23,0.739,-0.035,1.49,374,0,0,0
+373,Empresa PJ 0373 Ltda,Serviços,Sudeste,Microempresa,12.1,1,221921.96,61916.23,0.279,-0.034,1.16,782,1,0,0
+374,Empresa PJ 0374 Ltda,Indústria,Nordeste,Microempresa,1.4,1,174629.76,16589.83,0.095,0.021,1.38,638,0,0,0
+375,Empresa PJ 0375 Ltda,Comércio,Norte,Microempresa,2.1,1,241108.85,83182.55,0.345,0.2,0.75,684,2,0,1
+376,Empresa PJ 0376 Ltda,Comércio,Sudeste,Microempresa,11.9,1,134744.77,72223.19,0.536,0.152,0.69,460,1,1,1
+377,Empresa PJ 0377 Ltda,Transporte e Logística,Nordeste,Média,4.4,49,18748959.22,6618382.61,0.353,0.204,1.11,673,0,0,0
+378,Empresa PJ 0378 Ltda,Serviços,Centro-Oeste,Pequena,5.8,6,1962852.14,2011923.45,1.025,0.091,0.86,362,2,0,1
+379,Empresa PJ 0379 Ltda,Serviços,Nordeste,Microempresa,13.8,1,220721.28,232198.78,1.052,0.075,2.21,549,0,1,0
+380,Empresa PJ 0380 Ltda,Construção Civil,Sudeste,Pequena,15.7,23,1767144.74,1479100.14,0.837,0.003,1.38,593,0,0,0
+381,Empresa PJ 0381 Ltda,Serviços,Sudeste,Pequena,17.9,25,2260632.56,1824330.47,0.807,0.114,0.84,671,0,0,1
+382,Empresa PJ 0382 Ltda,Transporte e Logística,Sudeste,Microempresa,13.1,1,157971.66,123059.92,0.779,0.076,1.03,512,1,0,1
+383,Empresa PJ 0383 Ltda,Tecnologia,Sul,Microempresa,7.1,1,147579.58,109061.31,0.739,0.074,1.23,213,2,0,1
+384,Empresa PJ 0384 Ltda,Serviços,Norte,Microempresa,6.7,1,143856.13,32367.63,0.225,0.203,1.13,560,1,0,0
+385,Empresa PJ 0385 Ltda,Serviços,Norte,Microempresa,6.1,1,216316.52,64678.64,0.299,0.081,1.31,611,0,0,0
+386,Empresa PJ 0386 Ltda,Transporte e Logística,Sudeste,Pequena,3.1,5,1153089.63,575391.73,0.499,0.183,1.2,577,0,0,0
+387,Empresa PJ 0387 Ltda,Construção Civil,Nordeste,Média,4.0,116,28858818.52,16766973.56,0.581,-0.021,0.62,477,0,1,0
+388,Empresa PJ 0388 Ltda,Transporte e Logística,Sudeste,Microempresa,16.5,1,187731.05,139671.9,0.744,0.278,0.44,454,2,1,1
+389,Empresa PJ 0389 Ltda,Comércio,Centro-Oeste,Pequena,4.8,13,2762969.27,1453321.84,0.526,0.064,0.98,442,1,1,0
+390,Empresa PJ 0390 Ltda,Saúde,Sudeste,Microempresa,3.1,1,178030.33,63200.77,0.355,0.14,1.5,476,0,0,0
+391,Empresa PJ 0391 Ltda,Agronegócio,Norte,Pequena,17.3,6,2296960.81,548973.63,0.239,0.151,0.99,677,0,0,0
+392,Empresa PJ 0392 Ltda,Comércio,Centro-Oeste,Pequena,9.5,12,2091735.92,949648.11,0.454,0.055,2.03,630,1,0,0
+393,Empresa PJ 0393 Ltda,Serviços,Sudeste,Microempresa,22.8,1,215843.62,63026.34,0.292,0.147,1.14,651,0,0,0
+394,Empresa PJ 0394 Ltda,Construção Civil,Sudeste,Microempresa,21.3,1,165217.41,41965.22,0.254,0.151,2.14,798,0,0,0
+395,Empresa PJ 0395 Ltda,Comércio,Centro-Oeste,Pequena,3.3,7,1101079.45,342435.71,0.311,0.04,1.95,737,1,1,0
+396,Empresa PJ 0396 Ltda,Serviços,Sudeste,Média,7.6,137,38531044.31,7359429.46,0.191,0.041,1.86,671,0,0,0
+397,Empresa PJ 0397 Ltda,Tecnologia,Sul,Microempresa,3.7,1,173819.38,55796.02,0.321,0.093,0.68,473,1,0,1
+398,Empresa PJ 0398 Ltda,Indústria,Centro-Oeste,Microempresa,3.7,1,263579.36,128890.31,0.489,0.082,1.17,404,1,0,0
+399,Empresa PJ 0399 Ltda,Serviços,Sul,Microempresa,6.0,1,125855.58,33729.29,0.268,0.188,2.01,502,1,1,1
+400,Empresa PJ 0400 Ltda,Serviços,Sudeste,Pequena,12.3,5,982885.97,904255.09,0.92,0.139,1.31,462,1,0,0
+401,Empresa PJ 0401 Ltda,Indústria,Sudeste,Pequena,12.4,15,2880379.44,1693663.11,0.588,0.085,1.49,625,0,0,0
+402,Empresa PJ 0402 Ltda,Saúde,Sudeste,Pequena,11.4,14,3485355.71,2202744.81,0.632,0.132,0.62,330,1,1,1
+403,Empresa PJ 0403 Ltda,Tecnologia,Norte,Pequena,7.1,13,2284020.92,1082625.92,0.474,-0.053,2.76,651,0,0,0
+404,Empresa PJ 0404 Ltda,Comércio,Sudeste,Média,12.8,248,49979638.46,7446966.13,0.149,0.047,0.81,830,0,0,0
+405,Empresa PJ 0405 Ltda,Transporte e Logística,Sudeste,Pequena,3.1,17,3805363.51,1678165.31,0.441,0.11,0.47,680,0,0,0
+406,Empresa PJ 0406 Ltda,Saúde,Sudeste,Microempresa,9.6,1,135050.58,105069.35,0.778,0.168,0.99,405,0,0,0
+407,Empresa PJ 0407 Ltda,Indústria,Norte,Pequena,8.3,19,2851372.92,584531.45,0.205,0.104,0.39,749,0,0,0
+408,Empresa PJ 0408 Ltda,Tecnologia,Sudeste,Microempresa,6.8,1,261034.79,35500.73,0.136,0.192,0.71,781,0,0,0
+409,Empresa PJ 0409 Ltda,Comércio,Centro-Oeste,Microempresa,9.9,1,233067.35,81340.51,0.349,0.151,3.67,640,1,0,0
+410,Empresa PJ 0410 Ltda,Transporte e Logística,Nordeste,Média,1.2,265,72029528.99,17863323.19,0.248,0.056,0.98,571,1,0,0
+411,Empresa PJ 0411 Ltda,Agronegócio,Centro-Oeste,Pequena,3.8,5,1112766.22,598668.22,0.538,0.08,0.61,475,1,0,1
+412,Empresa PJ 0412 Ltda,Agronegócio,Norte,Média,11.7,202,41232344.96,14926108.88,0.362,0.119,1.18,672,0,0,0
+413,Empresa PJ 0413 Ltda,Comércio,Centro-Oeste,Microempresa,8.2,1,156889.21,113587.79,0.724,0.059,0.78,503,0,0,1
+414,Empresa PJ 0414 Ltda,Saúde,Norte,Pequena,2.3,13,2068000.16,130284.01,0.063,0.197,1.71,900,0,0,0
+415,Empresa PJ 0415 Ltda,Comércio,Sudeste,Pequena,8.0,7,1572922.53,1322827.85,0.841,0.012,0.78,513,0,0,0
+416,Empresa PJ 0416 Ltda,Indústria,Nordeste,Microempresa,5.5,1,146173.53,47067.88,0.322,0.112,1.31,401,0,0,0
+417,Empresa PJ 0417 Ltda,Comércio,Sul,Microempresa,16.7,1,146223.19,59805.28,0.409,0.141,0.69,660,0,0,0
+418,Empresa PJ 0418 Ltda,Tecnologia,Sul,Pequena,3.3,42,2300378.68,1088079.11,0.473,0.068,3.74,795,0,0,0
+419,Empresa PJ 0419 Ltda,Comércio,Centro-Oeste,Microempresa,3.4,1,238095.81,34523.89,0.145,0.052,1.46,692,0,0,0
+420,Empresa PJ 0420 Ltda,Saúde,Norte,Média,10.7,86,35302326.65,17792372.63,0.504,0.085,1.09,654,0,0,0
+421,Empresa PJ 0421 Ltda,Agronegócio,Nordeste,Microempresa,7.3,1,161491.31,65403.98,0.405,0.147,1.02,533,2,0,1
+422,Empresa PJ 0422 Ltda,Comércio,Sul,Microempresa,7.0,1,135323.38,69014.92,0.51,0.055,0.91,618,0,0,0
+423,Empresa PJ 0423 Ltda,Comércio,Sul,Pequena,29.8,19,1966998.88,517320.7,0.263,0.015,0.82,701,0,0,0
+424,Empresa PJ 0424 Ltda,Comércio,Sudeste,Microempresa,12.6,1,235345.54,50363.95,0.214,0.171,0.81,844,0,0,0
+425,Empresa PJ 0425 Ltda,Agronegócio,Sudeste,Média,6.4,171,18464188.76,1643312.8,0.089,0.118,2.47,868,0,0,0
+426,Empresa PJ 0426 Ltda,Tecnologia,Sudeste,Pequena,2.0,20,2634638.86,930027.52,0.353,0.161,0.91,587,0,1,0
+427,Empresa PJ 0427 Ltda,Indústria,Sudeste,Microempresa,6.1,1,120672.69,8929.78,0.074,0.143,0.45,403,0,1,1
+428,Empresa PJ 0428 Ltda,Tecnologia,Sudeste,Pequena,3.0,13,2647423.85,3706393.39,1.4,0.243,0.69,347,1,0,0
+429,Empresa PJ 0429 Ltda,Comércio,Nordeste,Pequena,4.0,8,1346846.7,1049193.58,0.779,0.168,1.76,496,0,0,0
+430,Empresa PJ 0430 Ltda,Tecnologia,Sudeste,Pequena,4.1,15,1922517.6,538304.93,0.28,0.039,1.04,583,1,1,0
+431,Empresa PJ 0431 Ltda,Transporte e Logística,Norte,Pequena,15.9,14,2196155.01,553431.06,0.252,0.123,1.09,613,0,0,0
+432,Empresa PJ 0432 Ltda,Tecnologia,Sul,Pequena,2.5,10,2278451.19,1095935.02,0.481,0.051,1.97,710,0,0,0
+433,Empresa PJ 0433 Ltda,Construção Civil,Sudeste,Pequena,14.9,15,2938503.77,605331.78,0.206,0.058,0.82,466,1,1,0
+434,Empresa PJ 0434 Ltda,Tecnologia,Sudeste,Microempresa,11.0,2,165752.08,162105.53,0.978,-0.009,1.54,435,0,1,0
+435,Empresa PJ 0435 Ltda,Comércio,Sudeste,Pequena,10.9,7,1084338.03,423976.17,0.391,0.07,0.86,455,1,0,0
+436,Empresa PJ 0436 Ltda,Comércio,Norte,Média,3.9,367,46643843.5,19403838.89,0.416,0.128,1.51,616,0,0,0
+437,Empresa PJ 0437 Ltda,Comércio,Sudeste,Pequena,13.6,8,1231810.15,452074.33,0.367,0.085,0.97,639,0,1,0
+438,Empresa PJ 0438 Ltda,Serviços,Sul,Pequena,3.5,8,1227810.15,413772.02,0.337,0.013,1.04,346,1,1,1
+439,Empresa PJ 0439 Ltda,Construção Civil,Norte,Microempresa,20.2,1,251942.42,101280.85,0.402,-0.017,1.68,633,0,0,0
+440,Empresa PJ 0440 Ltda,Agronegócio,Norte,Pequena,16.1,23,2897424.52,747535.53,0.258,0.238,1.63,642,0,1,0
+441,Empresa PJ 0441 Ltda,Saúde,Sudeste,Média,22.4,250,33823059.26,15626253.38,0.462,0.113,1.08,748,0,0,0
+442,Empresa PJ 0442 Ltda,Comércio,Sudeste,Microempresa,8.3,1,204149.69,206395.33,1.011,0.032,0.94,373,3,0,1
+443,Empresa PJ 0443 Ltda,Construção Civil,Sudeste,Microempresa,7.3,1,313472.54,143570.42,0.458,0.122,2.39,693,0,1,0
+444,Empresa PJ 0444 Ltda,Comércio,Sudeste,Pequena,6.0,17,2661125.95,1830854.65,0.688,0.243,1.51,579,0,0,0
+445,Empresa PJ 0445 Ltda,Indústria,Sudeste,Pequena,29.4,7,1281217.61,190901.42,0.149,0.133,0.97,767,0,0,0
+446,Empresa PJ 0446 Ltda,Construção Civil,Sul,Pequena,12.3,9,1900209.98,1102121.79,0.58,-0.105,0.87,521,0,0,1
+447,Empresa PJ 0447 Ltda,Transporte e Logística,Centro-Oeste,Microempresa,3.0,3,170465.36,89664.78,0.526,0.276,1.84,875,2,0,1
+448,Empresa PJ 0448 Ltda,Agronegócio,Sul,Microempresa,18.7,1,170038.53,139261.55,0.819,-0.039,1.22,328,3,0,0
+449,Empresa PJ 0449 Ltda,Comércio,Sul,Pequena,7.1,6,770771.61,365345.74,0.474,0.076,1.08,421,0,1,0
+450,Empresa PJ 0450 Ltda,Agronegócio,Sudeste,Pequena,0.6,3,877219.9,211410.0,0.241,0.011,1.22,595,0,0,0
+451,Empresa PJ 0451 Ltda,Comércio,Nordeste,Pequena,4.6,7,1144150.56,430200.61,0.376,0.038,1.35,715,0,0,0
+452,Empresa PJ 0452 Ltda,Saúde,Sul,Pequena,16.1,44,2827185.76,1815053.26,0.642,0.11,1.13,580,0,0,0
+453,Empresa PJ 0453 Ltda,Construção Civil,Centro-Oeste,Pequena,11.1,9,2508728.13,1394852.84,0.556,-0.055,2.0,549,0,0,0
+454,Empresa PJ 0454 Ltda,Comércio,Norte,Pequena,12.6,5,1283362.87,1054924.28,0.822,0.084,2.05,655,0,0,0
+455,Empresa PJ 0455 Ltda,Comércio,Sudeste,Pequena,18.6,8,1419177.68,245517.74,0.173,0.17,1.48,781,0,0,0
+456,Empresa PJ 0456 Ltda,Comércio,Sudeste,Pequena,1.7,4,1020987.14,234827.04,0.23,0.031,2.16,449,0,0,0
+457,Empresa PJ 0457 Ltda,Transporte e Logística,Sudeste,Pequena,4.6,10,1211649.15,133281.41,0.11,-0.007,1.17,759,0,0,0
+458,Empresa PJ 0458 Ltda,Serviços,Sudeste,Microempresa,8.5,1,157859.53,57303.01,0.363,0.08,1.59,574,0,0,0
+459,Empresa PJ 0459 Ltda,Tecnologia,Norte,Microempresa,16.4,2,211484.61,22205.88,0.105,0.066,1.83,623,0,0,0
+460,Empresa PJ 0460 Ltda,Agronegócio,Sudeste,Pequena,3.5,5,1449413.4,404386.34,0.279,0.048,1.84,507,0,0,0
+461,Empresa PJ 0461 Ltda,Serviços,Nordeste,Média,6.4,69,25611237.46,11576279.33,0.452,0.007,1.75,548,1,1,0
+462,Empresa PJ 0462 Ltda,Comércio,Sul,Pequena,8.1,11,2143787.93,540234.56,0.252,0.126,1.54,763,0,0,0
+463,Empresa PJ 0463 Ltda,Transporte e Logística,Sudeste,Microempresa,4.4,1,185659.27,17080.65,0.092,0.132,2.8,826,0,0,0
+464,Empresa PJ 0464 Ltda,Indústria,Sudeste,Pequena,8.0,19,1817601.77,576179.76,0.317,0.015,0.91,745,0,0,0
+465,Empresa PJ 0465 Ltda,Serviços,Nordeste,Microempresa,7.3,1,207898.87,97920.37,0.471,0.025,1.08,439,1,1,0
+466,Empresa PJ 0466 Ltda,Construção Civil,Nordeste,Pequena,5.4,2,592519.89,138057.13,0.233,0.1,1.05,506,0,0,0
+467,Empresa PJ 0467 Ltda,Agronegócio,Sudeste,Pequena,13.6,7,1072619.36,382925.11,0.357,0.022,0.98,563,0,0,0
+468,Empresa PJ 0468 Ltda,Transporte e Logística,Sudeste,Pequena,12.0,11,2599502.37,553694.0,0.213,0.103,0.47,656,0,0,0
+469,Empresa PJ 0469 Ltda,Comércio,Nordeste,Pequena,14.0,6,2044761.37,1457914.86,0.713,0.193,2.16,726,0,0,0
+470,Empresa PJ 0470 Ltda,Serviços,Sudeste,Microempresa,14.8,2,135278.05,65204.02,0.482,0.086,0.73,737,0,0,1
+471,Empresa PJ 0471 Ltda,Serviços,Norte,Microempresa,21.7,1,219511.67,230487.25,1.05,0.005,1.25,457,3,0,0
+472,Empresa PJ 0472 Ltda,Serviços,Sudeste,Média,2.2,168,32644430.97,23210190.42,0.711,0.117,0.61,543,0,0,0
+473,Empresa PJ 0473 Ltda,Comércio,Sudeste,Pequena,2.4,8,1554637.69,370003.77,0.238,0.078,1.54,610,0,0,0
+474,Empresa PJ 0474 Ltda,Comércio,Sul,Pequena,12.8,17,2275408.03,466458.65,0.205,0.079,0.82,565,0,0,0
+475,Empresa PJ 0475 Ltda,Indústria,Sul,Microempresa,5.8,1,219990.25,243089.23,1.105,0.123,0.7,442,2,0,1
+476,Empresa PJ 0476 Ltda,Indústria,Sul,Microempresa,5.2,1,187770.03,77361.25,0.412,0.138,1.27,572,0,0,0
+477,Empresa PJ 0477 Ltda,Serviços,Sudeste,Microempresa,4.6,1,146485.7,75293.65,0.514,0.092,0.85,603,0,0,0
+478,Empresa PJ 0478 Ltda,Agronegócio,Norte,Microempresa,14.3,1,264700.63,205142.99,0.775,0.086,0.9,393,0,0,0
+479,Empresa PJ 0479 Ltda,Agronegócio,Sul,Microempresa,28.2,2,230857.24,202230.94,0.876,0.234,1.26,401,2,0,1
+480,Empresa PJ 0480 Ltda,Serviços,Sul,Média,14.7,92,26518262.99,8830581.57,0.333,0.174,1.67,838,0,0,0
+481,Empresa PJ 0481 Ltda,Serviços,Sudeste,Pequena,5.6,18,1438874.89,424468.09,0.295,0.148,0.8,460,0,0,1
+482,Empresa PJ 0482 Ltda,Comércio,Sudeste,Microempresa,13.8,1,205944.18,131804.27,0.64,0.099,0.74,437,0,0,0
+483,Empresa PJ 0483 Ltda,Serviços,Sul,Microempresa,2.4,1,114510.33,10191.42,0.089,0.02,1.17,583,0,1,0
+484,Empresa PJ 0484 Ltda,Indústria,Sudeste,Microempresa,6.9,1,191220.45,80121.37,0.419,0.169,1.48,632,0,0,0
+485,Empresa PJ 0485 Ltda,Comércio,Nordeste,Pequena,1.7,9,2692255.78,1117286.15,0.415,0.1,2.24,730,0,0,0
+486,Empresa PJ 0486 Ltda,Serviços,Sudeste,Microempresa,5.8,1,204223.18,135399.97,0.663,0.05,0.72,349,0,0,0
+487,Empresa PJ 0487 Ltda,Serviços,Norte,Pequena,9.1,8,2164930.44,803189.19,0.371,0.073,1.01,567,0,0,0
+488,Empresa PJ 0488 Ltda,Indústria,Sul,Pequena,31.5,7,1509546.97,754773.49,0.5,0.022,1.97,747,0,0,0
+489,Empresa PJ 0489 Ltda,Serviços,Centro-Oeste,Microempresa,17.3,1,147512.22,68593.18,0.465,0.164,2.82,646,0,0,0
+490,Empresa PJ 0490 Ltda,Serviços,Sul,Pequena,1.7,28,3750524.52,858870.12,0.229,0.138,0.74,742,0,0,0
+491,Empresa PJ 0491 Ltda,Construção Civil,Sudeste,Média,1.9,103,25464224.26,7257303.92,0.285,0.103,0.83,643,0,0,0
+492,Empresa PJ 0492 Ltda,Agronegócio,Nordeste,Microempresa,4.5,1,148766.16,76763.34,0.516,0.087,1.38,447,0,0,1
+493,Empresa PJ 0493 Ltda,Agronegócio,Nordeste,Microempresa,24.2,1,231006.41,223614.2,0.968,0.042,0.9,552,1,0,0
+494,Empresa PJ 0494 Ltda,Indústria,Nordeste,Média,1.8,248,30018419.34,11196870.41,0.373,-0.059,0.83,663,1,0,0
+495,Empresa PJ 0495 Ltda,Tecnologia,Sudeste,Média,4.7,209,34464005.21,10339201.56,0.3,-0.009,1.3,739,0,0,1
+496,Empresa PJ 0496 Ltda,Serviços,Nordeste,Pequena,4.6,10,1806910.48,991993.85,0.549,0.038,2.33,700,0,0,0
+497,Empresa PJ 0497 Ltda,Serviços,Centro-Oeste,Pequena,10.7,9,2876944.41,690466.66,0.24,0.027,0.64,606,1,0,0
+498,Empresa PJ 0498 Ltda,Agronegócio,Nordeste,Microempresa,14.1,1,182947.04,93851.83,0.513,0.11,2.28,509,0,1,0
+499,Empresa PJ 0499 Ltda,Serviços,Sudeste,Pequena,12.1,9,2759964.06,1241983.83,0.45,0.147,0.9,749,0,0,0
+500,Empresa PJ 0500 Ltda,Serviços,Nordeste,Pequena,9.7,10,1060176.56,735762.53,0.694,0.081,1.36,382,3,1,1
+501,Empresa PJ 0501 Ltda,Construção Civil,Nordeste,Microempresa,2.3,1,137981.54,34495.39,0.25,0.189,2.38,632,0,0,0
+502,Empresa PJ 0502 Ltda,Saúde,Norte,Pequena,8.7,6,1417124.55,521501.83,0.368,0.035,1.35,669,0,0,0
+503,Empresa PJ 0503 Ltda,Transporte e Logística,Sudeste,Média,19.0,131,29562233.46,25187022.91,0.852,0.081,1.02,620,0,0,0
+504,Empresa PJ 0504 Ltda,Serviços,Sudeste,Pequena,23.1,13,3303551.12,3026052.83,0.916,0.086,1.61,506,0,0,0
+505,Empresa PJ 0505 Ltda,Serviços,Nordeste,Microempresa,10.5,1,169592.3,34596.83,0.204,0.166,1.07,648,0,0,0
+506,Empresa PJ 0506 Ltda,Tecnologia,Sul,Microempresa,1.8,1,114629.05,61097.28,0.533,0.097,1.47,530,0,0,1
+507,Empresa PJ 0507 Ltda,Indústria,Nordeste,Média,10.6,323,65140051.47,74520218.88,1.144,0.099,1.06,694,0,0,0
+508,Empresa PJ 0508 Ltda,Tecnologia,Sul,Média,7.2,562,43986775.5,39280190.52,0.893,-0.026,1.71,549,1,0,0
+509,Empresa PJ 0509 Ltda,Serviços,Sudeste,Pequena,2.0,14,1539276.38,888162.47,0.577,0.027,0.62,421,1,0,0
+510,Empresa PJ 0510 Ltda,Comércio,Nordeste,Pequena,3.3,20,2110279.46,877876.25,0.416,0.167,0.74,557,0,0,0
+511,Empresa PJ 0511 Ltda,Comércio,Sudeste,Pequena,3.9,10,1348476.24,614905.17,0.456,-0.055,0.62,478,0,1,0
+512,Empresa PJ 0512 Ltda,Tecnologia,Sudeste,Microempresa,12.9,1,179134.23,10389.79,0.058,0.184,1.13,794,0,0,0
+513,Empresa PJ 0513 Ltda,Comércio,Sul,Microempresa,22.5,2,315565.02,59010.66,0.187,0.125,0.58,688,0,0,0
+514,Empresa PJ 0514 Ltda,Indústria,Nordeste,Microempresa,11.6,1,189231.52,133408.22,0.705,0.038,0.85,450,1,1,1
+515,Empresa PJ 0515 Ltda,Indústria,Centro-Oeste,Microempresa,13.1,2,208319.07,61245.81,0.294,0.032,0.71,542,0,0,0
+516,Empresa PJ 0516 Ltda,Comércio,Sudeste,Pequena,7.6,16,2383235.83,807916.95,0.339,0.223,2.26,792,0,0,0
+517,Empresa PJ 0517 Ltda,Indústria,Sudeste,Microempresa,5.2,1,177448.49,43474.88,0.245,0.189,0.74,544,0,0,0
+518,Empresa PJ 0518 Ltda,Construção Civil,Norte,Microempresa,11.8,1,128766.91,19315.04,0.15,0.082,0.65,566,0,0,0
+519,Empresa PJ 0519 Ltda,Comércio,Sudeste,Pequena,9.8,15,1361532.3,231460.49,0.17,0.099,1.3,646,0,0,0
+520,Empresa PJ 0520 Ltda,Tecnologia,Sudeste,Microempresa,4.2,1,174837.37,80425.19,0.46,0.045,2.48,581,0,0,0
+521,Empresa PJ 0521 Ltda,Saúde,Sudeste,Microempresa,9.3,2,170598.7,90417.31,0.53,0.099,1.1,642,0,0,0
+522,Empresa PJ 0522 Ltda,Serviços,Sul,Pequena,8.0,14,2771314.81,396298.02,0.143,0.043,1.14,600,0,1,0
+523,Empresa PJ 0523 Ltda,Comércio,Centro-Oeste,Microempresa,6.3,1,254642.39,74100.93,0.291,0.085,2.08,638,0,0,0
+524,Empresa PJ 0524 Ltda,Agronegócio,Nordeste,Pequena,5.0,9,2241782.78,647875.22,0.289,0.217,1.72,876,0,0,0
+525,Empresa PJ 0525 Ltda,Comércio,Nordeste,Média,10.5,56,19396641.19,4403037.55,0.227,0.083,1.41,771,0,0,0
+526,Empresa PJ 0526 Ltda,Serviços,Sudeste,Microempresa,5.3,1,149002.18,54981.81,0.369,0.017,0.89,464,1,0,0
+527,Empresa PJ 0527 Ltda,Transporte e Logística,Sudeste,Média,28.2,89,24133248.85,16338209.47,0.677,-0.006,1.43,735,0,0,1
+528,Empresa PJ 0528 Ltda,Transporte e Logística,Sul,Média,11.3,151,25468109.11,12810458.88,0.503,0.099,0.63,776,0,0,0
+529,Empresa PJ 0529 Ltda,Tecnologia,Sudeste,Pequena,10.6,21,2390274.55,822254.45,0.344,0.037,0.88,427,0,0,0
+530,Empresa PJ 0530 Ltda,Indústria,Sudeste,Pequena,7.0,12,2881877.75,1273789.96,0.442,0.107,2.21,846,0,0,0
+531,Empresa PJ 0531 Ltda,Construção Civil,Sudeste,Pequena,5.9,11,2109107.8,1609249.25,0.763,-0.023,2.09,502,0,0,0
+532,Empresa PJ 0532 Ltda,Construção Civil,Sudeste,Pequena,1.4,5,1630476.73,756541.2,0.464,0.138,1.41,699,0,0,1
+533,Empresa PJ 0533 Ltda,Serviços,Sul,Pequena,4.4,4,925269.48,505197.13,0.546,0.016,0.49,550,0,0,0
+534,Empresa PJ 0534 Ltda,Agronegócio,Nordeste,Microempresa,1.7,4,238258.63,66474.16,0.279,0.093,0.67,546,0,0,1
+535,Empresa PJ 0535 Ltda,Comércio,Sudeste,Média,1.7,856,112823799.37,15682508.11,0.139,0.066,0.86,879,0,0,0
+536,Empresa PJ 0536 Ltda,Comércio,Sul,Pequena,2.9,14,2752249.35,110089.97,0.04,0.21,1.08,719,0,0,0
+537,Empresa PJ 0537 Ltda,Serviços,Nordeste,Pequena,17.7,13,2933135.79,815411.75,0.278,0.102,0.66,661,0,0,0
+538,Empresa PJ 0538 Ltda,Comércio,Nordeste,Microempresa,17.6,1,143423.24,64253.61,0.448,0.226,1.04,576,0,1,1
+539,Empresa PJ 0539 Ltda,Comércio,Nordeste,Microempresa,4.5,1,208741.68,87880.25,0.421,0.129,2.57,453,0,0,0
+540,Empresa PJ 0540 Ltda,Tecnologia,Sudeste,Pequena,2.2,17,3608092.24,375241.59,0.104,0.19,1.39,936,0,0,0
+541,Empresa PJ 0541 Ltda,Transporte e Logística,Nordeste,Pequena,5.7,17,2473029.83,472348.7,0.191,0.075,1.28,695,0,0,0
+542,Empresa PJ 0542 Ltda,Serviços,Sudeste,Microempresa,12.8,1,118653.58,68225.81,0.575,0.114,0.73,475,0,0,1
+543,Empresa PJ 0543 Ltda,Tecnologia,Sudeste,Microempresa,15.4,1,211032.93,82091.81,0.389,0.175,0.56,531,0,0,1
+544,Empresa PJ 0544 Ltda,Transporte e Logística,Sudeste,Microempresa,9.2,1,146659.01,81395.75,0.555,0.153,0.67,230,1,1,0
+545,Empresa PJ 0545 Ltda,Comércio,Sul,Pequena,10.4,4,1111303.8,1249105.47,1.124,0.127,0.55,204,0,0,1
+546,Empresa PJ 0546 Ltda,Serviços,Sudeste,Microempresa,9.7,1,105005.62,43577.33,0.415,0.067,1.2,561,1,1,1
+547,Empresa PJ 0547 Ltda,Serviços,Sudeste,Média,1.8,196,35487510.57,10894665.75,0.307,0.079,1.38,434,0,0,0
+548,Empresa PJ 0548 Ltda,Comércio,Nordeste,Microempresa,2.4,1,136242.04,54360.58,0.399,0.17,0.75,593,0,1,0
+549,Empresa PJ 0549 Ltda,Construção Civil,Sudeste,Microempresa,23.1,1,199631.68,84044.94,0.421,0.184,1.24,590,0,0,0
+550,Empresa PJ 0550 Ltda,Serviços,Sudeste,Microempresa,9.2,1,189589.48,97828.17,0.516,0.048,2.25,504,0,0,0
+551,Empresa PJ 0551 Ltda,Serviços,Sudeste,Pequena,1.0,24,3295931.7,1357923.86,0.412,0.038,2.8,798,0,0,0
+552,Empresa PJ 0552 Ltda,Comércio,Sudeste,Pequena,10.8,8,1547922.39,1544826.55,0.998,0.027,1.64,459,1,1,0
+553,Empresa PJ 0553 Ltda,Comércio,Sudeste,Pequena,3.7,17,1489479.18,519828.23,0.349,0.148,1.07,829,0,0,0
+554,Empresa PJ 0554 Ltda,Saúde,Sudeste,Média,16.2,382,44781301.64,52080653.81,1.163,0.025,1.62,587,1,0,0
+555,Empresa PJ 0555 Ltda,Comércio,Sudeste,Microempresa,15.1,1,106054.19,45603.3,0.43,0.147,2.13,666,1,0,0
+556,Empresa PJ 0556 Ltda,Indústria,Nordeste,Pequena,12.3,6,2362380.62,463026.6,0.196,0.128,0.47,539,0,0,1
+557,Empresa PJ 0557 Ltda,Indústria,Norte,Microempresa,9.1,1,202347.79,38850.78,0.192,0.052,2.26,480,1,0,1
+558,Empresa PJ 0558 Ltda,Serviços,Sul,Microempresa,18.8,1,171110.21,92399.51,0.54,0.199,0.91,789,0,0,0
+559,Empresa PJ 0559 Ltda,Serviços,Nordeste,Pequena,20.1,16,1347962.39,345078.37,0.256,-0.012,0.91,533,2,1,1
+560,Empresa PJ 0560 Ltda,Serviços,Centro-Oeste,Microempresa,3.8,1,138487.99,99157.4,0.716,0.206,0.99,429,1,0,0
+561,Empresa PJ 0561 Ltda,Comércio,Norte,Pequena,12.2,20,2427087.59,466000.82,0.192,0.112,1.34,629,0,0,0
+562,Empresa PJ 0562 Ltda,Indústria,Sul,Pequena,5.1,8,1606835.23,184786.05,0.115,-0.055,0.7,690,0,0,0
+563,Empresa PJ 0563 Ltda,Tecnologia,Centro-Oeste,Pequena,3.3,16,3027865.66,429956.92,0.142,0.201,1.02,820,0,0,0
+564,Empresa PJ 0564 Ltda,Agronegócio,Centro-Oeste,Pequena,20.0,14,2539641.53,1958063.62,0.771,0.158,1.47,525,1,0,1
+565,Empresa PJ 0565 Ltda,Agronegócio,Nordeste,Pequena,13.6,9,998975.44,130865.78,0.131,0.06,1.28,688,0,0,0
+566,Empresa PJ 0566 Ltda,Construção Civil,Sul,Microempresa,9.7,1,147378.77,96827.86,0.657,0.022,1.38,435,3,1,1
+567,Empresa PJ 0567 Ltda,Construção Civil,Sudeste,Microempresa,4.1,1,193268.48,110356.3,0.571,-0.02,1.0,379,0,1,1
+568,Empresa PJ 0568 Ltda,Comércio,Sudeste,Microempresa,20.4,2,170611.72,134953.87,0.791,0.259,1.59,912,0,0,0
+569,Empresa PJ 0569 Ltda,Serviços,Sul,Pequena,3.7,13,2710386.39,2073445.59,0.765,0.025,1.87,502,0,1,0
+570,Empresa PJ 0570 Ltda,Serviços,Sul,Média,3.0,56,12138429.59,3398760.29,0.28,0.002,1.82,646,1,0,0
+571,Empresa PJ 0571 Ltda,Indústria,Sudeste,Microempresa,8.0,1,141922.79,74935.24,0.528,0.109,1.41,532,0,1,1
+572,Empresa PJ 0572 Ltda,Tecnologia,Sul,Pequena,12.8,12,1690725.01,1002599.93,0.593,-0.025,1.77,617,0,0,0
+573,Empresa PJ 0573 Ltda,Serviços,Sul,Pequena,6.2,22,3806637.8,3041503.61,0.799,0.021,1.72,269,2,1,1
+574,Empresa PJ 0574 Ltda,Construção Civil,Centro-Oeste,Pequena,40.0,10,1653130.62,114066.01,0.069,0.16,3.87,1000,0,0,0
+575,Empresa PJ 0575 Ltda,Saúde,Sudeste,Pequena,9.0,12,2434017.43,423519.03,0.174,0.122,2.01,828,0,0,0
+576,Empresa PJ 0576 Ltda,Serviços,Sudeste,Pequena,5.1,8,1809156.01,481235.5,0.266,0.063,1.12,463,2,0,1
+577,Empresa PJ 0577 Ltda,Saúde,Nordeste,Pequena,5.5,7,1496326.06,573092.88,0.383,0.091,0.77,469,0,0,0
+578,Empresa PJ 0578 Ltda,Serviços,Centro-Oeste,Média,24.8,233,34809570.53,31989995.32,0.919,0.059,1.03,680,1,0,0
+579,Empresa PJ 0579 Ltda,Saúde,Norte,Microempresa,7.5,1,154796.73,87150.56,0.563,0.086,1.0,559,1,0,0
+580,Empresa PJ 0580 Ltda,Indústria,Centro-Oeste,Média,19.6,411,81188271.08,28821836.23,0.355,0.037,1.46,906,0,0,0
+581,Empresa PJ 0581 Ltda,Serviços,Centro-Oeste,Microempresa,1.6,1,135830.07,70359.98,0.518,0.049,0.85,403,0,1,1
+582,Empresa PJ 0582 Ltda,Serviços,Sudeste,Pequena,16.4,10,1775440.84,1010225.84,0.569,0.047,1.99,561,0,0,0
+583,Empresa PJ 0583 Ltda,Comércio,Sudeste,Microempresa,4.3,1,150410.98,67985.76,0.452,0.039,0.62,489,1,1,0
+584,Empresa PJ 0584 Ltda,Serviços,Sudeste,Microempresa,13.8,1,110687.97,74050.25,0.669,0.163,0.56,718,0,0,0
+585,Empresa PJ 0585 Ltda,Saúde,Sul,Microempresa,4.3,1,105560.67,30401.47,0.288,0.144,1.09,576,1,0,0
+586,Empresa PJ 0586 Ltda,Agronegócio,Norte,Microempresa,5.8,1,140683.95,97212.61,0.691,0.025,0.8,461,3,1,1
+587,Empresa PJ 0587 Ltda,Comércio,Sudeste,Microempresa,3.3,1,215121.13,23663.32,0.11,0.006,0.66,623,1,0,0
+588,Empresa PJ 0588 Ltda,Indústria,Sul,Microempresa,14.0,1,174683.72,51357.01,0.294,0.079,0.87,443,0,0,1
+589,Empresa PJ 0589 Ltda,Comércio,Sudeste,Pequena,15.4,7,2871136.71,2971626.5,1.035,0.241,0.82,413,2,0,0
+590,Empresa PJ 0590 Ltda,Comércio,Sudeste,Microempresa,4.4,1,203420.61,146056.0,0.718,0.018,1.17,250,0,1,1
+591,Empresa PJ 0591 Ltda,Transporte e Logística,Sudeste,Pequena,2.1,18,1697100.33,1277916.55,0.753,0.079,0.88,430,1,0,1
+592,Empresa PJ 0592 Ltda,Serviços,Sudeste,Média,19.4,158,29753838.94,17257226.58,0.58,0.096,0.91,741,0,1,0
+593,Empresa PJ 0593 Ltda,Indústria,Norte,Pequena,4.8,9,1259641.46,833882.65,0.662,0.082,1.16,531,1,0,1
+594,Empresa PJ 0594 Ltda,Agronegócio,Sudeste,Microempresa,7.2,2,174188.47,137608.9,0.79,0.058,1.83,465,0,1,1
+595,Empresa PJ 0595 Ltda,Comércio,Centro-Oeste,Microempresa,3.8,1,195617.65,78442.68,0.401,0.171,2.25,645,0,0,0
+596,Empresa PJ 0596 Ltda,Indústria,Nordeste,Média,13.1,311,75946400.42,20277688.91,0.267,0.122,1.24,610,0,0,0
+597,Empresa PJ 0597 Ltda,Construção Civil,Sudeste,Microempresa,13.3,1,140192.71,35048.18,0.25,0.149,1.29,815,0,0,0
+598,Empresa PJ 0598 Ltda,Agronegócio,Sudeste,Microempresa,21.5,1,139669.11,91064.26,0.652,0.131,1.07,582,0,0,0
+599,Empresa PJ 0599 Ltda,Transporte e Logística,Nordeste,Média,16.7,112,25875310.07,3053286.59,0.118,0.153,1.44,730,0,0,0
+600,Empresa PJ 0600 Ltda,Agronegócio,Sudeste,Média,16.0,193,43376519.42,25548769.94,0.589,0.201,1.38,846,0,0,1
+601,Empresa PJ 0601 Ltda,Serviços,Centro-Oeste,Microempresa,7.7,1,171330.85,141861.94,0.828,0.183,2.11,630,2,0,0
+602,Empresa PJ 0602 Ltda,Construção Civil,Sudeste,Pequena,7.0,21,2560028.17,619526.82,0.242,0.253,0.5,713,1,0,0
+603,Empresa PJ 0603 Ltda,Saúde,Nordeste,Pequena,12.9,4,1450727.51,381541.33,0.263,0.175,1.05,662,0,0,1
+604,Empresa PJ 0604 Ltda,Construção Civil,Nordeste,Pequena,7.4,11,2799396.65,1578859.71,0.564,0.043,1.35,575,2,0,0
+605,Empresa PJ 0605 Ltda,Transporte e Logística,Sudeste,Microempresa,17.1,1,236985.08,36969.67,0.156,0.149,1.15,746,1,0,0
+606,Empresa PJ 0606 Ltda,Tecnologia,Sudeste,Microempresa,3.6,1,129807.5,60620.1,0.467,0.14,0.76,599,0,0,0
+607,Empresa PJ 0607 Ltda,Saúde,Norte,Pequena,1.6,21,2410423.18,1383582.9,0.574,0.224,0.65,735,0,0,0
+608,Empresa PJ 0608 Ltda,Comércio,Sudeste,Microempresa,11.9,2,149424.56,57976.73,0.388,0.022,1.67,692,0,0,0
+609,Empresa PJ 0609 Ltda,Construção Civil,Sudeste,Pequena,5.3,10,2213149.71,1361087.07,0.615,0.129,0.83,590,0,1,0
+610,Empresa PJ 0610 Ltda,Serviços,Sudeste,Microempresa,3.1,1,150188.67,117898.11,0.785,0.042,0.53,241,1,0,1
+611,Empresa PJ 0611 Ltda,Serviços,Sudeste,Média,30.3,346,49222559.09,9795289.26,0.199,0.126,1.71,972,0,0,0
+612,Empresa PJ 0612 Ltda,Agronegócio,Nordeste,Pequena,8.2,11,2622700.46,1675905.6,0.639,0.075,1.43,474,0,0,1
+613,Empresa PJ 0613 Ltda,Transporte e Logística,Nordeste,Pequena,2.5,17,3291392.59,1105907.91,0.336,0.124,1.1,847,0,0,0
+614,Empresa PJ 0614 Ltda,Transporte e Logística,Sudeste,Pequena,4.8,11,2241750.25,1129842.13,0.504,-0.009,0.77,438,0,0,0
+615,Empresa PJ 0615 Ltda,Indústria,Centro-Oeste,Microempresa,6.5,1,295655.03,59131.01,0.2,0.146,1.1,535,1,1,1
+616,Empresa PJ 0616 Ltda,Construção Civil,Sudeste,Pequena,11.8,9,1556831.57,772188.46,0.496,0.104,2.01,690,0,0,0
+617,Empresa PJ 0617 Ltda,Construção Civil,Sudeste,Microempresa,4.9,1,183320.36,56829.31,0.31,0.101,0.56,398,2,0,1
+618,Empresa PJ 0618 Ltda,Indústria,Sul,Média,7.3,278,30133029.67,14795317.57,0.491,0.227,0.57,676,0,1,0
+619,Empresa PJ 0619 Ltda,Comércio,Norte,Pequena,9.9,17,3026911.38,1119957.21,0.37,0.063,0.88,660,0,1,0
+620,Empresa PJ 0620 Ltda,Comércio,Sudeste,Média,11.2,146,43496188.4,21139147.56,0.486,0.114,1.15,666,0,0,0
+621,Empresa PJ 0621 Ltda,Tecnologia,Sudeste,Média,7.7,329,65679205.89,48602612.36,0.74,0.097,0.93,684,0,1,0
+622,Empresa PJ 0622 Ltda,Serviços,Sul,Média,24.5,173,71777239.48,52899825.5,0.737,0.104,1.55,479,1,0,1
+623,Empresa PJ 0623 Ltda,Transporte e Logística,Nordeste,Microempresa,13.2,1,177722.5,115341.9,0.649,0.246,1.9,638,0,0,0
+624,Empresa PJ 0624 Ltda,Serviços,Sudeste,Média,12.7,585,81710305.46,33909776.77,0.415,0.094,1.32,710,0,0,0
+625,Empresa PJ 0625 Ltda,Transporte e Logística,Sudeste,Pequena,12.3,13,2538717.71,992638.63,0.391,0.05,1.5,614,0,0,0
+626,Empresa PJ 0626 Ltda,Serviços,Nordeste,Microempresa,17.2,1,149390.03,12399.37,0.083,0.221,1.31,797,0,0,0
+627,Empresa PJ 0627 Ltda,Tecnologia,Sudeste,Pequena,9.4,6,2311053.81,771891.97,0.334,0.068,1.17,849,0,0,0
+628,Empresa PJ 0628 Ltda,Comércio,Sudeste,Microempresa,3.5,1,83713.94,58599.76,0.7,-0.022,0.65,219,2,1,1
+629,Empresa PJ 0629 Ltda,Serviços,Sudeste,Microempresa,10.9,1,230294.93,195290.1,0.848,0.038,0.73,162,3,0,1
+630,Empresa PJ 0630 Ltda,Tecnologia,Sudeste,Microempresa,11.8,1,115832.58,80966.97,0.699,0.003,0.63,685,0,0,0
+631,Empresa PJ 0631 Ltda,Transporte e Logística,Sul,Microempresa,19.0,1,163297.75,19105.84,0.117,-0.036,1.09,601,0,0,1
+632,Empresa PJ 0632 Ltda,Tecnologia,Centro-Oeste,Pequena,3.2,6,836829.33,135566.35,0.162,0.065,1.29,712,0,0,0
+633,Empresa PJ 0633 Ltda,Comércio,Nordeste,Média,3.9,399,38764075.95,11978099.47,0.309,0.085,0.61,764,0,0,0
+634,Empresa PJ 0634 Ltda,Serviços,Nordeste,Pequena,8.4,12,2563475.47,2642943.2,1.031,0.173,1.2,539,1,0,1
+635,Empresa PJ 0635 Ltda,Comércio,Norte,Pequena,12.6,17,1820699.42,200276.94,0.11,0.134,0.78,840,0,0,0
+636,Empresa PJ 0636 Ltda,Comércio,Sudeste,Microempresa,2.7,1,115469.26,67549.52,0.585,0.131,0.72,557,0,0,1
+637,Empresa PJ 0637 Ltda,Construção Civil,Sudeste,Pequena,3.3,2,575815.73,229750.48,0.399,0.027,0.88,454,1,1,0
+638,Empresa PJ 0638 Ltda,Construção Civil,Centro-Oeste,Microempresa,14.7,2,232290.3,107085.83,0.461,0.152,0.7,572,0,0,1
+639,Empresa PJ 0639 Ltda,Tecnologia,Sudeste,Pequena,2.8,1,459989.69,245634.49,0.534,0.187,1.53,510,2,1,1
+640,Empresa PJ 0640 Ltda,Saúde,Nordeste,Microempresa,4.0,1,210728.95,34348.82,0.163,0.118,1.08,594,0,0,0
+641,Empresa PJ 0641 Ltda,Construção Civil,Nordeste,Pequena,15.3,8,1421164.69,345343.02,0.243,0.12,1.68,628,0,0,0
+642,Empresa PJ 0642 Ltda,Tecnologia,Sudeste,Pequena,12.5,5,593161.77,307257.8,0.518,0.001,0.95,576,0,0,0
+643,Empresa PJ 0643 Ltda,Comércio,Sul,Pequena,4.9,11,2036232.34,828746.56,0.407,0.164,0.97,582,0,1,1
+644,Empresa PJ 0644 Ltda,Indústria,Sudeste,Média,11.5,362,63656273.82,41567546.81,0.653,0.215,2.7,744,0,0,1
+645,Empresa PJ 0645 Ltda,Agronegócio,Sudeste,Microempresa,10.0,1,105875.12,36103.42,0.341,0.113,0.56,423,0,0,0
+646,Empresa PJ 0646 Ltda,Saúde,Sul,Média,7.4,132,30910660.16,30787017.52,0.996,0.048,2.07,737,0,0,0
+647,Empresa PJ 0647 Ltda,Comércio,Sudeste,Pequena,6.0,4,844737.16,340429.08,0.403,0.079,2.45,713,0,0,0
+648,Empresa PJ 0648 Ltda,Serviços,Nordeste,Pequena,11.2,11,1620386.21,1087279.14,0.671,0.061,1.64,536,0,1,1
+649,Empresa PJ 0649 Ltda,Construção Civil,Centro-Oeste,Pequena,3.0,9,1653747.65,339018.27,0.205,0.065,1.0,684,0,0,0
+650,Empresa PJ 0650 Ltda,Comércio,Nordeste,Pequena,11.1,5,1156450.43,313398.07,0.271,0.135,2.21,760,0,0,0
+651,Empresa PJ 0651 Ltda,Serviços,Sudeste,Média,9.4,459,85484747.18,53086028.0,0.621,0.11,1.01,795,0,0,0
+652,Empresa PJ 0652 Ltda,Saúde,Sudeste,Microempresa,9.9,1,132591.53,51047.74,0.385,0.16,0.85,584,0,0,1
+653,Empresa PJ 0653 Ltda,Construção Civil,Sudeste,Pequena,3.8,7,1606296.09,754959.16,0.47,0.116,0.98,657,0,0,0
+654,Empresa PJ 0654 Ltda,Indústria,Sudeste,Pequena,19.3,7,1566787.3,2007054.54,1.281,0.03,0.9,480,1,0,1
+655,Empresa PJ 0655 Ltda,Saúde,Norte,Pequena,4.9,8,2802132.58,1490734.53,0.532,0.055,0.76,664,0,1,1
+656,Empresa PJ 0656 Ltda,Indústria,Sudeste,Média,5.6,143,26213082.77,9960971.45,0.38,0.051,1.91,903,0,0,0
+657,Empresa PJ 0657 Ltda,Saúde,Sudeste,Microempresa,7.2,1,179979.58,126525.65,0.703,0.077,0.82,406,1,1,0
+658,Empresa PJ 0658 Ltda,Indústria,Centro-Oeste,Pequena,12.4,27,3428637.29,1909750.97,0.557,0.216,1.15,718,0,0,0
+659,Empresa PJ 0659 Ltda,Agronegócio,Sudeste,Microempresa,9.6,1,87977.73,54370.24,0.618,0.227,0.61,624,0,0,0
+660,Empresa PJ 0660 Ltda,Serviços,Sudeste,Microempresa,2.0,1,91563.02,31314.55,0.342,0.149,1.18,601,0,1,0
+661,Empresa PJ 0661 Ltda,Indústria,Sudeste,Pequena,8.1,22,3010793.93,927324.53,0.308,0.098,0.69,734,0,0,0
+662,Empresa PJ 0662 Ltda,Saúde,Nordeste,Microempresa,8.6,1,153019.7,21728.8,0.142,-0.005,0.68,357,1,0,0
+663,Empresa PJ 0663 Ltda,Comércio,Nordeste,Microempresa,19.6,2,220181.4,57687.53,0.262,0.105,1.11,569,0,0,0
+664,Empresa PJ 0664 Ltda,Comércio,Sudeste,Microempresa,6.5,2,153647.22,74672.55,0.486,0.035,1.87,608,0,1,0
+665,Empresa PJ 0665 Ltda,Indústria,Centro-Oeste,Pequena,11.7,5,1043109.05,717659.03,0.688,0.204,1.42,548,0,0,0
+666,Empresa PJ 0666 Ltda,Construção Civil,Centro-Oeste,Pequena,39.2,9,2786755.24,2354808.18,0.845,-0.022,1.46,482,1,0,0
+667,Empresa PJ 0667 Ltda,Tecnologia,Centro-Oeste,Média,17.4,435,60015516.93,1980512.06,0.033,0.117,1.1,897,0,0,0
+668,Empresa PJ 0668 Ltda,Transporte e Logística,Sudeste,Microempresa,3.7,2,235615.72,20498.57,0.087,0.029,1.0,648,0,0,0
+669,Empresa PJ 0669 Ltda,Indústria,Sudeste,Pequena,13.6,31,3000793.27,282074.57,0.094,0.089,1.66,768,1,0,0
+670,Empresa PJ 0670 Ltda,Serviços,Centro-Oeste,Pequena,11.1,6,668428.78,482605.58,0.722,0.137,0.9,675,2,0,0
+671,Empresa PJ 0671 Ltda,Comércio,Sudeste,Pequena,6.3,18,1523120.09,891025.25,0.585,0.162,1.69,682,0,0,0
+672,Empresa PJ 0672 Ltda,Serviços,Sul,Microempresa,13.7,1,179332.59,73526.36,0.41,0.086,2.03,751,0,0,0
+673,Empresa PJ 0673 Ltda,Transporte e Logística,Nordeste,Microempresa,3.6,1,156290.83,47356.12,0.303,0.143,0.8,623,0,0,0
+674,Empresa PJ 0674 Ltda,Construção Civil,Sudeste,Pequena,5.0,8,2621349.79,1300189.5,0.496,0.044,0.85,448,1,1,0
+675,Empresa PJ 0675 Ltda,Agronegócio,Nordeste,Pequena,7.3,9,1416402.89,406507.63,0.287,0.107,0.91,513,1,0,0
+676,Empresa PJ 0676 Ltda,Serviços,Norte,Pequena,6.1,13,2851702.07,373572.97,0.131,0.16,0.6,481,0,0,0
+677,Empresa PJ 0677 Ltda,Saúde,Nordeste,Pequena,12.7,14,2307687.58,2286918.39,0.991,0.113,0.94,447,0,0,1
+678,Empresa PJ 0678 Ltda,Serviços,Sudeste,Pequena,8.0,14,2472441.03,1055732.32,0.427,0.053,2.09,684,0,0,1
+679,Empresa PJ 0679 Ltda,Comércio,Centro-Oeste,Pequena,5.6,23,3405053.64,708251.16,0.208,0.07,0.73,722,0,0,0
+680,Empresa PJ 0680 Ltda,Serviços,Sul,Microempresa,17.3,1,225999.99,75936.0,0.336,0.161,2.11,965,0,0,0
+681,Empresa PJ 0681 Ltda,Comércio,Nordeste,Pequena,12.4,23,2860523.29,1887945.37,0.66,0.014,0.96,549,1,1,1
+682,Empresa PJ 0682 Ltda,Comércio,Nordeste,Média,2.4,66,35297370.28,21284314.28,0.603,0.024,3.01,800,0,0,0
+683,Empresa PJ 0683 Ltda,Comércio,Nordeste,Microempresa,2.4,1,124071.33,28536.41,0.23,0.132,0.85,736,0,0,0
+684,Empresa PJ 0684 Ltda,Serviços,Sudeste,Pequena,5.7,9,1008442.33,283372.29,0.281,0.059,1.09,537,0,0,0
+685,Empresa PJ 0685 Ltda,Agronegócio,Sudeste,Microempresa,2.7,2,209938.46,177398.0,0.845,-0.012,0.77,289,2,1,0
+686,Empresa PJ 0686 Ltda,Indústria,Sudeste,Pequena,15.5,10,1340704.71,682418.7,0.509,0.185,0.85,784,1,0,0
+687,Empresa PJ 0687 Ltda,Serviços,Sul,Microempresa,5.2,3,236655.72,136787.0,0.578,0.013,2.12,455,0,1,0
+688,Empresa PJ 0688 Ltda,Transporte e Logística,Sul,Pequena,11.7,13,2225310.69,585256.71,0.263,0.076,1.44,675,1,0,0
+689,Empresa PJ 0689 Ltda,Construção Civil,Sul,Microempresa,13.5,1,153899.69,16313.37,0.106,0.047,1.85,666,0,0,0
+690,Empresa PJ 0690 Ltda,Serviços,Sudeste,Pequena,1.4,9,1262050.68,442979.79,0.351,0.069,0.64,370,1,1,1
+691,Empresa PJ 0691 Ltda,Indústria,Nordeste,Média,5.4,164,29507050.17,13573243.08,0.46,0.028,1.56,511,1,0,1
+692,Empresa PJ 0692 Ltda,Saúde,Centro-Oeste,Microempresa,7.0,1,101900.63,61344.18,0.602,0.14,0.75,518,3,1,1
+693,Empresa PJ 0693 Ltda,Indústria,Sudeste,Média,10.0,92,20317327.59,7862805.78,0.387,0.098,0.64,758,0,0,0
+694,Empresa PJ 0694 Ltda,Indústria,Nordeste,Média,14.9,237,66668191.8,3200073.21,0.048,0.159,1.29,823,0,0,0
+695,Empresa PJ 0695 Ltda,Saúde,Nordeste,Média,31.2,142,20709402.48,11079530.33,0.535,0.047,1.29,870,0,0,0
+696,Empresa PJ 0696 Ltda,Serviços,Sul,Microempresa,23.0,1,86083.24,44074.62,0.512,0.239,1.19,555,1,0,0
+697,Empresa PJ 0697 Ltda,Construção Civil,Sudeste,Pequena,7.9,11,2270795.23,397389.17,0.175,-0.043,1.6,758,0,0,0
+698,Empresa PJ 0698 Ltda,Agronegócio,Nordeste,Microempresa,7.8,1,139516.67,68781.72,0.493,-0.021,1.72,469,1,1,0
+699,Empresa PJ 0699 Ltda,Agronegócio,Norte,Microempresa,21.4,1,150724.95,160220.62,1.063,0.213,2.25,457,2,0,0
+700,Empresa PJ 0700 Ltda,Indústria,Nordeste,Média,8.2,519,68384768.17,55870355.59,0.817,0.123,0.68,806,0,0,0
+701,Empresa PJ 0701 Ltda,Indústria,Centro-Oeste,Pequena,5.3,8,2259061.63,1992492.36,0.882,0.114,2.28,707,0,0,0
+702,Empresa PJ 0702 Ltda,Indústria,Norte,Pequena,15.7,3,997608.12,241421.16,0.242,0.12,2.71,833,0,0,1
+703,Empresa PJ 0703 Ltda,Comércio,Sudeste,Microempresa,10.3,1,168294.55,100471.85,0.597,0.13,0.99,671,1,0,0
+704,Empresa PJ 0704 Ltda,Saúde,Nordeste,Pequena,2.3,7,2059701.07,131820.87,0.064,0.111,0.55,743,0,0,0
+705,Empresa PJ 0705 Ltda,Indústria,Sul,Pequena,6.5,9,1309442.16,470089.74,0.359,0.022,0.62,526,0,0,0
+706,Empresa PJ 0706 Ltda,Serviços,Norte,Pequena,2.8,17,1564889.27,657253.5,0.42,0.147,0.94,689,0,0,0
+707,Empresa PJ 0707 Ltda,Tecnologia,Sudeste,Média,0.6,700,65899051.42,34267506.74,0.52,0.136,2.88,906,0,0,0
+708,Empresa PJ 0708 Ltda,Tecnologia,Sudeste,Microempresa,25.0,1,175155.88,111399.14,0.636,0.19,1.17,767,1,0,0
+709,Empresa PJ 0709 Ltda,Serviços,Centro-Oeste,Microempresa,9.0,1,153899.58,82951.87,0.539,0.213,0.88,611,0,1,0
+710,Empresa PJ 0710 Ltda,Serviços,Sudeste,Pequena,6.7,29,2139028.5,543313.24,0.254,0.113,0.85,705,0,1,0
+711,Empresa PJ 0711 Ltda,Transporte e Logística,Nordeste,Média,5.6,104,47805978.58,16158420.76,0.338,0.004,0.64,512,0,0,0
+712,Empresa PJ 0712 Ltda,Construção Civil,Sudeste,Microempresa,8.3,1,133409.02,50962.24,0.382,0.214,1.72,606,1,0,0
+713,Empresa PJ 0713 Ltda,Tecnologia,Norte,Microempresa,5.6,1,119678.36,53974.94,0.451,0.019,1.11,418,3,1,1
+714,Empresa PJ 0714 Ltda,Saúde,Centro-Oeste,Microempresa,3.7,1,110030.32,138638.2,1.26,0.114,2.99,428,2,0,0
+715,Empresa PJ 0715 Ltda,Tecnologia,Sudeste,Média,5.8,785,86030614.44,64178838.37,0.746,0.072,1.54,773,0,0,0
+716,Empresa PJ 0716 Ltda,Comércio,Nordeste,Microempresa,20.1,1,189485.64,50403.18,0.266,0.06,1.69,575,0,0,1
+717,Empresa PJ 0717 Ltda,Serviços,Sudeste,Pequena,15.4,17,2926279.6,1761620.32,0.602,0.144,1.04,603,0,1,1
+718,Empresa PJ 0718 Ltda,Comércio,Sul,Média,5.8,348,69907435.59,4474075.88,0.064,0.107,0.71,783,1,0,0
+719,Empresa PJ 0719 Ltda,Agronegócio,Nordeste,Microempresa,26.6,1,226253.45,83713.78,0.37,0.126,0.78,594,1,0,0
+720,Empresa PJ 0720 Ltda,Transporte e Logística,Nordeste,Pequena,7.8,5,1043652.47,219167.02,0.21,0.033,0.63,445,1,1,0
+721,Empresa PJ 0721 Ltda,Serviços,Sudeste,Pequena,4.4,17,2753016.51,1178291.06,0.428,0.078,1.75,497,1,1,0
+722,Empresa PJ 0722 Ltda,Serviços,Sudeste,Pequena,10.6,9,2260511.78,1082785.14,0.479,0.036,0.98,561,1,0,0
+723,Empresa PJ 0723 Ltda,Comércio,Nordeste,Microempresa,22.2,1,122836.81,66823.23,0.544,0.076,1.78,482,0,0,0
+724,Empresa PJ 0724 Ltda,Transporte e Logística,Sul,Microempresa,19.5,2,212691.3,122084.81,0.574,0.082,1.24,640,0,1,0
+725,Empresa PJ 0725 Ltda,Comércio,Sul,Microempresa,4.6,1,149077.66,6112.18,0.041,0.219,1.02,712,0,0,0
+726,Empresa PJ 0726 Ltda,Comércio,Sudeste,Pequena,3.1,7,2089097.82,223533.47,0.107,0.072,0.69,735,0,0,0
+727,Empresa PJ 0727 Ltda,Indústria,Sudeste,Pequena,6.2,5,1616679.4,528654.16,0.327,-0.059,1.33,537,0,1,1
+728,Empresa PJ 0728 Ltda,Comércio,Centro-Oeste,Microempresa,11.9,1,209823.72,96728.73,0.461,0.188,1.05,558,0,1,0
+729,Empresa PJ 0729 Ltda,Serviços,Sudeste,Microempresa,14.1,4,233036.22,78300.17,0.336,0.121,1.74,712,0,0,0
+730,Empresa PJ 0730 Ltda,Serviços,Sudeste,Média,17.7,129,13982617.39,5774820.98,0.413,0.081,0.84,865,0,0,0
+731,Empresa PJ 0731 Ltda,Indústria,Norte,Microempresa,9.3,1,177678.73,59877.73,0.337,0.059,1.53,764,0,0,0
+732,Empresa PJ 0732 Ltda,Comércio,Sudeste,Microempresa,9.6,1,115668.02,48002.23,0.415,0.024,2.43,546,0,1,1
+733,Empresa PJ 0733 Ltda,Comércio,Nordeste,Pequena,9.1,16,2193133.92,813652.68,0.371,0.226,1.31,604,0,0,0
+734,Empresa PJ 0734 Ltda,Serviços,Sudeste,Microempresa,16.3,1,111953.69,2574.93,0.023,0.094,1.65,718,1,0,1
+735,Empresa PJ 0735 Ltda,Comércio,Centro-Oeste,Microempresa,14.2,2,169602.34,148741.25,0.877,-0.032,1.5,519,2,0,0
+736,Empresa PJ 0736 Ltda,Construção Civil,Nordeste,Pequena,4.5,6,1101382.44,278649.76,0.253,0.113,2.73,766,0,0,0
+737,Empresa PJ 0737 Ltda,Comércio,Centro-Oeste,Microempresa,13.1,1,125011.42,31877.91,0.255,0.174,1.37,716,0,0,0
+738,Empresa PJ 0738 Ltda,Indústria,Sudeste,Pequena,15.6,9,1572294.74,1363179.54,0.867,0.101,1.59,560,2,1,0
+739,Empresa PJ 0739 Ltda,Serviços,Sul,Pequena,16.4,24,2693554.97,465985.01,0.173,0.027,1.14,804,0,0,0
+740,Empresa PJ 0740 Ltda,Serviços,Nordeste,Pequena,10.3,9,2259253.72,372776.86,0.165,0.021,0.82,774,1,0,0
+741,Empresa PJ 0741 Ltda,Comércio,Sudeste,Microempresa,9.9,1,231177.9,126916.67,0.549,0.026,0.67,451,0,1,1
+742,Empresa PJ 0742 Ltda,Comércio,Sudeste,Pequena,8.1,15,2390326.36,602362.24,0.252,0.197,2.05,1000,0,0,0
+743,Empresa PJ 0743 Ltda,Saúde,Sudeste,Microempresa,8.7,1,145859.03,61406.65,0.421,0.085,0.74,456,0,0,1
+744,Empresa PJ 0744 Ltda,Comércio,Norte,Pequena,24.1,20,4146600.22,1604734.28,0.387,-0.028,1.63,761,0,0,0
+745,Empresa PJ 0745 Ltda,Serviços,Nordeste,Microempresa,8.9,2,187395.97,131739.36,0.703,0.117,1.4,662,1,0,1
+746,Empresa PJ 0746 Ltda,Serviços,Nordeste,Pequena,4.8,11,1521170.23,228175.53,0.15,0.1,1.76,699,0,0,0
+747,Empresa PJ 0747 Ltda,Indústria,Nordeste,Microempresa,10.4,2,190097.44,121472.27,0.639,0.059,0.92,310,2,1,0
+748,Empresa PJ 0748 Ltda,Serviços,Sul,Microempresa,13.9,2,266960.48,128407.99,0.481,0.019,0.81,523,3,0,1
+749,Empresa PJ 0749 Ltda,Tecnologia,Sul,Pequena,16.0,36,2449850.17,629611.49,0.257,0.016,1.38,650,0,0,0
+750,Empresa PJ 0750 Ltda,Tecnologia,Sudeste,Microempresa,3.7,1,141541.65,2972.37,0.021,0.166,1.02,660,1,0,0
+751,Empresa PJ 0751 Ltda,Indústria,Nordeste,Microempresa,21.0,1,177274.0,27300.2,0.154,0.107,0.67,593,0,0,1
+752,Empresa PJ 0752 Ltda,Indústria,Sudeste,Pequena,13.6,5,1161799.38,55766.37,0.048,0.124,2.78,749,1,0,0
+753,Empresa PJ 0753 Ltda,Indústria,Centro-Oeste,Pequena,20.2,28,3432913.13,2145570.71,0.625,0.107,0.81,581,1,1,0
+754,Empresa PJ 0754 Ltda,Serviços,Nordeste,Microempresa,2.6,1,190789.85,96158.08,0.504,0.113,0.74,470,0,1,1
+755,Empresa PJ 0755 Ltda,Construção Civil,Sudeste,Média,16.8,559,50625960.43,51132220.04,1.01,0.057,1.04,809,0,0,0
+756,Empresa PJ 0756 Ltda,Indústria,Sul,Pequena,3.5,8,1748675.5,741438.41,0.424,0.076,2.04,526,1,0,1
+757,Empresa PJ 0757 Ltda,Indústria,Sudeste,Média,6.8,641,65751972.36,10454563.61,0.159,0.172,0.44,648,0,0,0
+758,Empresa PJ 0758 Ltda,Transporte e Logística,Norte,Pequena,13.8,14,1944494.62,950857.87,0.489,0.189,1.97,705,0,0,0
+759,Empresa PJ 0759 Ltda,Comércio,Centro-Oeste,Pequena,3.2,4,725816.74,335327.33,0.462,0.004,0.77,661,0,0,0
+760,Empresa PJ 0760 Ltda,Serviços,Centro-Oeste,Pequena,5.5,14,2038829.12,1143783.14,0.561,0.075,1.31,426,0,0,0
+761,Empresa PJ 0761 Ltda,Construção Civil,Sudeste,Pequena,2.6,6,1011128.72,405462.61,0.401,0.149,0.86,597,0,0,0
+762,Empresa PJ 0762 Ltda,Comércio,Sudeste,Média,13.6,234,36551282.01,24854871.77,0.68,0.222,2.85,778,0,0,0
+763,Empresa PJ 0763 Ltda,Comércio,Sudeste,Microempresa,4.4,1,155840.65,44726.27,0.287,0.215,1.23,689,0,0,0
+764,Empresa PJ 0764 Ltda,Comércio,Sudeste,Microempresa,8.5,1,152485.75,75022.99,0.492,0.034,0.84,315,0,1,1
+765,Empresa PJ 0765 Ltda,Saúde,Sudeste,Microempresa,11.1,1,129855.36,38437.19,0.296,0.179,1.01,836,0,0,0
+766,Empresa PJ 0766 Ltda,Comércio,Sudeste,Média,10.4,120,42495778.51,15808429.61,0.372,0.094,1.21,683,0,0,0
+767,Empresa PJ 0767 Ltda,Comércio,Norte,Microempresa,9.7,2,204058.61,62033.82,0.304,0.163,1.26,851,0,0,0
+768,Empresa PJ 0768 Ltda,Comércio,Sudeste,Pequena,9.7,12,3645129.98,1742372.13,0.478,0.145,1.42,644,2,0,0
+769,Empresa PJ 0769 Ltda,Comércio,Sudeste,Pequena,2.7,9,1749996.9,922248.37,0.527,0.002,1.16,496,0,0,0
+770,Empresa PJ 0770 Ltda,Agronegócio,Nordeste,Média,7.1,391,54303373.59,30518495.96,0.562,0.128,0.63,654,1,0,1
+771,Empresa PJ 0771 Ltda,Indústria,Sul,Microempresa,9.7,2,203783.73,52576.2,0.258,0.16,1.0,612,0,0,0
+772,Empresa PJ 0772 Ltda,Serviços,Nordeste,Pequena,8.9,3,1199029.86,502393.51,0.419,0.089,1.53,444,1,0,0
+773,Empresa PJ 0773 Ltda,Agronegócio,Nordeste,Média,7.7,225,42025793.72,13658382.96,0.325,0.073,0.86,778,1,1,0
+774,Empresa PJ 0774 Ltda,Tecnologia,Centro-Oeste,Microempresa,4.9,1,198540.28,38516.81,0.194,-0.02,1.57,618,0,0,0
+775,Empresa PJ 0775 Ltda,Comércio,Nordeste,Pequena,10.2,11,1896882.46,462839.32,0.244,0.138,1.18,760,0,0,0
+776,Empresa PJ 0776 Ltda,Saúde,Sul,Microempresa,11.5,3,274606.51,143893.81,0.524,0.105,1.05,641,1,0,1
+777,Empresa PJ 0777 Ltda,Agronegócio,Nordeste,Pequena,6.1,6,1412022.56,1188923.0,0.842,0.025,1.99,405,0,0,0
+778,Empresa PJ 0778 Ltda,Comércio,Sudeste,Pequena,16.0,1,476396.93,93373.8,0.196,0.067,0.53,531,0,0,0
+779,Empresa PJ 0779 Ltda,Tecnologia,Sudeste,Microempresa,21.3,1,194209.57,66225.46,0.341,0.101,0.86,711,1,0,0
+780,Empresa PJ 0780 Ltda,Saúde,Sul,Microempresa,8.6,1,125132.44,100105.95,0.8,0.051,2.02,486,2,0,0
+781,Empresa PJ 0781 Ltda,Indústria,Sudeste,Microempresa,4.6,1,163830.54,27195.87,0.166,0.09,2.65,819,0,0,0
+782,Empresa PJ 0782 Ltda,Saúde,Nordeste,Microempresa,3.2,1,113178.95,29766.07,0.263,-0.032,3.25,552,1,0,0
+783,Empresa PJ 0783 Ltda,Serviços,Sudeste,Pequena,6.7,17,1894494.87,956719.91,0.505,0.184,1.19,569,0,0,0
+784,Empresa PJ 0784 Ltda,Agronegócio,Sudeste,Microempresa,8.2,1,144697.32,71769.87,0.496,0.091,1.43,738,0,1,0
+785,Empresa PJ 0785 Ltda,Transporte e Logística,Sudeste,Microempresa,3.1,4,263191.07,284772.73,1.082,0.013,1.68,313,3,0,0
+786,Empresa PJ 0786 Ltda,Serviços,Centro-Oeste,Pequena,6.6,4,1089829.07,427213.0,0.392,-0.082,2.06,465,0,0,0
+787,Empresa PJ 0787 Ltda,Tecnologia,Sudeste,Pequena,15.5,11,1920732.46,827835.69,0.431,0.162,1.34,588,1,1,0
+788,Empresa PJ 0788 Ltda,Indústria,Nordeste,Pequena,1.2,11,3213432.67,1378562.61,0.429,0.129,1.76,675,2,0,0
+789,Empresa PJ 0789 Ltda,Tecnologia,Centro-Oeste,Média,9.0,182,32151582.37,14982637.38,0.466,0.105,1.43,642,1,0,0
+790,Empresa PJ 0790 Ltda,Agronegócio,Sudeste,Microempresa,5.5,1,203615.49,14049.47,0.069,0.15,1.47,598,0,0,0
+791,Empresa PJ 0791 Ltda,Comércio,Nordeste,Pequena,8.4,9,2921502.47,1387713.67,0.475,0.15,0.77,648,0,0,0
+792,Empresa PJ 0792 Ltda,Serviços,Sudeste,Microempresa,22.0,2,132623.02,53181.83,0.401,0.104,1.0,625,1,0,0
+793,Empresa PJ 0793 Ltda,Indústria,Sudeste,Pequena,8.1,14,3049985.38,2552837.76,0.837,0.072,0.92,608,1,1,1
+794,Empresa PJ 0794 Ltda,Comércio,Nordeste,Média,7.3,94,20643483.56,5615027.53,0.272,0.061,0.68,589,0,0,0
+795,Empresa PJ 0795 Ltda,Comércio,Centro-Oeste,Pequena,13.0,17,2054751.07,624644.32,0.304,0.119,0.55,640,1,0,0
+796,Empresa PJ 0796 Ltda,Indústria,Sudeste,Pequena,10.3,22,1899506.41,1177693.97,0.62,0.188,0.96,697,0,0,0
+797,Empresa PJ 0797 Ltda,Comércio,Sul,Pequena,9.0,8,907667.68,599968.34,0.661,0.083,1.03,525,1,1,0
+798,Empresa PJ 0798 Ltda,Comércio,Sudeste,Microempresa,10.6,1,283033.47,237182.05,0.838,0.193,1.22,469,2,0,1
+799,Empresa PJ 0799 Ltda,Construção Civil,Sul,Pequena,18.3,14,2323197.78,2692586.23,1.159,0.116,1.49,295,3,0,1
+800,Empresa PJ 0800 Ltda,Construção Civil,Sul,Pequena,14.8,8,3103857.0,1837483.34,0.592,0.117,1.26,760,0,0,0
+801,Empresa PJ 0801 Ltda,Construção Civil,Sul,Média,6.9,701,87924085.91,16617652.24,0.189,0.258,1.03,1000,0,0,0
+802,Empresa PJ 0802 Ltda,Indústria,Sul,Pequena,21.3,6,2147855.79,923577.99,0.43,0.206,0.77,651,0,0,0
+803,Empresa PJ 0803 Ltda,Saúde,Sudeste,Microempresa,5.8,1,114449.13,14077.24,0.123,0.208,1.72,822,0,0,0
+804,Empresa PJ 0804 Ltda,Agronegócio,Nordeste,Pequena,9.0,22,4019268.73,474273.71,0.118,0.034,1.11,607,0,0,0
+805,Empresa PJ 0805 Ltda,Comércio,Nordeste,Microempresa,9.7,1,174428.62,147566.61,0.846,0.243,0.96,462,0,0,1
+806,Empresa PJ 0806 Ltda,Comércio,Nordeste,Microempresa,6.7,1,235501.24,56520.3,0.24,0.084,1.07,500,0,0,1
+807,Empresa PJ 0807 Ltda,Construção Civil,Sudeste,Microempresa,19.8,2,231944.48,113884.74,0.491,0.074,0.84,371,1,1,1
+808,Empresa PJ 0808 Ltda,Comércio,Sudeste,Pequena,6.4,15,1984604.62,895056.69,0.451,-0.061,0.92,490,0,1,1
+809,Empresa PJ 0809 Ltda,Serviços,Sudeste,Microempresa,7.6,1,121497.85,68038.8,0.56,0.113,0.9,392,0,1,1
+810,Empresa PJ 0810 Ltda,Transporte e Logística,Sudeste,Microempresa,16.3,1,130033.8,46552.1,0.358,0.014,1.02,432,0,0,1
+811,Empresa PJ 0811 Ltda,Comércio,Sudeste,Microempresa,5.9,2,145829.15,54394.27,0.373,0.119,1.56,510,1,0,0
+812,Empresa PJ 0812 Ltda,Comércio,Sudeste,Média,2.9,160,39724457.85,32454882.07,0.817,0.009,1.4,505,0,0,1
+813,Empresa PJ 0813 Ltda,Transporte e Logística,Nordeste,Pequena,9.2,33,3000879.01,2583756.83,0.861,0.216,2.33,882,1,0,0
+814,Empresa PJ 0814 Ltda,Serviços,Sudeste,Microempresa,3.7,2,152318.79,70828.24,0.465,0.129,2.0,308,1,1,1
+815,Empresa PJ 0815 Ltda,Comércio,Nordeste,Microempresa,3.4,1,213518.18,55941.76,0.262,0.25,2.8,767,0,0,0
+816,Empresa PJ 0816 Ltda,Saúde,Sul,Pequena,1.2,13,1512957.43,759504.63,0.502,0.018,1.49,421,0,0,0
+817,Empresa PJ 0817 Ltda,Saúde,Nordeste,Microempresa,1.4,1,135517.68,21276.28,0.157,0.198,1.48,697,0,1,0
+818,Empresa PJ 0818 Ltda,Serviços,Sul,Pequena,1.5,8,1593687.72,830311.3,0.521,-0.036,0.93,361,2,1,1
+819,Empresa PJ 0819 Ltda,Agronegócio,Sul,Microempresa,23.0,1,157615.63,139489.83,0.885,0.105,1.68,700,0,0,0
+820,Empresa PJ 0820 Ltda,Indústria,Sul,Média,1.5,451,56124278.89,19475124.77,0.347,0.046,0.86,755,0,0,0
+821,Empresa PJ 0821 Ltda,Comércio,Centro-Oeste,Microempresa,3.7,1,135870.18,144022.39,1.06,0.059,0.6,247,4,1,1
+822,Empresa PJ 0822 Ltda,Agronegócio,Sul,Pequena,7.7,7,1418756.86,652628.16,0.46,0.054,2.31,657,0,0,0
+823,Empresa PJ 0823 Ltda,Indústria,Sul,Microempresa,12.7,1,192064.1,119079.74,0.62,0.026,0.66,397,1,1,0
+824,Empresa PJ 0824 Ltda,Agronegócio,Sul,Média,13.5,224,34108019.72,23057021.33,0.676,0.002,1.42,682,0,0,0
+825,Empresa PJ 0825 Ltda,Tecnologia,Nordeste,Média,4.6,171,65240252.87,27009464.69,0.414,0.059,0.78,630,0,1,0
+826,Empresa PJ 0826 Ltda,Comércio,Sudeste,Pequena,8.9,11,1254060.5,183092.83,0.146,0.098,1.93,621,0,0,0
+827,Empresa PJ 0827 Ltda,Agronegócio,Sul,Pequena,7.6,28,3175108.39,1136688.81,0.358,0.171,2.05,460,0,1,0
+828,Empresa PJ 0828 Ltda,Indústria,Sul,Microempresa,8.5,1,157152.22,79833.33,0.508,0.111,1.47,428,1,0,0
+829,Empresa PJ 0829 Ltda,Saúde,Centro-Oeste,Pequena,9.4,6,869329.21,748492.45,0.861,0.172,2.04,672,0,0,0
+830,Empresa PJ 0830 Ltda,Indústria,Sul,Pequena,11.1,6,1132229.88,357784.64,0.316,-0.013,1.17,733,0,0,0
+831,Empresa PJ 0831 Ltda,Agronegócio,Sul,Microempresa,5.4,1,158240.31,78645.43,0.497,0.06,3.18,469,0,0,1
+832,Empresa PJ 0832 Ltda,Serviços,Norte,Pequena,17.8,13,3714907.26,2875338.22,0.774,0.14,1.63,540,1,0,0
+833,Empresa PJ 0833 Ltda,Serviços,Sul,Pequena,6.5,21,2909925.64,1166880.18,0.401,0.114,0.77,609,0,1,0
+834,Empresa PJ 0834 Ltda,Construção Civil,Sudeste,Pequena,30.3,5,1580619.38,1523717.09,0.964,0.03,1.2,639,0,0,0
+835,Empresa PJ 0835 Ltda,Construção Civil,Sudeste,Pequena,5.7,6,2268462.14,723639.42,0.319,0.155,1.08,625,0,0,0
+836,Empresa PJ 0836 Ltda,Serviços,Sudeste,Pequena,9.0,9,1724255.02,210359.11,0.122,0.053,1.04,619,0,0,0
+837,Empresa PJ 0837 Ltda,Construção Civil,Sudeste,Pequena,7.6,14,2839037.75,1303118.33,0.459,0.036,0.55,525,0,0,0
+838,Empresa PJ 0838 Ltda,Transporte e Logística,Sudeste,Microempresa,8.8,2,256219.2,61236.39,0.239,0.124,1.38,815,0,0,0
+839,Empresa PJ 0839 Ltda,Serviços,Nordeste,Microempresa,16.5,1,102245.49,20858.08,0.204,0.09,0.62,644,1,0,0
+840,Empresa PJ 0840 Ltda,Serviços,Nordeste,Microempresa,7.3,1,125833.8,58386.88,0.464,0.053,0.37,534,0,0,0
+841,Empresa PJ 0841 Ltda,Comércio,Sudeste,Pequena,3.3,8,1327221.31,514961.87,0.388,0.051,1.0,409,1,1,0
+842,Empresa PJ 0842 Ltda,Tecnologia,Sul,Microempresa,5.3,1,186067.38,178996.82,0.962,0.015,0.83,341,1,0,1
+843,Empresa PJ 0843 Ltda,Serviços,Sudeste,Microempresa,7.3,1,131785.52,23194.25,0.176,0.062,0.79,629,0,0,0
+844,Empresa PJ 0844 Ltda,Serviços,Norte,Microempresa,9.6,1,156760.37,31979.11,0.204,0.167,0.29,392,1,0,1
+845,Empresa PJ 0845 Ltda,Comércio,Sudeste,Microempresa,4.6,1,198127.34,145029.21,0.732,0.107,0.79,458,5,1,0
+846,Empresa PJ 0846 Ltda,Saúde,Sul,Pequena,5.0,8,1164502.63,171181.89,0.147,0.157,1.07,601,1,0,0
+847,Empresa PJ 0847 Ltda,Serviços,Sudeste,Microempresa,9.8,2,215180.06,113830.25,0.529,0.126,0.87,410,1,0,1
+848,Empresa PJ 0848 Ltda,Construção Civil,Nordeste,Microempresa,10.0,1,161030.89,25764.94,0.16,0.047,1.38,567,0,0,1
+849,Empresa PJ 0849 Ltda,Comércio,Sudeste,Pequena,15.1,4,1604932.27,1136292.05,0.708,-0.025,2.17,548,0,0,0
+850,Empresa PJ 0850 Ltda,Transporte e Logística,Nordeste,Microempresa,5.3,1,199268.6,63965.22,0.321,0.025,1.47,481,0,0,0
+851,Empresa PJ 0851 Ltda,Comércio,Sudeste,Microempresa,11.9,1,140793.99,43927.73,0.312,0.043,1.84,384,0,1,1
+852,Empresa PJ 0852 Ltda,Comércio,Centro-Oeste,Microempresa,7.6,1,166764.39,55532.54,0.333,0.038,1.91,664,0,0,0
+853,Empresa PJ 0853 Ltda,Saúde,Sul,Pequena,5.9,18,3152299.52,1267224.41,0.402,0.159,0.73,695,0,1,0
+854,Empresa PJ 0854 Ltda,Saúde,Nordeste,Microempresa,7.8,1,183918.21,24093.28,0.131,0.158,1.42,779,0,0,0
+855,Empresa PJ 0855 Ltda,Comércio,Centro-Oeste,Pequena,8.6,3,891348.07,237989.93,0.267,0.245,1.82,825,0,0,0
+856,Empresa PJ 0856 Ltda,Serviços,Norte,Média,3.0,233,42158977.6,4173738.78,0.099,0.037,0.95,704,0,0,0
+857,Empresa PJ 0857 Ltda,Construção Civil,Sudeste,Pequena,3.2,9,2777153.2,472116.04,0.17,0.202,0.81,645,0,0,0
+858,Empresa PJ 0858 Ltda,Saúde,Sudeste,Microempresa,12.9,1,196118.35,65699.65,0.335,0.201,1.48,637,0,0,0
+859,Empresa PJ 0859 Ltda,Serviços,Sudeste,Pequena,6.3,5,1796307.58,612540.89,0.341,0.074,0.6,743,0,0,0
+860,Empresa PJ 0860 Ltda,Serviços,Sudeste,Pequena,9.6,9,1374212.23,1239539.43,0.902,0.123,0.71,507,0,0,0
+861,Empresa PJ 0861 Ltda,Construção Civil,Sul,Microempresa,12.7,1,178285.81,26208.01,0.147,0.177,0.86,592,1,0,0
+862,Empresa PJ 0862 Ltda,Construção Civil,Norte,Pequena,7.8,15,3168545.87,2918230.75,0.921,0.086,1.42,454,0,0,1
+863,Empresa PJ 0863 Ltda,Tecnologia,Norte,Microempresa,12.0,1,96344.86,44029.6,0.457,0.08,1.28,548,0,0,0
+864,Empresa PJ 0864 Ltda,Serviços,Sul,Microempresa,8.6,1,197927.52,146664.29,0.741,0.046,1.85,478,1,1,1
+865,Empresa PJ 0865 Ltda,Comércio,Nordeste,Microempresa,8.9,1,286022.09,118413.14,0.414,-0.075,0.77,384,0,0,1
+866,Empresa PJ 0866 Ltda,Saúde,Centro-Oeste,Microempresa,17.4,1,212352.79,174129.29,0.82,0.095,0.75,411,1,1,1
+867,Empresa PJ 0867 Ltda,Saúde,Norte,Microempresa,7.2,1,120410.38,81638.24,0.678,0.04,1.47,497,0,0,0
+868,Empresa PJ 0868 Ltda,Tecnologia,Sudeste,Pequena,13.0,3,1125901.36,372673.35,0.331,0.015,0.81,620,2,0,0
+869,Empresa PJ 0869 Ltda,Comércio,Sul,Média,2.5,423,72669782.86,8793043.73,0.121,0.12,0.89,721,0,0,0
+870,Empresa PJ 0870 Ltda,Comércio,Centro-Oeste,Microempresa,9.4,2,248584.84,17898.11,0.072,-0.012,0.5,684,0,0,0
+871,Empresa PJ 0871 Ltda,Construção Civil,Sudeste,Pequena,20.2,18,2685129.49,1227104.18,0.457,0.146,1.32,732,2,0,0
+872,Empresa PJ 0872 Ltda,Comércio,Sudeste,Pequena,31.7,21,3011338.85,888344.96,0.295,0.124,2.32,704,0,0,0
+873,Empresa PJ 0873 Ltda,Transporte e Logística,Norte,Microempresa,2.6,1,201782.67,116428.6,0.577,0.062,0.73,473,0,0,1
+874,Empresa PJ 0874 Ltda,Serviços,Norte,Microempresa,6.3,1,231891.04,224934.31,0.97,0.086,1.84,302,2,1,0
+875,Empresa PJ 0875 Ltda,Construção Civil,Centro-Oeste,Microempresa,3.8,1,144228.01,84661.84,0.587,0.007,1.13,232,1,1,1
+876,Empresa PJ 0876 Ltda,Saúde,Nordeste,Microempresa,7.4,1,258438.54,45743.62,0.177,0.143,0.52,513,1,1,0
+877,Empresa PJ 0877 Ltda,Serviços,Sudeste,Microempresa,14.4,1,183410.63,45302.42,0.247,0.103,0.78,615,0,0,0
+878,Empresa PJ 0878 Ltda,Indústria,Sudeste,Microempresa,17.8,1,199231.71,86267.33,0.433,0.108,0.76,553,1,0,0
+879,Empresa PJ 0879 Ltda,Agronegócio,Sul,Pequena,18.2,12,2103686.26,1632460.54,0.776,0.125,1.01,637,0,0,0
+880,Empresa PJ 0880 Ltda,Serviços,Sul,Microempresa,2.4,1,130443.74,56482.14,0.433,0.045,1.4,752,0,0,0
+881,Empresa PJ 0881 Ltda,Serviços,Sul,Microempresa,8.5,3,157371.69,113937.1,0.724,-0.016,2.67,526,0,0,0
+882,Empresa PJ 0882 Ltda,Agronegócio,Nordeste,Microempresa,5.2,1,251529.77,39741.7,0.158,0.157,0.61,651,0,0,0
+883,Empresa PJ 0883 Ltda,Transporte e Logística,Sudeste,Pequena,7.1,21,4055317.54,1115212.32,0.275,0.138,0.93,542,0,0,0
+884,Empresa PJ 0884 Ltda,Serviços,Nordeste,Microempresa,5.8,1,240676.22,194225.71,0.807,0.053,0.78,419,2,0,0
+885,Empresa PJ 0885 Ltda,Comércio,Sudeste,Pequena,2.5,5,1028128.13,317691.59,0.309,0.119,0.66,689,1,0,1
+886,Empresa PJ 0886 Ltda,Serviços,Sudeste,Microempresa,17.9,1,190639.52,93413.36,0.49,0.178,1.21,552,1,0,0
+887,Empresa PJ 0887 Ltda,Serviços,Sudeste,Microempresa,4.6,1,174529.28,138401.72,0.793,0.17,1.16,453,0,0,0
+888,Empresa PJ 0888 Ltda,Comércio,Sudeste,Média,5.3,236,50757593.45,12943186.33,0.255,0.05,0.51,847,0,0,0
+889,Empresa PJ 0889 Ltda,Comércio,Centro-Oeste,Microempresa,20.3,1,80920.54,26946.54,0.333,-0.014,1.17,420,2,1,0
+890,Empresa PJ 0890 Ltda,Construção Civil,Sudeste,Microempresa,2.1,1,136494.46,26752.91,0.196,-0.002,0.68,447,0,1,0
+891,Empresa PJ 0891 Ltda,Indústria,Sudeste,Microempresa,11.0,1,158316.38,67759.41,0.428,0.068,1.17,397,1,1,1
+892,Empresa PJ 0892 Ltda,Transporte e Logística,Nordeste,Média,15.8,55,12793389.08,3620529.11,0.283,0.192,2.06,971,0,0,0
+893,Empresa PJ 0893 Ltda,Indústria,Sul,Pequena,19.3,6,1253385.86,846035.46,0.675,0.039,1.43,595,0,0,0
+894,Empresa PJ 0894 Ltda,Comércio,Sudeste,Pequena,10.5,14,2440849.6,1200898.0,0.492,0.048,1.26,649,0,0,0
+895,Empresa PJ 0895 Ltda,Construção Civil,Sudeste,Média,13.2,190,27343574.12,11730393.3,0.429,0.047,0.92,636,0,0,0
+896,Empresa PJ 0896 Ltda,Saúde,Sudeste,Microempresa,15.8,1,147216.0,51672.82,0.351,0.053,1.2,682,0,1,0
+897,Empresa PJ 0897 Ltda,Indústria,Nordeste,Média,7.5,239,47590932.8,6329594.06,0.133,0.089,1.5,1000,0,0,0
+898,Empresa PJ 0898 Ltda,Comércio,Sudeste,Microempresa,4.1,1,154695.33,102098.92,0.66,0.0,1.43,366,1,1,1
+899,Empresa PJ 0899 Ltda,Comércio,Sudeste,Pequena,21.3,21,3042701.59,1478752.97,0.486,0.166,1.11,703,0,0,0
+900,Empresa PJ 0900 Ltda,Serviços,Sudeste,Microempresa,12.3,1,147269.41,49335.25,0.335,0.08,1.28,398,0,1,1
+901,Empresa PJ 0901 Ltda,Serviços,Sul,Microempresa,8.4,1,105936.0,54557.04,0.515,0.264,0.64,455,0,0,0
+902,Empresa PJ 0902 Ltda,Indústria,Sudeste,Média,2.7,397,42219491.66,9626044.1,0.228,0.008,0.83,537,0,0,0
+903,Empresa PJ 0903 Ltda,Comércio,Centro-Oeste,Microempresa,0.9,1,256575.38,129570.57,0.505,0.201,1.6,633,1,0,0
+904,Empresa PJ 0904 Ltda,Serviços,Sudeste,Média,10.9,254,68736904.11,53683522.11,0.781,0.187,1.7,643,0,0,0
+905,Empresa PJ 0905 Ltda,Transporte e Logística,Sul,Microempresa,0.8,1,165318.06,72243.99,0.437,0.061,1.21,460,1,0,0
+906,Empresa PJ 0906 Ltda,Agronegócio,Sudeste,Pequena,8.4,23,3536289.05,1209410.86,0.342,0.062,2.26,597,0,0,0
+907,Empresa PJ 0907 Ltda,Serviços,Sudeste,Média,4.8,331,67630819.4,24752879.9,0.366,0.026,1.46,455,0,1,1
+908,Empresa PJ 0908 Ltda,Comércio,Sudeste,Microempresa,5.8,1,139694.69,116225.98,0.832,0.026,1.05,542,0,0,0
+909,Empresa PJ 0909 Ltda,Indústria,Nordeste,Média,18.3,352,50566843.49,12742844.56,0.252,0.09,0.67,922,0,0,0
+910,Empresa PJ 0910 Ltda,Indústria,Centro-Oeste,Pequena,4.8,23,3368018.76,1188910.62,0.353,0.091,2.22,448,0,1,0
+911,Empresa PJ 0911 Ltda,Construção Civil,Sudeste,Pequena,8.7,12,2499055.88,1079592.14,0.432,-0.022,1.64,537,0,0,0
+912,Empresa PJ 0912 Ltda,Saúde,Sudeste,Microempresa,4.9,1,160601.33,14132.92,0.088,0.251,2.61,616,0,0,1
+913,Empresa PJ 0913 Ltda,Saúde,Centro-Oeste,Pequena,10.2,21,3181335.13,1161187.32,0.365,0.072,3.08,730,0,0,0
+914,Empresa PJ 0914 Ltda,Transporte e Logística,Sul,Pequena,9.2,3,809002.67,638303.11,0.789,0.095,0.65,433,1,0,1
+915,Empresa PJ 0915 Ltda,Transporte e Logística,Sudeste,Pequena,8.4,7,1196875.13,112506.26,0.094,0.046,0.65,521,1,0,0
+916,Empresa PJ 0916 Ltda,Transporte e Logística,Sudeste,Microempresa,15.8,1,147289.31,35791.3,0.243,0.071,0.32,630,0,0,0
+917,Empresa PJ 0917 Ltda,Comércio,Nordeste,Microempresa,2.1,1,114947.33,31265.67,0.272,0.065,1.76,673,0,0,0
+918,Empresa PJ 0918 Ltda,Comércio,Nordeste,Média,1.6,200,34881430.12,7394863.19,0.212,0.09,1.56,643,1,0,0
+919,Empresa PJ 0919 Ltda,Indústria,Sul,Microempresa,3.1,1,112801.22,22898.65,0.203,0.089,1.21,802,0,0,0
+920,Empresa PJ 0920 Ltda,Serviços,Norte,Pequena,9.3,6,877732.01,254542.28,0.29,0.146,0.67,560,0,0,0
+921,Empresa PJ 0921 Ltda,Comércio,Sul,Média,11.4,102,17568720.47,14336075.9,0.816,0.106,1.12,536,0,0,0
+922,Empresa PJ 0922 Ltda,Tecnologia,Sudeste,Microempresa,0.5,1,117858.71,20860.99,0.177,0.139,1.26,578,0,1,0
+923,Empresa PJ 0923 Ltda,Agronegócio,Sul,Microempresa,11.3,1,149098.28,27284.98,0.183,0.089,1.65,610,0,0,0
+924,Empresa PJ 0924 Ltda,Serviços,Sudeste,Pequena,6.4,13,2040615.08,534641.15,0.262,0.106,1.31,715,0,1,0
+925,Empresa PJ 0925 Ltda,Comércio,Sudeste,Microempresa,21.6,1,168757.98,166564.12,0.987,0.073,1.57,480,0,1,1
+926,Empresa PJ 0926 Ltda,Indústria,Sudeste,Pequena,10.7,9,2317687.8,1244598.35,0.537,0.16,1.1,397,1,0,0
+927,Empresa PJ 0927 Ltda,Comércio,Sudeste,Pequena,20.1,6,1056043.83,523797.74,0.496,0.113,1.98,558,0,0,0
+928,Empresa PJ 0928 Ltda,Saúde,Nordeste,Pequena,17.7,18,2470337.7,1946626.11,0.788,0.079,1.54,555,0,0,0
+929,Empresa PJ 0929 Ltda,Serviços,Sudeste,Microempresa,6.4,1,183615.92,52330.54,0.285,0.077,0.68,495,0,0,0
+930,Empresa PJ 0930 Ltda,Construção Civil,Sudeste,Pequena,14.5,14,1785599.96,641030.38,0.359,0.082,2.17,592,0,0,0
+931,Empresa PJ 0931 Ltda,Indústria,Nordeste,Pequena,6.4,5,1893506.23,130651.93,0.069,0.092,2.02,951,0,0,0
+932,Empresa PJ 0932 Ltda,Serviços,Sul,Microempresa,23.3,1,157182.99,68846.15,0.438,0.086,1.43,704,0,1,0
+933,Empresa PJ 0933 Ltda,Serviços,Nordeste,Pequena,6.9,6,2284862.78,881957.03,0.386,0.051,1.32,459,0,0,1
+934,Empresa PJ 0934 Ltda,Construção Civil,Nordeste,Média,11.8,105,26970731.67,18421009.73,0.683,0.144,2.45,827,0,0,0
+935,Empresa PJ 0935 Ltda,Tecnologia,Nordeste,Pequena,26.1,20,1956464.37,367815.3,0.188,0.148,0.56,729,1,0,0
+936,Empresa PJ 0936 Ltda,Comércio,Sudeste,Pequena,12.1,24,1864973.05,1769859.42,0.949,0.215,2.03,657,0,0,0
+937,Empresa PJ 0937 Ltda,Transporte e Logística,Sul,Microempresa,5.9,1,143676.38,144969.47,1.009,0.048,0.94,324,1,0,1
+938,Empresa PJ 0938 Ltda,Comércio,Sul,Microempresa,2.8,1,147409.8,44370.35,0.301,0.137,1.9,486,0,0,0
+939,Empresa PJ 0939 Ltda,Saúde,Sudeste,Microempresa,2.2,1,160551.13,16697.32,0.104,-0.044,1.23,652,0,0,0
+940,Empresa PJ 0940 Ltda,Comércio,Sudeste,Microempresa,11.3,1,138014.4,48581.07,0.352,0.148,0.66,517,0,0,0
+941,Empresa PJ 0941 Ltda,Indústria,Sudeste,Média,7.8,96,32185528.84,23527621.58,0.731,-0.012,0.93,675,0,0,0
+942,Empresa PJ 0942 Ltda,Tecnologia,Sul,Microempresa,3.2,1,157345.71,135317.31,0.86,0.021,1.84,482,0,1,1
+943,Empresa PJ 0943 Ltda,Comércio,Sudeste,Pequena,13.5,8,821089.42,633881.03,0.772,0.113,1.06,511,1,0,0
+944,Empresa PJ 0944 Ltda,Serviços,Sudeste,Microempresa,13.4,1,219766.69,184384.25,0.839,0.046,0.88,369,0,0,1
+945,Empresa PJ 0945 Ltda,Serviços,Nordeste,Microempresa,7.7,1,184717.18,31771.35,0.172,0.037,0.88,517,0,0,0
+946,Empresa PJ 0946 Ltda,Indústria,Centro-Oeste,Microempresa,20.6,1,189647.2,24464.49,0.129,0.056,1.55,722,0,0,0
+947,Empresa PJ 0947 Ltda,Construção Civil,Sudeste,Microempresa,1.8,1,141619.72,30165.0,0.213,0.141,2.55,593,1,0,1
+948,Empresa PJ 0948 Ltda,Saúde,Centro-Oeste,Pequena,6.1,4,985430.36,676005.23,0.686,0.025,0.44,416,0,1,1
+949,Empresa PJ 0949 Ltda,Saúde,Sudeste,Média,12.1,218,37997393.43,27776094.6,0.731,0.086,4.1,867,0,0,0
+950,Empresa PJ 0950 Ltda,Indústria,Centro-Oeste,Média,3.5,294,41501616.04,28055092.44,0.676,0.063,1.27,499,0,0,1
+951,Empresa PJ 0951 Ltda,Serviços,Norte,Microempresa,14.4,2,193117.88,83040.69,0.43,0.147,1.51,641,0,0,1
+952,Empresa PJ 0952 Ltda,Indústria,Sudeste,Pequena,17.2,4,777376.82,81624.57,0.105,0.149,0.95,853,0,1,0
+953,Empresa PJ 0953 Ltda,Indústria,Nordeste,Microempresa,0.6,1,235415.95,61208.15,0.26,-0.038,1.16,344,0,0,0
+954,Empresa PJ 0954 Ltda,Comércio,Norte,Média,21.1,248,24235519.7,15728852.28,0.649,0.163,1.27,732,0,0,0
+955,Empresa PJ 0955 Ltda,Transporte e Logística,Centro-Oeste,Pequena,11.6,6,1255901.34,276298.29,0.22,0.047,0.72,583,0,0,1
+956,Empresa PJ 0956 Ltda,Saúde,Norte,Microempresa,5.6,1,271729.6,86681.74,0.319,0.107,0.81,630,3,1,1
+957,Empresa PJ 0957 Ltda,Tecnologia,Sul,Microempresa,2.4,1,194562.28,120628.61,0.62,0.024,1.98,512,0,1,0
+958,Empresa PJ 0958 Ltda,Serviços,Sudeste,Microempresa,15.6,1,137086.24,73204.05,0.534,0.116,0.58,700,1,0,0
+959,Empresa PJ 0959 Ltda,Serviços,Centro-Oeste,Microempresa,3.0,1,194102.14,102485.93,0.528,0.269,1.42,475,0,0,0
+960,Empresa PJ 0960 Ltda,Serviços,Sul,Média,11.6,251,46904327.63,24906197.97,0.531,0.099,0.98,817,0,0,0
+961,Empresa PJ 0961 Ltda,Serviços,Sul,Pequena,3.1,9,2865522.35,1467147.44,0.512,0.058,0.75,562,0,0,0
+962,Empresa PJ 0962 Ltda,Serviços,Sudeste,Média,8.3,92,16885290.89,10958553.79,0.649,0.074,2.82,494,0,0,0
+963,Empresa PJ 0963 Ltda,Comércio,Sul,Microempresa,15.2,2,173832.74,41546.03,0.239,-0.013,0.76,519,0,0,1
+964,Empresa PJ 0964 Ltda,Comércio,Sudeste,Pequena,5.6,4,1292074.22,516829.69,0.4,0.191,0.7,519,0,0,0
+965,Empresa PJ 0965 Ltda,Transporte e Logística,Nordeste,Microempresa,21.0,1,293237.96,63632.64,0.217,0.112,1.07,636,0,1,0
+966,Empresa PJ 0966 Ltda,Serviços,Sudeste,Pequena,12.3,8,1615189.0,129215.12,0.08,0.017,0.82,696,0,0,0
+967,Empresa PJ 0967 Ltda,Transporte e Logística,Nordeste,Microempresa,3.5,1,195394.25,80502.43,0.412,0.019,1.17,609,0,0,1
+968,Empresa PJ 0968 Ltda,Comércio,Centro-Oeste,Microempresa,2.5,1,128095.85,179974.67,1.405,0.091,1.25,226,4,1,1
+969,Empresa PJ 0969 Ltda,Serviços,Sul,Pequena,4.4,15,2269042.77,996109.78,0.439,0.155,1.29,509,1,1,1
+970,Empresa PJ 0970 Ltda,Comércio,Sul,Microempresa,8.0,2,251714.81,71738.72,0.285,0.009,1.1,603,0,0,0
+971,Empresa PJ 0971 Ltda,Indústria,Sudeste,Pequena,22.3,7,1879731.51,469932.88,0.25,0.168,0.85,510,0,0,0
+972,Empresa PJ 0972 Ltda,Comércio,Norte,Pequena,25.0,4,1444376.28,1333159.31,0.923,0.084,1.55,637,1,0,0
+973,Empresa PJ 0973 Ltda,Comércio,Nordeste,Microempresa,5.5,1,206592.5,70861.23,0.343,0.025,1.1,652,0,0,0
+974,Empresa PJ 0974 Ltda,Saúde,Sudeste,Média,5.3,109,23962380.28,17396688.08,0.726,0.057,0.93,744,0,0,0
+975,Empresa PJ 0975 Ltda,Indústria,Sudeste,Pequena,13.7,26,2282928.53,783044.49,0.343,0.212,2.26,842,0,0,0
+976,Empresa PJ 0976 Ltda,Agronegócio,Sudeste,Pequena,13.6,26,2196403.57,272354.04,0.124,-0.007,1.1,559,0,0,0
+977,Empresa PJ 0977 Ltda,Serviços,Sul,Pequena,18.9,34,2741508.6,1817620.2,0.663,0.039,1.9,560,0,0,0
+978,Empresa PJ 0978 Ltda,Serviços,Norte,Pequena,19.2,5,1423142.01,296013.54,0.208,0.157,2.02,837,0,0,0
+979,Empresa PJ 0979 Ltda,Serviços,Nordeste,Pequena,4.1,12,1650458.58,242617.41,0.147,0.105,2.07,657,0,0,0
+980,Empresa PJ 0980 Ltda,Comércio,Sudeste,Média,2.1,322,40908434.65,18736063.07,0.458,0.035,1.59,630,0,1,1
+981,Empresa PJ 0981 Ltda,Transporte e Logística,Centro-Oeste,Pequena,12.4,14,1795441.39,811539.51,0.452,0.158,1.16,606,0,0,0
+982,Empresa PJ 0982 Ltda,Tecnologia,Sudeste,Microempresa,9.6,1,83691.24,37661.06,0.45,0.161,1.13,570,0,0,0
+983,Empresa PJ 0983 Ltda,Construção Civil,Centro-Oeste,Microempresa,1.1,2,201217.46,104029.43,0.517,0.113,1.04,530,1,0,1
+984,Empresa PJ 0984 Ltda,Serviços,Sudeste,Pequena,2.0,7,1279273.84,425998.19,0.333,0.047,0.44,508,1,0,1
+985,Empresa PJ 0985 Ltda,Comércio,Sul,Microempresa,12.0,1,198389.1,112288.23,0.566,0.058,1.61,725,0,0,1
+986,Empresa PJ 0986 Ltda,Transporte e Logística,Centro-Oeste,Microempresa,7.5,1,282181.49,71956.28,0.255,0.11,1.3,609,0,0,0
+987,Empresa PJ 0987 Ltda,Indústria,Sudeste,Microempresa,12.2,1,121700.84,77280.03,0.635,-0.002,1.68,577,0,1,0
+988,Empresa PJ 0988 Ltda,Comércio,Nordeste,Pequena,3.3,3,551383.67,449929.07,0.816,0.183,1.1,395,1,0,1
+989,Empresa PJ 0989 Ltda,Indústria,Norte,Microempresa,12.8,1,166823.14,70065.72,0.42,0.209,1.57,713,0,1,0
+990,Empresa PJ 0990 Ltda,Tecnologia,Sudeste,Pequena,10.5,14,2275752.27,1567993.31,0.689,0.073,0.63,586,1,1,0
+991,Empresa PJ 0991 Ltda,Agronegócio,Sudeste,Pequena,13.4,19,3141934.74,1241064.22,0.395,0.115,0.69,715,1,0,0
+992,Empresa PJ 0992 Ltda,Construção Civil,Nordeste,Pequena,5.8,11,1969575.13,1069479.3,0.543,0.173,0.38,407,0,0,0
+993,Empresa PJ 0993 Ltda,Tecnologia,Sudeste,Microempresa,4.8,1,145458.79,89311.7,0.614,0.227,1.09,543,1,0,0
+994,Empresa PJ 0994 Ltda,Comércio,Sudeste,Pequena,2.3,9,1816941.31,268907.31,0.148,0.199,0.82,480,0,0,1
+995,Empresa PJ 0995 Ltda,Transporte e Logística,Sul,Pequena,6.5,4,1341207.69,1035412.34,0.772,-0.031,0.77,332,0,1,1
+996,Empresa PJ 0996 Ltda,Serviços,Nordeste,Pequena,16.7,21,3070299.2,1836038.92,0.598,0.068,1.35,555,0,0,0
+997,Empresa PJ 0997 Ltda,Agronegócio,Sudeste,Pequena,19.7,3,705391.63,110746.49,0.157,0.125,0.96,747,0,0,0
+998,Empresa PJ 0998 Ltda,Comércio,Sudeste,Microempresa,3.1,1,112149.42,22317.74,0.199,0.055,0.61,468,0,1,0
+999,Empresa PJ 0999 Ltda,Transporte e Logística,Centro-Oeste,Média,8.0,97,26383839.6,9682869.13,0.367,0.215,3.65,984,0,0,0
+1000,Empresa PJ 1000 Ltda,Indústria,Sul,Microempresa,22.5,1,147884.8,48210.45,0.326,0.204,1.14,714,0,0,0

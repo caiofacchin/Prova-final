@@ -1,0 +1,212 @@
+# IA Generativa Aplicada a Finanças: Um Agente de Crédito com Large Language Models para Análise de Risco de Pessoa Jurídica
+
+**Autor:** [Aluno] — Pós-graduação FGV
+**Disciplina:** IA Generativa aplicada a Finanças
+**Data:** 21 de maio de 2026
+
+---
+
+## Resumo
+
+A análise de crédito para Pessoa Jurídica (PJ) em bancos médios brasileiros ainda depende
+de processos manuais lentos, caros e pouco padronizados, criando uma tensão estrutural entre
+risco, custo e velocidade. Este trabalho propõe e implementa um **Agente de Crédito
+híbrido** que combina modelos de *machine learning* para a quantificação do risco com um
+*Large Language Model* (LLM), via API da Anthropic, para a geração de pareceres explicáveis
+em linguagem natural. Foi construída uma base sintética de 1.000 empresas PJ a partir de um
+modelo causal de risco latente, sobre a qual se treinaram dois modelos — Regressão Logística
+e Random Forest — avaliados pelas métricas padrão de *credit scoring*: KS, ROC/AUC e Gini. O
+Random Forest apresentou desempenho superior (KS = 0,54; AUC = 0,80; Gini = 0,59), sendo
+promovido a modelo de produção. O pipeline foi encapsulado em uma aplicação Streamlit na qual
+o analista insere os dados da empresa e recebe, em segundos, score, decisão e parecer
+fundamentado. Estima-se que a solução gere, para uma carteira de R$ 1 bilhão, valor anual na
+ordem de dezenas de milhões de reais, via redução de perdas e ganho de eficiência
+operacional. Conclui-se que a arquitetura híbrida — ML para o "quanto" e LLM para o "porquê"
+— endereça simultaneamente rigor estatístico e explicabilidade, requisito crescente do ponto
+de vista regulatório.
+
+**Palavras-chave:** IA Generativa; Crédito PJ; *Credit Scoring*; *Large Language Models*;
+Random Forest; Explicabilidade.
+
+---
+
+## 1. Introdução
+
+O crédito a empresas é motor da atividade econômica: no Brasil, a carteira de crédito PJ
+supera R$ 2,3 trilhões e sustenta micro, pequenas e médias empresas (MPMEs) responsáveis por
+parcela expressiva do PIB e do emprego formal. Contudo, a concessão de crédito PJ é
+intrinsecamente complexa. Diferentemente da pessoa física, a empresa exige a leitura de
+demonstrações financeiras, do setor de atuação, do ciclo de caixa e do comportamento de
+pagamento — uma análise que, em bancos médios, permanece majoritariamente manual.
+
+Esse modelo manual impõe três custos. Primeiro, **tempo**: pareceres levam de dois a dez
+dias úteis, tempo em que fintechs ágeis capturam o cliente. Segundo, **custo operacional**:
+cada análise consome horas de profissionais seniores, inviabilizando tickets menores.
+Terceiro, **inconsistência e baixa explicabilidade**: decisões variam entre analistas e nem
+sempre produzem uma justificativa auditável — exigência reforçada pela LGPD e pela regulação
+do Banco Central.
+
+Os modelos estatísticos de *credit scoring* resolvem parte do problema ao padronizar o
+"quanto" (a probabilidade de inadimplência), mas entregam um número opaco, que não explica a
+decisão de forma acionável para o comitê nem para o cliente. Por outro lado, os *Large
+Language Models* (LLMs) demonstraram capacidade notável de sintetizar informação heterogênea
+em texto coerente e contextualizado. A hipótese deste trabalho é que **a combinação de ambos
+— ML para quantificar o risco e LLM para explicá-lo — supera cada abordagem isolada**,
+entregando velocidade de máquina com a explicabilidade de um analista.
+
+O objetivo geral é projetar, implementar e avaliar um Agente de Crédito PJ que integre essas
+duas camadas. Como objetivos específicos: (i) construir uma base representativa de risco PJ;
+(ii) treinar e comparar modelos de classificação; (iii) avaliá-los com métricas de mercado;
+(iv) materializar a solução em um produto funcional; e (v) estimar seu impacto financeiro.
+
+## 2. Referencial Teórico
+
+### 2.1 Risco de crédito e *credit scoring*
+
+O risco de crédito é a probabilidade de perda decorrente do não cumprimento das obrigações
+pelo tomador. A modelagem moderna o decompõe nos componentes de Basileia: **PD**
+(*Probability of Default*), **LGD** (*Loss Given Default*) e **EAD** (*Exposure at
+Default*), de modo que a perda esperada é EL = PD × LGD × EAD. Este trabalho concentra-se na
+estimação da PD, núcleo do *credit scoring*.
+
+A **Regressão Logística** é, historicamente, o método de referência regulatória: modela a
+probabilidade de default como uma função logística de combinação linear das variáveis,
+oferecendo coeficientes interpretáveis e fácil auditoria. Modelos baseados em árvores, como o
+**Random Forest** (Breiman, 2001), capturam não-linearidades e interações entre variáveis,
+frequentemente elevando o poder discriminante ao custo de menor interpretabilidade direta —
+mitigável por técnicas de importância de variáveis e *SHAP*.
+
+### 2.2 Métricas de avaliação
+
+No domínio de crédito, três métricas são canônicas:
+
+- **ROC/AUC** — área sob a curva ROC; mede a capacidade de ordenar corretamente bons e maus
+  pagadores. AUC de 0,5 equivale ao acaso; acima de 0,75 é considerado bom.
+- **KS (Kolmogorov–Smirnov)** — máxima separação entre as distribuições acumuladas de bons e
+  maus pagadores. No mercado, KS > 0,40 indica forte poder discriminante.
+- **Gini** — relacionado linearmente ao AUC (Gini = 2 × AUC − 1); usual em relatórios de
+  bureaus de crédito.
+
+### 2.3 IA Generativa e LLMs em finanças
+
+Os LLMs, baseados na arquitetura *Transformer* (Vaswani et al., 2017), são treinados para
+prever a próxima palavra em vastos corpora, adquirindo capacidade de raciocínio linguístico,
+sumarização e geração de texto técnico. Em finanças, têm sido aplicados a análise de
+documentos, atendimento, sumarização de relatórios e — como neste trabalho — geração de
+pareceres. Um risco conhecido é a **alucinação** (geração de informação não factual); a
+mitigação adotada aqui é arquitetural: o LLM **não decide**, apenas **explica** uma decisão
+já tomada pelo modelo estatístico, recebendo instruções explícitas para não contradizê-la.
+Esse padrão é uma forma de *grounding* — ancorar a geração em dados verificáveis.
+
+## 3. Metodologia
+
+### 3.1 Construção da base de dados
+
+Diante da indisponibilidade de bases públicas abertas de inadimplência PJ com a granularidade
+necessária, optou-se por uma **base sintética de 1.000 empresas**, gerada por um modelo
+causal. Cada empresa possui um **risco latente** não observável, construído a partir de
+fundamentos (alavancagem, faturamento, margem, liquidez, tempo de atividade, setor e região).
+As variáveis observáveis pelo analista — score Serasa, número de atrasos, restrições — são
+modeladas como **sombras ruidosas** desse risco latente, e a inadimplência é sorteada por uma
+função logística do risco. Esse desenho garante correlações realistas, ausência de preditor
+perfeito (há ruído) e, portanto, um problema de classificação legítimo. A taxa de
+inadimplência resultante foi de 22,7%, compatível com carteiras PJ sob estresse.
+
+As variáveis preditoras incluem: setor, região, porte, tempo de atividade, número de
+funcionários, faturamento anual, dívida total, razão dívida/faturamento, margem líquida,
+índice de liquidez corrente, score Serasa, atrasos em 12 meses e restrição ativa. A
+variável-alvo é a inadimplência (default em 12 meses).
+
+### 3.2 Pré-processamento e modelagem
+
+Os dados foram divididos em treino (70%) e teste (30%) de forma estratificada, preservando a
+proporção de inadimplentes. O pré-processamento empregou um `ColumnTransformer`:
+padronização (z-score) das variáveis numéricas — essencial para a Regressão Logística — e
+codificação *one-hot* das categóricas. Treinaram-se dois modelos com `class_weight =
+balanced`, para tratar o desbalanceamento: **Regressão Logística** (referência interpretável)
+e **Random Forest** (400 árvores, profundidade máxima 8, mínimo de 20 amostras por folha).
+Todo o fluxo foi encapsulado em *pipelines* do scikit-learn, garantindo reprodutibilidade e
+prevenindo vazamento de dados (*data leakage*).
+
+### 3.3 Avaliação e produtização
+
+Os modelos foram avaliados no conjunto de teste por KS, AUC e Gini. O melhor modelo foi
+serializado (`joblib`) como *pipeline* completo (pré-processamento + classificador) e
+exposto em uma aplicação Streamlit. A política de decisão converte a PD em ação: PD ≤ 10%
+**aprova**, PD > 25% **nega**, e a faixa intermediária é encaminhada para **análise manual**
+(*human-in-the-loop*). A camada generativa consome a API da Anthropic (modelo Claude),
+recebendo a decisão e os indicadores e produzindo um parecer estruturado.
+
+## 4. Resultados
+
+A Tabela 1 sintetiza o desempenho no conjunto de teste (300 empresas).
+
+**Tabela 1 — Desempenho dos modelos (conjunto de teste)**
+
+| Modelo | KS | ROC/AUC | Gini |
+|---|---|---|---|
+| Regressão Logística | 0,494 | 0,783 | 0,566 |
+| **Random Forest** | **0,543** | **0,797** | **0,594** |
+
+O **Random Forest** superou a Regressão Logística em todas as métricas, com KS de 0,543 —
+bem acima do limiar de mercado de 0,40 — e AUC de 0,797, indicando boa capacidade de ordenar
+o risco. A análise de importância de variáveis confirmou a coerência do modelo: score
+Serasa, alavancagem (dívida/faturamento), restrição/atrasos e porte/faturamento dominaram a
+decisão — fatores acionáveis e auditáveis pela área de risco. A análise exploratória reforçou
+a validade da base: o setor de Construção Civil concentrou a maior inadimplência, enquanto
+Tecnologia e Saúde apresentaram as menores; empresas inadimplentes exibiram distribuição de
+score deslocada para valores mais baixos. As curvas ROC e KS, bem como a matriz de confusão e
+o gráfico de importância, encontram-se em `docs/figuras/`.
+
+## 5. Produto Desenvolvido
+
+O produto é uma aplicação web em **Streamlit** que materializa o agente. O analista preenche
+um formulário com os dados cadastrais, financeiros e comportamentais da empresa. Ao submeter,
+o *pipeline* de ML calcula a PD, que é convertida em **score (0–1000)** e em **decisão**
+(Aprovar / Análise manual / Negar), exibidos com indicadores visuais. Em seguida, a aplicação
+chama a **API da Anthropic** com um *prompt* que contém a decisão quantitativa e os
+indicadores, mais um *system prompt* que define o papel de "analista de crédito sênior" e
+proíbe contradizer o modelo. O resultado é um **parecer estruturado** — síntese da
+recomendação, fatores de risco, pontos positivos, condicionantes (garantias, *covenants*,
+limite/prazo) e ressalva de alçada. Para robustez, a aplicação possui um **modo
+demonstração** baseado em regras, acionado quando não há chave de API, garantindo
+funcionalidade contínua. Adotou-se ainda *prompt caching* no *system prompt*, reduzindo custo
+e latência em chamadas repetidas.
+
+## 6. Impacto Financeiro
+
+A solução gera valor em três vetores (memória de cálculo detalhada em
+`docs/03_impacto_financeiro.md`). Em **risco**, a melhor discriminação (KS = 0,54) permite
+recusar uma fração relevante dos futuros inadimplentes, reduzindo perdas e PDD. Em
+**eficiência**, a automação de cerca de 70% do esforço de redação de pareceres reduz o custo
+por análise e libera analistas para casos complexos. Em **receita**, a resposta em segundos
+eleva a conversão de propostas. Para um banco médio com carteira PJ de R$ 1 bilhão, o impacto
+líquido anual estimado situa-se na casa das **dezenas de milhões de reais**, com *payback* do
+projeto em poucos meses.
+
+## 7. Conclusão
+
+Este trabalho demonstrou, de ponta a ponta, a viabilidade de um Agente de Crédito PJ que une
+*machine learning* e IA generativa. O modelo de produção (Random Forest) atingiu métricas de
+mercado (KS = 0,54; AUC = 0,80), e o LLM agregou a camada de explicabilidade que os modelos
+estatísticos não fornecem, sem comprometer o rigor da decisão — graças ao desenho que
+restringe o LLM ao papel de explicador ancorado. A principal contribuição é arquitetural:
+**separar a decisão (quantitativa, auditável) da explicação (generativa, comunicável)**,
+endereçando simultaneamente os requisitos de risco e de conformidade. Como limitações,
+registram-se o uso de base sintética e a ausência de validação em produção. Trabalhos futuros
+incluem: validação com dados reais, incorporação de explicabilidade *SHAP* ao *prompt*,
+monitoramento de *drift* e *fairness*, e expansão para a estimação conjunta de PD, LGD e EAD.
+
+---
+
+## Referências
+
+- BANCO CENTRAL DO BRASIL. *Estatísticas monetárias e de crédito*. Brasília: BCB, 2025.
+- BREIMAN, L. Random Forests. *Machine Learning*, v. 45, n. 1, p. 5–32, 2001.
+- HAND, D. J.; HENLEY, W. E. Statistical Classification Methods in Consumer Credit Scoring.
+  *Journal of the Royal Statistical Society*, 1997.
+- PEDREGOSA, F. et al. Scikit-learn: Machine Learning in Python. *JMLR*, v. 12, 2011.
+- THOMAS, L. C.; EDELMAN, D. B.; CROOK, J. N. *Credit Scoring and Its Applications*. SIAM, 2002.
+- VASWANI, A. et al. Attention Is All You Need. *NeurIPS*, 2017.
+
+*(Artigo com aproximadamente 2.000 palavras.)*

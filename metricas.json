@@ -1,0 +1,153 @@
+# 7. Pitch Executivo — 12 minutos
+### Agente de Crédito PJ com LLM | Apresentação para o C-Level (CEO, CRO, CIO)
+
+> **Formato:** roteiro cronometrado de 12 minutos, com falas sugeridas, slides de apoio e
+> mensagens-âncora para cada decisor. Tempo total: ~12 min de fala + buffer para perguntas.
+
+---
+
+## 🎯 Mapa da audiência (a quem falar em cada momento)
+
+| Decisor | O que ele quer ouvir | Métrica que o convence |
+|---|---|---|
+| **CEO** | Crescimento, vantagem competitiva, retorno | Valor líquido R$ 11 mi/ano, payback < 1 mês |
+| **CRO** | Controle de risco, conformidade, auditabilidade | KS 0,54, decisão rastreável, *human-in-the-loop* |
+| **CIO** | Arquitetura, segurança, viabilidade técnica, custo | Pipeline ML + API, custo de IA marginal, modular |
+
+---
+
+## ⏱️ Roteiro cronometrado
+
+### [0:00 – 1:30] Abertura — o gancho (1,5 min)
+**Slide 1 — Título + uma frase de impacto.**
+
+> "Bom dia. Hoje cada proposta de crédito PJ leva, em média, **de 2 a 10 dias** para ser
+> analisada nesta casa. Nesse intervalo, uma fintech responde ao mesmo cliente em **minutos**
+> — e leva o negócio. Vim mostrar como reduzir esse tempo para **segundos**, cortar perdas de
+> crédito e, ainda assim, **aumentar** o rigor e a explicabilidade das decisões. Tudo isso
+> com um retorno estimado de **R$ 11 milhões por ano** e *payback* inferior a um mês."
+
+*(Pausa. Deixe o número respirar.)*
+
+---
+
+### [1:30 – 3:30] O problema — a dor que custa caro (2 min)
+**Slide 2 — A tensão risco × custo × velocidade.**
+
+> "O crédito PJ é estratégico: nossa carteira é de **R$ 1 bilhão**. Mas a análise hoje é
+> manual e sofre de três males simultâneos:
+> 1. **Lenta** — perdemos negócios por demora.
+> 2. **Cara** — cada parecer consome horas de analistas seniores; tickets menores ficam
+>    inviáveis.
+> 3. **Inconsistente e pouco explicável** — a decisão varia por analista, e nem sempre temos
+>    uma justificativa auditável, o que é um risco regulatório com a LGPD e o Banco Central.
+>
+> Os modelos de score que já existem no mercado dão um número, mas **não explicam** a decisão.
+> O analista humano explica, mas é lento. Queremos os dois — e é isso que construímos."
+
+---
+
+### [3:30 – 5:30] A solução — o agente híbrido (2 min)
+**Slide 3 — Arquitetura em duas camadas (diagrama).**
+
+> "A solução é um **Agente de Crédito** que une duas tecnologias:
+>
+> - **Camada de Machine Learning** — calcula a probabilidade de inadimplência e a converte em
+>   um **score de 0 a 1000** e numa **decisão**: aprovar, negar ou enviar para análise manual.
+>   Essa é a parte **quantitativa e auditável**.
+> - **Camada de IA Generativa** — usando a **API da Anthropic (Claude)**, transforma esse
+>   resultado em um **parecer escrito**, claro e fundamentado, pronto para o comitê.
+>
+> Pontos cruciais para o risco: a **IA não decide** — ela **explica** uma decisão já tomada
+> pelo modelo estatístico, e é instruída a **nunca contradizê-lo**. Eliminamos o medo de
+> 'alucinação' na decisão de crédito."
+
+*(Olhar para o CRO ao dizer isto.)*
+
+---
+
+### [5:30 – 8:00] A prova — demonstração ao vivo + resultados (2,5 min)
+**Slide 4 — Demonstração do app + tabela de métricas.**
+
+> "Não é um conceito — é um produto funcional. Vou inserir os dados de uma empresa…
+> *(demonstra)* …e em **segundos** o agente devolve: score, decisão e o **parecer completo**
+> em linguagem natural, com fatores de risco, pontos positivos e condicionantes sugeridas.
+>
+> E o modelo é bom de verdade. Treinamos e validamos dois modelos. O escolhido, **Random
+> Forest**, atingiu:
+>
+> | Métrica | Valor | Referência de mercado |
+> |---|---|---|
+> | **KS** | **0,54** | > 0,40 já é considerado forte |
+> | **AUC** | **0,80** | > 0,75 é bom |
+> | **Gini** | **0,59** | — |
+>
+> Em linguagem de negócio: o modelo **separa muito bem** quem paga de quem não paga."
+
+*(Olhar para o CIO: "é um pipeline padrão, reprodutível, versionado.")*
+
+---
+
+### [8:00 – 10:00] O retorno — o caso financeiro (2 min)
+**Slide 5 — Os três vetores de valor + o número final.**
+
+> "Onde está o dinheiro? Em três frentes:
+>
+> 1. **Risco** — melhor seleção reduz a inadimplência. Uma queda conservadora de 15% na
+>    inadimplência da nova safra economiza **~R$ 10 milhões/ano** em perdas e provisões.
+> 2. **Eficiência** — automatizamos ~70% do tempo de redação de pareceres: **~R$ 1,2
+>    milhão/ano**.
+> 3. **Receita** — resposta em segundos aumenta a conversão de propostas.
+>
+> Somando e descontando custos — inclusive a API de IA, que custa **centavos por parecer** —
+> chegamos a um **valor líquido de ~R$ 11 milhões por ano**, com **payback abaixo de um mês**
+> e **ROI superior a 1.000%** no primeiro ano."
+
+*(Olhar para o CEO.)*
+
+---
+
+### [10:00 – 11:00] Riscos e governança — destravando o "sim" do CRO (1 min)
+**Slide 6 — Como controlamos os riscos.**
+
+> "Pensamos na governança desde o início:
+> - **Human-in-the-loop**: a faixa intermediária de risco vai para análise humana.
+> - **Decisão rastreável e explicável**: todo parecer é documentado — pronto para auditoria e
+>   para justificar negativas ao cliente, atendendo à LGPD.
+> - **Monitoramento**: acompanhamos KS/AUC em produção para detectar *drift* e reciclar o
+>   modelo.
+> - **Privacidade**: a chave de API é protegida e os dados trafegam de forma controlada."
+
+---
+
+### [11:00 – 12:00] O pedido — chamada à ação (1 min)
+**Slide 7 — Próximos passos.**
+
+> "Meu pedido é objetivo: aprovar um **piloto de 90 dias** em uma carteira selecionada, em
+> formato **A/B** — operações com e sem o agente — para validarmos o ganho com dados reais
+> desta casa. Investimento do piloto na casa de centenas de milhares de reais, contra um
+> retorno potencial de dezenas de milhões ao ano.
+>
+> Se o piloto confirmar metade do que projetamos, ainda será um dos melhores retornos de
+> tecnologia que este banco terá feito. Podemos começar em duas semanas. Posso contar com o
+> apoio de vocês?"
+
+*(Silêncio. Deixe o pedido pousar. Abra para perguntas.)*
+
+---
+
+## 💬 Anexo — Respostas rápidas a objeções prováveis
+
+| Objeção | Resposta de bolso |
+|---|---|
+| *"E se a IA inventar informação?"* (CRO) | "A IA não decide nem inventa dados: ela só redige a explicação de uma decisão que o modelo estatístico já tomou, com os números que fornecemos. A decisão é 100% rastreável." |
+| *"Nosso modelo atual já não basta?"* (CRO) | "O modelo dá o número; falta a explicação e a velocidade. Além disso, KS 0,54 é competitivo, e ganhamos a camada de parecer automático que hoje é manual." |
+| *"Qual o custo de TI para manter?"* (CIO) | "Arquitetura modular: um pipeline de ML versionado + chamadas de API que custam centavos por parecer. Sem infraestrutura pesada; integra ao fluxo atual." |
+| *"E a dependência de um fornecedor de IA?"* (CIO) | "A camada generativa é desacoplada — podemos trocar o provedor sem mexer no motor de risco. O app já tem um modo de contingência baseado em regras." |
+| *"Por que agora?"* (CEO) | "Porque as fintechs já decidem em minutos. Cada trimestre de atraso é participação de mercado e margem que não voltam." |
+
+---
+
+### Resumo de uma linha (se tiver só 30 segundos com o CEO no corredor)
+> "Um agente que dá score, decide e escreve o parecer de crédito PJ em segundos — R$ 11
+> milhões/ano de retorno, payback em menos de um mês, e mais auditável que o processo atual."

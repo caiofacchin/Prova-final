@@ -1,0 +1,22 @@
+{
+  "modelo_producao": "Random Forest",
+  "n_treino": 700,
+  "n_teste": 300,
+  "taxa_inadimplencia": 0.227,
+  "metricas": {
+    "Regressao Logistica": {
+      "auc": 0.783,
+      "ks": 0.4939,
+      "gini": 0.5659
+    },
+    "Random Forest": {
+      "auc": 0.797,
+      "ks": 0.5434,
+      "gini": 0.5939
+    }
+  },
+  "politica_decisao": {
+    "pd_aprovar": 0.1,
+    "pd_negar": 0.25
+  }
+}

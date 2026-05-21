@@ -1,0 +1,99 @@
+{
+  "numericas": [
+    "tempo_atividade_anos",
+    "num_funcionarios",
+    "faturamento_anual",
+    "divida_total",
+    "razao_divida_faturamento",
+    "margem_liquida",
+    "indice_liquidez_corrente",
+    "score_serasa",
+    "num_atrasos_12m",
+    "restricao_serasa"
+  ],
+  "categoricas": [
+    "setor",
+    "regiao",
+    "porte"
+  ],
+  "opcoes_categoricas": {
+    "setor": [
+      "Agronegócio",
+      "Comércio",
+      "Construção Civil",
+      "Indústria",
+      "Saúde",
+      "Serviços",
+      "Tecnologia",
+      "Transporte e Logística"
+    ],
+    "regiao": [
+      "Centro-Oeste",
+      "Nordeste",
+      "Norte",
+      "Sudeste",
+      "Sul"
+    ],
+    "porte": [
+      "Microempresa",
+      "Média",
+      "Pequena"
+    ]
+  },
+  "faixas_numericas": {
+    "tempo_atividade_anos": {
+      "min": 0.5,
+      "max": 40.0,
+      "mediana": 8.3
+    },
+    "num_funcionarios": {
+      "min": 1.0,
+      "max": 856.0,
+      "mediana": 5.0
+    },
+    "faturamento_anual": {
+      "min": 80920.54,
+      "max": 112823799.37,
+      "mediana": 1012862.245
+    },
+    "divida_total": {
+      "min": 2574.93,
+      "max": 81107939.91,
+      "mediana": 242019.285
+    },
+    "razao_divida_faturamento": {
+      "min": 0.015,
+      "max": 1.405,
+      "mediana": 0.414
+    },
+    "margem_liquida": {
+      "min": -0.136,
+      "max": 0.291,
+      "mediana": 0.09
+    },
+    "indice_liquidez_corrente": {
+      "min": 0.29,
+      "max": 4.19,
+      "mediana": 1.14
+    },
+    "score_serasa": {
+      "min": 162.0,
+      "max": 1000.0,
+      "mediana": 606.0
+    },
+    "num_atrasos_12m": {
+      "min": 0.0,
+      "max": 5.0,
+      "mediana": 0.0
+    },
+    "restricao_serasa": {
+      "min": 0.0,
+      "max": 1.0,
+      "mediana": 0.0
+    }
+  },
+  "politica": {
+    "pd_aprovar": 0.1,
+    "pd_negar": 0.25
+  }
+}

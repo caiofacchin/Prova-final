@@ -1,0 +1,97 @@
+# 1. Problema de Negócio
+### Agente de Crédito com LLM para análise de crédito Pessoa Jurídica (PJ)
+
+---
+
+## 1.1 Definição do mercado
+
+O crédito para Pessoa Jurídica é um dos pilares do sistema financeiro brasileiro. Segundo
+dados do Banco Central, a carteira de crédito a empresas no Sistema Financeiro Nacional
+supera **R$ 2,3 trilhões**, com forte concentração em micro, pequenas e médias empresas
+(MPMEs), que respondem por cerca de **30% do PIB** e por **mais da metade dos empregos
+formais** do país.
+
+Apesar dessa relevância, a concessão de crédito PJ — especialmente para MPMEs — é
+estruturalmente cara e lenta. A análise de uma proposta empresarial é **mais complexa** do
+que a de uma pessoa física: envolve demonstrações financeiras, setor de atuação, ciclo de
+caixa, garantias, comportamento de pagamento e contexto macroeconômico. Esse processo, em
+bancos médios, ainda depende fortemente de **análise manual por um comitê de crédito**.
+
+## 1.2 A dor de mercado
+
+A dor central é a **tensão entre risco, custo e velocidade**:
+
+| Dimensão | Problema atual |
+|---|---|
+| **Tempo** | Análise manual de crédito PJ leva de **2 a 10 dias úteis**, fazendo o banco perder negócios para fintechs mais ágeis. |
+| **Custo operacional** | Cada parecer consome horas de analistas seniores caros; o custo por análise inviabiliza tickets menores. |
+| **Subjetividade e inconsistência** | Decisões variam conforme o analista; falta padronização e rastreabilidade (problema regulatório). |
+| **Risco mal precificado** | Modelos de score tradicionais (apenas estatísticos) entregam um número, mas **não explicam** a decisão de forma acionável. |
+| **Explicabilidade** | Reguladores (BCB, LGPD) e o próprio cliente exigem **justificativa clara** da negativa de crédito — algo que um score puro não oferece. |
+
+Em síntese: o banco médio precisa **decidir mais rápido, com custo menor, sem perder rigor
+de risco e ainda explicar a decisão**. Os modelos estatísticos resolvem o "quanto" (score),
+mas não o "porquê" (parecer). Já um analista humano resolve o "porquê", mas é lento e caro.
+
+## 1.3 O usuário final
+
+Há três perfis de usuário, em camadas:
+
+1. **Analista de crédito (usuário primário)** — opera o agente no dia a dia. Insere os dados
+   da empresa e recebe, em segundos, o score, a decisão sugerida e um parecer pronto para
+   revisão. Deixa de redigir pareceres do zero e passa a **revisar e validar**, ganhando
+   escala.
+2. **Comitê de crédito / gerente de agência** — consome o parecer estruturado para aprovar
+   operações dentro da sua alçada, com decisão padronizada e auditável.
+3. **Diretoria de Risco (CRO) e de Tecnologia (CIO)** — patrocinadores. Buscam redução de
+   perdas (PDD), eficiência operacional e conformidade regulatória.
+
+O cliente PJ (a empresa que pede o crédito) é o **beneficiário indireto**: recebe resposta
+mais rápida e, em caso de negativa, uma justificativa compreensível.
+
+## 1.4 A solução: Agente de Crédito com LLM
+
+A proposta é um **agente híbrido** que une duas tecnologias complementares:
+
+- **Camada quantitativa (Machine Learning)** — um modelo de risco (Random Forest, validado
+  contra Regressão Logística) calcula a **Probabilidade de Default (PD)** a partir dos
+  indicadores da empresa, convertendo-a em **score (0–1000)** e em **decisão** segundo uma
+  política de corte auditável (PD ≤ 10% aprova; PD > 25% nega; faixa intermediária vai para
+  análise manual).
+- **Camada generativa (LLM — API da Anthropic / Claude)** — traduz o resultado estatístico
+  em um **parecer de crédito em linguagem natural**, estruturado e explicável, sem
+  contradizer a decisão do modelo. É o que transforma um "número" em uma "recomendação
+  fundamentada".
+
+Essa arquitetura entrega o melhor dos dois mundos: **rigor estatístico + explicabilidade**,
+na velocidade de uma máquina.
+
+## 1.5 Impacto financeiro esperado (visão executiva)
+
+O detalhamento quantitativo está em `docs/03_impacto_financeiro.md`. Em resumo, o agente
+gera valor em três vetores:
+
+1. **Redução de perdas (risco)** — melhor discriminação de maus pagadores (KS ≈ 0,54)
+   permite cortar a inadimplência da carteira, reduzindo a Provisão para Devedores
+   Duvidosos (PDD).
+2. **Eficiência operacional (custo)** — automação de ~70% do esforço de redação de
+   pareceres, liberando analistas para casos complexos e reduzindo o custo por análise.
+3. **Geração de receita (velocidade)** — resposta em segundos aumenta a taxa de conversão de
+   propostas e a competitividade frente a fintechs.
+
+Para um banco médio com carteira PJ de **R$ 1 bilhão**, o impacto líquido anual estimado
+está na casa das **dezenas de milhões de reais** (ver memória de cálculo no documento de
+impacto financeiro).
+
+## 1.6 Riscos e mitigadores
+
+| Risco | Mitigador |
+|---|---|
+| Alucinação do LLM contradizendo o modelo | O LLM **explica**, não decide; recebe a decisão pronta e é instruído a não contradizê-la. |
+| Viés / discriminação no crédito | Variáveis auditáveis, monitoramento de fairness, *human-in-the-loop* na faixa de análise manual. |
+| Conformidade (LGPD/BCB) | Decisão rastreável, parecer documentado e justificativa de negativa explicável. |
+| *Drift* do modelo | Repaginação periódica (re-treino) e monitoramento de KS/AUC em produção. |
+
+> **Conclusão:** o problema de negócio é a ineficiência da análise de crédito PJ manual. O
+> agente com LLM ataca diretamente as três dores — tempo, custo e explicabilidade — sem
+> abrir mão do rigor de risco, posicionando o banco médio para competir em escala.
